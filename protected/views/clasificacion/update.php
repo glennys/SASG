@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Clasificacions'=>array('index'),
 	$model->id_clasificacion=>array('view','id'=>$model->id_clasificacion),
-	'Update',
+	'Modificar',
 );
 
 $this->menu=array(
-	array('label'=>'List Clasificacion', 'url'=>array('index')),
-	array('label'=>'Create Clasificacion', 'url'=>array('create')),
-	array('label'=>'View Clasificacion', 'url'=>array('view', 'id'=>$model->id_clasificacion)),
-	array('label'=>'Manage Clasificacion', 'url'=>array('admin')),
+	array('label'=>'Listar Clasificación', 'url'=>array('index')),
+	array('label'=>'Crear Clasificación', 'url'=>array('create')),
+	array('label'=>'Vista Clasificación', 'url'=>array('view', 'id'=>$model->id_clasificacion)),
+	array('label'=>'Administrar Clasificación', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Clasificacion <?php echo $model->id_clasificacion; ?></h1>
+<h1>Modificar Clasificación <?php echo $model->id_clasificacion; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

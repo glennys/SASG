@@ -1,23 +1,23 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'EmpleadoRol'=>array('index'),
-	'View',
+	'Rol empleado'=>array('index'),
+	'Vista',
 );
 
 $this->menu=array(
-	array('label'=>'List EmpleadoRol', 'url'=>array('index')),
-	array('label'=>'Create EmpleadoRol', 'url'=>array('create')),
-	array('label'=>'Update EmpleadoRol', 'url'=>array('update', 'id_empleado'=>$model->id_empleado, 'id_rol'=>$model->id_rol)),
-	array('label'=>'Delete EmpleadoRol', 'url'=>'delete', 
+	array('label'=>'Listar Rol empleado', 'url'=>array('index')),
+	array('label'=>'Crear Rol empleado', 'url'=>array('create')),
+	array('label'=>'Modificar Rol empleado', 'url'=>array('update', 'id_empleado'=>$model->id_empleado, 'id_rol'=>$model->id_rol)),
+	array('label'=>'Eliminar Rol empleado', 'url'=>'delete', 
 	      'linkOptions'=>array('submit'=>array('delete',
 	                                           'id_empleado'=>$model->id_empleado, 'id_rol'=>$model->id_rol),
 									'confirm'=>'Esta seguro de borrar este campo?')),
-	array('label'=>'Manage EmpleadoRol', 'url'=>array('admin')),
+	array('label'=>'Administrar EmpleadoRol', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View EmpleadoRol</h1>
+<h1>Vista Rol empleado</h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

@@ -3,16 +3,16 @@
 /* @var $model Clasificacion */
 
 $this->breadcrumbs=array(
-	'Clasificacions'=>array('index'),
-	'Create',
+	'Clasificación'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Clasificacion', 'url'=>array('index')),
-	array('label'=>'Manage Clasificacion', 'url'=>array('admin')),
+	array('label'=>'Listar Clasificación', 'url'=>array('index')),
+	array('label'=>'Administrar Clasificación', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Clasificacion</h1>
+<h1>Crear Clasificación</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

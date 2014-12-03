@@ -70,7 +70,13 @@
                                     array('label'=>'Empleado', 'url'=>array('/Empleado/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Estado', 'url'=>array('/Estado/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Clasificación', 'url'=>array('/Clasificacion/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                    array('label'=>'Informe', 'url'=>array('/Informe/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Informe', 
+                                        'items'=>array(
+                                            array ('label'=>'Informe','url'=>array('/Informe/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                            array ('label'=>'Estado Informe','url'=>array('/EstadoInforme/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                        ),
+                                    ),
+
                                     array('label'=>'Impacto', 'url'=>array('/Impacto/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Procesos', 'url'=>array('/Procesos/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Operaciones', 'url'=>array('/Operaciones/admin'), 'visible'=>!Yii::app()->user->isGuest),

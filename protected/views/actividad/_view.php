@@ -33,11 +33,8 @@
 	<?php echo CHtml::encode($data->fecha_inicio); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('cerrada')); ?>:</b>
 	<?php echo CHtml::encode($data->cerrada); ?>
 	<br />
-
-	*/ ?>
 
 </div>

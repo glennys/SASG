@@ -1,4 +1,4 @@
-//<?php
+<?php
 /* @var $this ClasificacionController */
 /* @var $data Clasificacion */
 ?>
