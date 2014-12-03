@@ -1,0 +1,37 @@
+1;7;6200000505;Costo de Venta Equip
+2;7;6200000506;Eq. modems y rauter
+3;7;6200000509;Costo de Venta Equip
+4;7;6200000512;Costo de Venta Equip
+5;4;6200010000;Material Cargo Direc
+6;7;6200020000;Material Distribució
+7;4;6200040000;Materiales de Oficin
+8;8;6200050000;Ajustes de Inventari
+9;4;6200060000;Programas de Computa
+10;4;6200070000;Mobiliario. Equipos
+11;9;6200110000;Gastos de Aduana
+12;6;6300010010;Mantenimiento Equipo
+13;1;6300010070;Contratistas Técnico
+14;1;6300060000;Mantenimiento y Repa
+15;1;6300070000;Reparación de Mobili
+16;1;6300070010;Mantenimiento Hardwa
+17;5;6300090000;Honorarios Profesion
+18;5;6300090030;Honorarios Asesoría/
+19;1;6300090070;Servicio Técnico de
+20;1;6300130000;Mantenimiento y Repa
+21;6;6300130010;Mantenimiento Softwa
+22;1;6300140000;Mantenimiento y Repa
+23;3;6400050000;Gastos de Viaje Naci
+24;3;6400060000;Viajes al Exterior /
+25;3;6400070000;Viajes al Interior /
+26;9;6400080000;Entrenamiento
+27;9;6500010500;Promociones y Evento
+28;9;6500010600;Material POP e Impre
+29;2;6500030000;Correo
+30;9;6500050000;Servicios Básicos
+31;9;6500070000;Alquileres Varios
+32;9;6500130000;Estacionamiento
+33;9;6500140000;Libros. Revistas y P
+34;10;6500150000;Refrigerios y Comida
+35;11;6500170000;Transporte Urbano
+36;9;6500170010;Fletes y Transporte
+37;9;6500320000;Otros

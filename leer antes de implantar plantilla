@@ -1,0 +1,51 @@
+1.- hacer restore de los Cruge y Base alojados en la carpeta "registro_sesion_db".
+2.- agregar las siguintes columnas o campos a cada una de nuestras tablas:
+
+alter table esquema.tabla
+add column in_stat character varying(1) NOT NULL DEFAULT 'A',
+add column usr_crea character varying(10) NOT NULL DEFAULT 'NO DATE',
+add column fe_crea date NOT NULL DEFAULT '2014-01-01',
+add column usr_modf character varying(10) DEFAULT NULL,
+add column fe_modf date DEFAULT NULL
+
+nota: este sql es solo para postgresql.
+
+3.- migrar nuestros modelos,controladores y vistas a la plantilla base.
+
+4.- colocar el siguiente filtro en cada uno de nuestros controladores:
+
+public function filters()
+	{
+		return array(
+			//'accessControl', // perform access control for CRUD operations
+			//'postOnly + delete', // we only allow deletion via POST request
+                        array('CrugeAccessControlFilter'),
+		);
+	}
+
+5.- cololar la siguiente función en cada uno de nuestros modelos:
+
+public function behaviors()
+    {
+        return array(
+                'CTimestampBehavior' => array(
+                    'class' => 'zii.behaviors.CTimestampBehavior',
+                    'createAttribute' => 'fe_crea',
+                    'updateAttribute' => 'fe_modf',
+                    'setUpdateOnCreate' => true,
+                ),
+
+                'BlameableBehavior' => array(
+                    'class' => 'application.components.BlameableBehavior',
+                    'createdByColumn' => 'usr_crea',
+                    'updatedByColumn' => 'usr_modf',
+                ),
+        );
+    }
+
+6.- probar el sistema.
+
+7.- Licencia
+
+    Copyright 2014
+    Compañia Anónima Nacional Teléfonos de Venezuela. RIF: J-00124134-5.- Todos los derechos reservados.

@@ -1,0 +1,238 @@
+
+Contrato 
+---------------
+codigo del contrato
+% incremento
+frecuencia de pago
+nº de contrato
+monto del contrato
+fecha inicio contrato
+fecha fin contrato
+estatus del contrato (condicion)
+forma de pago
+tipo de moneda
+monto 
+figura juridica (empresa/cooperativa)
+razon social
+codigo del proveedor
+observaciones
+
+
+tabla de asociacion de contratos/presupuestos
+----------------------
+codigo del contrato
+codigo del presupuesto
+
+
+Presupuesto 
+-------------
+codigo de presupuesto
+onapre
+ceco
+tipo presupuesto
+clase remo
+clase de costo
+actividad ( tipo de actividad )
+forma de pago
+moneda presupuestada
+moneda de pago
+descripcion de la actividad (Descripción Contrato/Iniciativa)
+prioridad (baja/media/alta)
+
+
+presupuesto mensual planificado (debe guardar el historico cuando se modifique un mes)
+--------------------
+codigo presupuesto mensual
+codigo de presupuesto
+enero (monto)
+febrero
+marzo
+abril
+mayo
+junio
+julio
+agosto
+septiembre
+octubre
+noviembre
+diciembre
+total
+version
+
+
+presupuesto formulado (debe guardar el historico cuando se modifique un mes)
+--------------------
+codigo presupuesto formulada
+codigo presupuesto mensual
+codigo de preupuesto
+enero (monto)
+febrero
+marzo
+abril
+mayo
+junio
+julio
+agosto
+septiembre
+octubre
+noviembre
+diciembre
+total
+version
+% variable macroeconomica
+
+
+tabla criterios montos
+------------------------------
+iva
+dolar 
+unidad tributaria
+% variable macroeconomica
+
+
+plan de compras (asociado a un presupuesto)
+-----------------
+codigo de presupuesto
+actividad plan de compra (bien/servicio)
+unidad de medida (tabla de unidades de medida)
+codigo sap (tabla de codigos sap)
+familia
+cantidad enero (monto cantidades)
+febrero
+marzo
+abril
+mayo
+junio
+julio
+agosto
+septiembre
+octubre
+noviembre
+diciembre
+total
+version
+nombre responsable
+telefono responsable
+correo responsable
+
+
+sociedad
+----------
+codigo sociedad
+nombre
+descripcion
+
+
+tipo de actividad (actividad)
+----------------
+codigo actividad
+nombre
+descripcion
+
+
+clase remo
+--------
+codigo clase remo
+nombre
+descripcion
+
+
+ceco
+--------------
+codigo ceco
+CeCo	
+Gerencia 1er. Nivel	
+Gerencia 2do. Nivel	
+Estados
+
+
+clase costo
+--------
+codigo clase costo
+nombre
+descripcion
+
+
+tipo presupuesto (Gasto a Presupuestar)
+--------
+codigo tipo presupuesto
+nombre
+descripcion
+
+
+onapre
+---------
+codigo onapre
+mapping onapre
+accion especifica
+poai
+
+
+familia
+--------------
+codigo
+Descripción de la Familia
+
+
+
+
+
+
+
+
+/****************************************
+
+ - Agregar sociedad en presupuesto ////***** LISTO *****///
+
+ - En la tabla de sociedad colocar prefijo del ceco (longitud 1, numerico)  ////***** LISTO *****///
+ 	1 telco
+ 	2 movilnet
+ 	3 caveguias
+
+ - Crear catalogo tipo de servicio  ////***** LISTO *****///
+ 	Tipo de Servicio 
+		.Servicios Profesionales (Tercerización)
+		.Servicios Profesionales (Tercerización)
+		.Servicios Profesionales (Desarrollos y/o Mantenimientos)
+
+- en la tabla ceco agregar el campo tipo accion onapre ////***** LISTO *****///
+	TIPO DE ACCIÓN ONAPRE
+		.Específica
+		.Centralizada
+
+- Gasto a presupuestar (Agregar combo a presupuesto)    ////***** LISTO *****///
+	Continuidad
+	Iniciativa
+	Crecimiento
+
+
+- Cambiar Titulo Plnificacion Mensual > Presupuesto Base (Presupuesto) ////***** LISTO *****///
+- Cambiar Titulo presupiesto frmulado > Presupuesto Ajustado (Variable Macroeconomica) (Presupuesto) ////***** LISTO *****///
+
+
+- la planificacion va a depender de la clase de remo, puede ser por bien o servicio,  ////***** LISTO *****///
+- 	si es por servicio puede estar asociada a un contrato      ////***** LISTO *****///
+- 	si es por bien no ira asociada a contrato  ////***** LISTO *****///
+
+- asociar tipo de servicio a presupuesto,     ////***** LISTO *****///
+- asociar actividad (bien/servicio) a presupuesto,
+
+- catalogo de productos, asociar a plan de compra y quitar actividad (bien/servicio)  ////***** LISTO *****///
+
+- () Colocar presupuesto planificado y planificacion mensual en un solo formulario,   ////***** LISTO *****///
+
+////***** LISTO *****/// 1.Incluir el campo de sociedad en la pantalla de presupuesto, excluyendo de la pantalla el campo de código de presupuesto
+////***** LISTO *****/// 2.El número de contrato debe ser el número del contrato que tiene en SAP
+////***** LISTO *****/// 3.Subir la clasificación Onapre para filtrar la  clases remo
+////***** LISTO *****/// 4.Filtrar las actividades por la  clase de costo
+
+5.Incluir en el módulo de configura la pantalla para colocar las premisas (IPC y Tasa de Cambio)
+
+////***** LISTO *****/// 6.Incluir manejo de permisología para los datos utilizando las tablas de organización, empleado y usuario; es decir , incluir en el campo CEco a los empleados
+??????? 7.Limpiar la lista de Familias y productos, a fin de mostrar sólo los utilizados por la GGTO
+??????? 8.Validar la relación familia y producto
+////***** LISTO *****/// 9.El total no asignado no está saliendo bien, revisar el calculo
+////***** LISTO *****/// 10.Cuando la moneda de planificación sea en dólares, mostrar el símbolo $
+////***** LISTO *****/// 11.Al crear un presupuesto de todos los campos son obligatorios
+
+12.El campo de Descripción con la información Onapre, clase remo, Clase de costo y luego incorporar el nombre de la cooperativa o empresa que se encuentra en los contratos que se adicionen al presupuesto.

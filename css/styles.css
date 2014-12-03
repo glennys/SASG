@@ -1,0 +1,229 @@
+/****************************************************************************/
+/****************************************************************************/
+/********************  T A B L E   G R I D   V I E W   **********************/
+/****************************************************************************/
+/****************************************************************************/
+
+.grid-view-loading
+{
+	background:url(loading.gif) no-repeat;
+}
+
+.grid-view
+{
+	padding: 1px 0;
+}
+
+.grid-view table.items
+{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px #D0E3EF solid;
+}
+
+.grid-view table.items th, .grid-view table.items td
+{
+	font-size: 10px;
+	border: 1px rgb(192, 192, 192) solid;
+	padding: 0.3em;
+	color: #666666;
+}
+
+.grid-view table.items th
+{
+	color: rgb(102, 153, 204);
+	background: none;
+	background-color:rgb(221, 236, 252);
+	text-align: center;
+	font-weight: bold;
+}
+
+.grid-view table.items th a
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	color:rgb(102, 153, 204);
+	font-style:normal;	
+	text-decoration: none;
+}
+
+.grid-view table.items thead
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	color:rgb(102, 153, 204);
+	font-style:normal;	
+	text-decoration: none;
+}
+
+
+.grid-view table.items th a:hover
+{
+	color: rgb(236, 46, 56);
+}
+
+.grid-view table.items th a.asc
+{
+	background:url(up.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items th a.desc
+{
+	background:url(down.gif) right center no-repeat;
+	padding-right: 10px;
+}
+
+.grid-view table.items tr.even
+{
+	background: #FFFFFF;
+}
+
+.grid-view table.items tr.odd
+{
+	background: #FFFFFF;
+}
+
+.grid-view table.items tr.selected
+{
+	background: #BCE774;
+}
+
+.grid-view table.items tr:hover.selected
+{
+	background: #CCFF66;
+}
+
+.grid-view table.items tbody tr:hover
+{
+	background: #ECFBD4;
+}
+
+.grid-view .link-column img
+{
+	border: 0;
+}
+
+.grid-view .button-column
+{
+	text-align: center;
+	width: 60px;
+}
+
+.grid-view .button-column img
+{
+	border: 0;
+}
+
+.grid-view .checkbox-column
+{
+	width: 15px;
+}
+
+.grid-view .summary
+{
+	margin: 0 0 5px 0;
+	text-align: right;
+}
+
+.grid-view .pager
+{
+	margin: 5px 0 0 0;
+	text-align: right;
+}
+
+.grid-view .empty
+{
+	font-style: italic;
+}
+
+.grid-view .filters input,
+.grid-view .filters select
+{
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+
+/****************************************************************************/
+/****************************************************************************/
+/********************  T A B L E   D E T A I L   V I E W   ******************/
+/****************************************************************************/
+/****************************************************************************/
+
+h1{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	color:rgb(236, 46, 56);
+	font-style:normal;	
+}
+
+h2 {
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	color:rgb(236, 46, 56);
+	font-style:normal;
+}
+
+
+table.detail-view .null
+{
+	color: pink;
+}
+
+table.detail-view
+{
+	background: white;
+	border-collapse: collapse;
+	width: 100%;
+	margin: 0;
+}
+
+table.detail-view th, table.detail-view td
+{
+	font-size: 10px;
+	border: 1px white solid;
+	padding: 0.3em 0.6em;
+	vertical-align: top;
+}
+
+table.detail-view th
+{
+	text-align: left;
+	width: 160px;
+	font-weight: bold;
+	font-family:Verdana;
+	font-style:normal;
+	color:rgb(102, 102, 102);
+
+}
+
+table.detail-view tr.odd
+{
+	background:#FFFFFF;
+}
+
+table.detail-view tr.even
+{
+	background:#FFFFFF;
+}
+
+table.detail-view tr.odd th
+{
+}
+
+table.detail-view tr.even th
+{
+}
+
+
+
+
+
+
+

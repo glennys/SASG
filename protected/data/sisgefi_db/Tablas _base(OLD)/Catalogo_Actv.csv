@@ -1,0 +1,124 @@
+1;ACUU01;PL/SQL Developer
+2;ACUV02;Serv Soporte Técn Sistema de Acceso TDM
+3;AF0101;ACTIV. ADMINISTRATIVAS
+4;AF0112;Dirigir Controlar Gestión de la Unidad
+5;AF1006;Tercerización
+6;ALUV01;MANT EDI CORPORATIVO
+7;ANUV01;Mantenimiento Licencias Citrix
+8;AQUV02;NETAPP
+9;ARUV01;Remedy
+10;ASUV01;Licencias RightFax
+11;ASVV02;Licencias E-Process
+12;AUUV01;Soporte y Mtto Plataf Almac. Corporativo
+13;AVUV02;Mtto. Sop. TMON MVS/CICS
+14;BAUV03;Mantenimiento Plataforma Corporativa HP
+15;BBUV03;Mtto.ELA (Enterprise License Agreement)
+16;BBUV04;Outsourcing IBM (Porción $)
+17;BBUV13;Soporte Técnico VMWARE
+18;BBVV01;Outsourcing Desarrollo_IBM
+19;BBVV02;Outsourcing IBM (Porción Bs.)
+20;BEVV03;Mant InfraPlataforma (Bs)ics)
+21;BIVV01;Sop. Técnico Qmatic Comp. Nacional
+22;BOUU01;Licencias Microsoft
+23;BOUV03;Soporte en Aplicaciones Microsoft
+24;BUUU01;Mantenimiento PAO - RAPE (SMW)
+25;BUUV03;Mantenimiento  licencias Oracle
+26;BUUV05;Soporte Técnico Oracle
+27;BUVV02;ORACLE SYBEL-BI Oracle Business Intellig
+28;BUVV03;Mantenimiento PeopleSpoft (CRM)
+29;CBUV03;Mantenimiento de Licencias MySAP
+30;CEVV01;Servolox. Mant. Flejadora. Transp
+31;CGUV02;Desarrollo y Soporte CarriersUs$
+32;CGUV03;Mantenimiento de Licencias Carriers OT
+33;CI0122;PlanificarElaborarControlarContratación
+34;CI0123;RealizarInstalacionesMudanzasRedClientes
+35;CI0125;Instalar y mantener Circuitos privados
+36;CI0126;InstalarOperarMantenerSistemasEquipCent
+37;CI0202;AdmPreveerVerificarContratosInstalEqConm
+38;CI0205;AdmPreveerVerificarContratosInstalEqTran
+39;CKUV02;Mantenimiento Plataforma Corporativa SUN
+40;CKUV05;Mantenimiento Veritas
+41;CLVV01;Systen Soluc. Opera. Ensobrado
+42;CPUV05;Mtto Plataforma Corporativa Serv Dell
+43;CPUV06;Mtto.Plataf. IVR's
+44;CWUU01;Mtto. Plataforma Comverse
+45;CWUU03;Mtto. Sistema Facturador Kenan BP
+46;DBUU01;Direcciones IP
+47;DCUU01;Mantenimiento de equipos DWDM
+48;DGUU02;Soporte Técnico 4TEL
+49;DJUV01;Mtto.Softw.Seguridad Vanguard
+50;DLUV01;Mantenimiento Equipos DLC
+51;DNUU12;Soporte Técnico Redes Cx y Tx  Datos
+52;EAUV01;Mtto y Sop HARVEST. EasyTrieve y Endevor
+53;EFVV01;Contrato Central Ericson Presidencia
+54;EFVV02;Mtto. Redes BDV. SABRE
+55;EFVV03;Mtto.OC Movilnet
+56;EKUV01;Mtto. SW WEBCTRL
+57;EOVV01;Soporte Hypercom (BDV-CREDICARD)
+58;ESUV03;Mtto y Soporte Tec. SW Control M Distr
+59;ESUV05;Mtto. y Sop Tec PNET (PATROL)
+60;ESUV06;Mtto. y Sop Tec Entuity (Dashboard)
+61;ESUV08;Mtto. y Sop. Tec. Beta 92
+62;EUUV01;Mantenimiento Equipos Pair Gain
+63;FFVV01;Mtto.plataf. Motorola BDV. CrediCard
+64;FHUV01;Sop técn Matriz Conmut Red Transp video
+65;FJVV01;Aferición de Centrales
+66;FLUV01;SIEMENS ASIST EWSD
+67;FSC106;Bobinas de Facturas
+68;FSC107;Sobres de Facturas
+69;FSC109;Embalaje de Facturas
+70;FSUV03;Mto Soporte Técnico Plataf UNIRED ABA
+71;FSVV02;Mtto. Telemática
+72;JCVV01;Mantenimiento Sistema Automatizado Corte
+73;KMUV01;Consult Mejores Practicas TIC y Calidad
+74;LMUU01;Mantenimiento Software ($)
+75;LOVV01;Mantenimiento Software (Bs)
+76;LQUV01;Instalación de plataforma NGN
+77;LSUV01;Mtto. SALA COFRE
+78;LSUV02;Mtto. Ctro. Computos Corporativos
+79;LSUV03;Mantto. Lic. Autocad
+80;LYUV01;Mtto.Lic. ADABAS/NATURAL
+81;NAVV01;Sop/MtoPlt.Radios IP Mod.AS3030 AirSpan
+82;NCVV01;Mtto. Licencias SAS ABM
+83;NDUU01;Mtto. Licencias Cognos
+84;NEVV01;Desarrollo y Mtto. ARC
+85;NFUU01;Mtto. Herramientas de DOC1
+86;NGUU01;Mtto. IST-Switch/IST-Card
+87;NHVV01;Mtto. Ensobradoras
+88;NIVV01;Mtto.Esc. Serv. CIC/CSI 0800 Gestión
+89;NLUV01;Mtto. FileAID.AbendAID.Mainstar. I-Check
+90;NNUV01;Mtto.Plataforma Melita
+91;NOUV02;Adqui. Mtto.SW eHealth Suite/Spectrum
+92;NQUU02;ZTE Mtto Fibra Óptica PtoOrdaz Sta Elena
+93;NQVV01;ZTE Mtto Fibra Óptica PtoOrdaz Sta Elena
+94;NSUU01;Mantenimiento y Soporte GOLD Intalio BPM
+95;NTP033;Contratos Servicios de la Red ASESORIAS
+96;NTP034;Mantenimiento Armarios
+97;NTP135;Consumibles Operac. Centro de Computo
+98;NTP136;Mantenimiento Linux Red Hat Center
+99;NTP137;Mtto Infraestructura Centro Computo
+100;NTP141;Mtto.Lic.VMWARE
+101;NTP142;Mantenimiento Red Corporativa
+102;NTP144;Mtto.plataf.IVR central CANTV
+103;NTP145;Mtto/Rep.Salas Videoc/Avila/Canaima
+104;NTP146;Trasl.cartuchos Contingencia
+105;NUVV01;VTE Soporte Técnico Plataforma Telindus
+106;NVVV01;EBG Tel. Mtto Plataforma SAGEM
+107;NWVV01;E4GS Portal Corporativo
+108;NXUU01;Mtto y Soporte Tec. SW InControl
+109;NYUU01;Mtto y Soporte Tec. JCL Plus
+110;OM0101;RepararMantenerPlantaExternaInterna
+111;OM0108;ImplementarCoordinarControlarServicios
+112;OM0113;RealizarMantenimientoAbonados
+113;OM0114;RealizarMantenimientoCorrectivo
+114;OM0115;RealizarMantenimientoPreventivo
+115;OM0116;RealizarInstalación y Reinstalaciones Ab
+116;OM0118;Gtos de hurto y vandalismo
+117;OM0119;Contingencia - Hurto y Vandalismo
+118;OM0120;Instalación ABA
+119;OM0121;Mantenimiento ABA
+120;OM0123;Reubicaciones TP
+121;OM0125;Mantenimiento Integral
+122;OM0126;Mi Línea Acometida Menor
+123;OM0127;Mi Línea Acometida Mayor
+124;OM0129;Mantenimiento por Punto Baremos de TP

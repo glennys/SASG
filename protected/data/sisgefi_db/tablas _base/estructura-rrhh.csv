@@ -1,0 +1,1228 @@
+10000000;Presidencia Cantv;11000000
+10000001;Gcia. Gral. Consultoría Jurídica;10000000
+10000003;Gcia. Asuntos Corporativos;10000001
+10000004;Gcia. Gral. Comunic. y Asuntos Públicos;50211237
+10000005;Gcia. Comunicaciones Externas;10000004
+10000007;Coord. Medios Electrónicos;10000005
+10000009;Gcia. Comunicaciones Internas;10000004
+10000010;Coord. Comunic. Región Central;10000009
+10000011;Coord. Comunic. Región Oriental;10000009
+10000012;Coord. Comunic. Región Occidental;10000009
+10000014;Coord. Información Interna;10000009
+10000017;Gcia. Relaciones Institucionales;10000004
+10000018;Coord. Relaciones con la Comunidad;10000017
+10000019;Coord. Relaciones Institucionales;10000017
+10000030;Gcia. Inversiones de Capital;10000572
+10000032;Gcia. Planific. Estratégica y Operativa;50175497
+10000034;Gcia. Región Oriental;50137672
+10000035;Gcia. Región Capital;50137672
+10000036;Gcia. Región Central;50137672
+10000037;Gcia. Región Centro Occidental;50137672
+10000038;Gcia. Región Occidental;50137672
+10000039;Gcia. Gestión de la Calidad y Procesos;50137673
+10000041;Gcia. Planificación;10000602
+10000043;Gcia. Centro Operaciones de la Red;50073640
+10000046;Coord. Monitoreo y Control;10000043
+10000049;Coord. Ctro. Serv. Reg. Oriental;50152150
+10000050;Coord. Ctro. Serv. Reg. Capital;50152150
+10000051;Coord. Ctro. Serv. Reg. Central;50152150
+10000055;Coord. Prov. y Gest. Serv. Última Milla;50152150
+10000058;Coord. Gestión Productos Red de Datos;50160096
+10000066;Gcia. Operaciones Redes Especializadas;50073640
+10000067;Coord.Señal.Sincroni.NGN y Voz Internac.;10000066
+10000068;Coord.Gest.y Facilidades Internacionales;10000066
+10000069;Coord. Cables Submarinos;10000066
+10000070;Coord. Enlaces Satelitales;10000066
+10000122;Coord. Diseño y Opt. Procesos Operativos;10000039
+10000123;Coord. Auditoría Técnica Calidad Redes;10000039
+10000125;Gcia. Des.Operativ. Lab.y Entes Externos;50137673
+10000128;Coord. Proyectos Red Acceso;10000034
+10000132;Gcia. Red Estado Monagas;10000034
+10000133;Área Acceso;10000132
+10000134;Área Conmutación;10000132
+10000135;Área Datos Transmisión;10000132
+10000136;Gcia. Red Estado Nueva Esparta;10000034
+10000137;Área Acceso;10000136
+10000138;Área Conmutación;10000136
+10000139;Área Datos y Transmisión;10000136
+10000141;Gcia. Red Estado Sucre;10000034
+10000142;Área Acceso;10000141
+10000143;Área Conmutación;10000141
+10000145;Área Datos Transmisión;10000141
+10000146;Gcia. Red Estado Anzoategui;10000034
+10000147;Área Acceso;10000146
+10000148;Área Conmutación;10000146
+10000149;Área Datos;10000146
+10000151;Área Transmisión;10000146
+10000152;Gcia. Red Estado Bol. Delta Amacuro Amz.;10000034
+10000153;Área Acceso;10000152
+10000154;Área Conmutación;10000152
+10000155;Área Datos;10000152
+10000157;Área Transmisión;10000152
+10000159;Gcia. Red Estado Falcón;10000038
+10000160;Área Datos Transmisión;10000159
+10000161;Área Conmutación;10000159
+10000162;Área Acceso;10000159
+10000163;Gcia. Red Estado Lara;10000037
+10000164;Área Acceso;10000163
+10000165;Área Transmisión;10000163
+10000166;Área Conmutación;10000163
+10000167;Área Datos;10000163
+10000169;Gcia. Red Estado Portuguesa;10000037
+10000170;Área Acceso;10000169
+10000171;Área Conmutación;10000169
+10000173;Área Datos Transmisión;10000169
+10000174;Gcia. Red Estado Yaracuy;10000037
+10000175;Área Acceso;10000174
+10000176;Área Conmutación;10000174
+10000178;Área Datos Transmisión;10000174
+10000179;Coord. Proyectos Red Acceso;10000037
+10000181;Coord. Proyectos Red Acceso;10000038
+10000185;Gcia. Red Estado Mérida;50199300
+10000186;Área Acceso;10000185
+10000187;Area Conmutación;10000185
+10000190;Gcia. Red Estado Táchira;50199300
+10000191;Área Acceso;10000190
+10000192;Área Transmisión;10000190
+10000193;Área Datos;10000190
+10000194;Área Conmutación;10000190
+10000195;Gcia. Red Estado Zulia;10000038
+10000196;Área Acceso;10000195
+10000197;Área Conmutación;10000195
+10000198;Área Datos;10000195
+10000200;Área Transmisión;10000195
+10000201;Gcia. Red Estado Trujillo;10000038
+10000202;Área Acceso;10000201
+10000203;Área Conmutación;10000201
+10000205;Área Datos Transmisión;10000201
+10000218;Gcia. Red Estado Apure Amazonas;10000036
+10000219;Area Conmutación, Transmisión y Datos;10000218
+10000220;Area Acceso;10000218
+10000221;Gcia. Red Estado Aragua;10000036
+10000222;Área Acceso;10000221
+10000223;Área Conmutación;10000221
+10000224;Área Datos;10000221
+10000226;Área Transmisión;10000221
+10000227;Gcia. Red Estado Barinas;50199300
+10000228;Área Acceso;10000227
+10000229;Área Conmutación;10000227
+10000230;Área Datos;10000227
+10000231;Área Transmisión;10000227
+10000484;OAC Los Olivos;50074947
+10000232;Gcia. Red Estado Carabobo;10000036
+10000233;Área Acceso;10000232
+10000234;Área Conmutación;10000232
+10000235;Área Datos;10000232
+10000237;Área Transmisión;10000232
+10000238;Gcia. Red Estado Cojedes;10000037
+10000239;Área Acceso;10000238
+10000240;Área Conmutación Datos Trans.;10000238
+10000241;Gcia. Red Estado Guárico;10000036
+10000242;Área Acceso;10000241
+10000244;Área Datos;10000241
+10000245;Coord. Proyectos Red Acceso;10000036
+10000249;Área Conmutación;10000241
+10000252;Unidad Personal que Goza Fuero Sindical;10000380
+10000254;Gcia. Rel. Inv. Vzl. Ser. C y D;10000572
+10000255;Unidad  Auditoría Interna;10000000
+10000257;Coord. Auditorías de Gestión;50179072
+10000258;Coord. Auditorías de Sistemas;50179072
+10000264;Coord. Comunicaciones  y Publicidad;50140176
+10000268;Gcia. Arq. e Ing. de Sol. y Des. de TIC;50175494
+10000300;Gcia. Servicios al Cliente;50175494
+10000306;Gcia. Ventas Región Capital;50089579
+10000307;Gcia. Ventas Región Centro;50089579
+10000308;Gcia. Ventas Región Occidente;50089579
+10000309;Gcia. Ventas Región Oriente;50089579
+10000316;Coord. Centro de Ctrol. de Telef.Pública;50215337
+10000332;Gcia.Gral.Operadores Telecomunicaciones;50198278
+10000333;Gcia. Apoyo Técnico;10000332
+10000337;Gcia. Planificación y Mercadeo;10000332
+10000338;Coord.Planif.Negocios no Regulados Cantv;10000337
+10000340;Coord. Planif. Negocios Regulados Cantv;10000337
+10000341;Coord. Control de Gestión;10000337
+10000342;Gcia. Negocios Internacionales;10000332
+10000344;Coord. Negocios de Voz;10000342
+10000346;Gcia. Negocios Nacionales;10000332
+10000347;Coordinación de Conciliación;50058552
+10000348;Coord. Negocios Regulados Cantv;10000346
+10000349;Coord. Negocios Regulados Móviles;10000346
+10000350;Coord. Negocios no Regulados;10000346
+10000351;Coord. Negocios Movilnet;10000346
+10000362;Gcia. Gral. Gestión Humana;50211237
+10000366;Gcia. Formación;10000362
+10000370;Coord. Administración de Formación;10000366
+10000372;Coord. Captación;10000384
+10000373;Coord. Desarrollo Gestión del Desempeño;
+10000375;Coord. Centro de Atención al Personal;10000653
+10000376;Coord. Administración del Personal;10000653
+10000377;Coord. Atención al Jubilado;10000653
+10000380;Gcia. Relaciones Laborales;10000362
+10000382;Coord. Nacional de Atención Laboral;10000380
+10000384;Gcia. Planific., Organiz. y Compensación;10000362
+10000387;Gcia. Atención Gestión Humana Regiones;10000362
+10000388;Coord. Gestión Humana Región Centro;10000387
+10000391;Coord. Gestión Humana Región Occidente;10000387
+10000392;Coord. Gestión Humana Región Oriente;10000387
+10000394;Gcia. Gral. Mercados Masivos;50198278
+10000398;Gcia. Planificación y Servicios Mercadeo;10000394
+10000399;Gcia. Servicios al Cliente;10000394
+10000402;Coord. Gestión de Información;10000398
+10000403;Coord. Planificación y Presupuesto;10000398
+10000405;Coord. Riesgos y Cobranzas;10000399
+10000406;Coord. Atención Segundo Nivel Post Venta;10000399
+10000407;Coord. Apoyo Técnico a la Operación;10000399
+10000410;OAC Las Delicias;50074148
+10000411;OAC La Victoria;50074148
+10000414;OAC San Fernando de Apure;50205529
+10000415;OAC San Juan de Los Morros;50074761
+10000416;OAC Valle de la Pascua;50074761
+10000419;OAC Barinas;50186711
+10000420;OAC Guacara;50196132
+10000421;OAC Guaparo;50196132
+10000422;OAC Las Industrias;50196132
+10000423;OAC Puerto Cabello;50196132
+10000424;OAC Cojedes;50205528
+10000427;OAC Acarigua;50074771
+10000428;OAC Barquisimeto Centro;50196134
+10000429;OAC Coro;50205531
+10000431;OAC Punto Fijo;50205531
+10000432;OAC Santa Elena;50196134
+10000433;OAC San Felipe;50186710
+10000436;Centro de Atención Sambil;50196130
+10000437;OAC C.C.C. Tamanaco;50196130
+10000438;OAC Charallave;50205356
+10000439;OAC Chacao;50196130
+10000440;OAC Guarenas;50205356
+10000441;OAC Concresa;50196130
+10000442;OAC Plaza las Américas;50196130
+10000446;OAC Chaguaramos;50140800
+10000448;OAC Los Teques;50186709
+10000449;OAC Litoral;50186709
+10000450;OAC Montalbán;50140800
+10000451;OAC NEA;50140800
+10000457;OAC Cumana;50225083
+10000458;OAC El Tigre;50186713
+10000459;OAC Lecherías;50186713
+10000460;OAC Puerto La Cruz;50186713
+10000461;OAC Porlamar;50074317
+10000464;OAC Ciudad Bolivar;50205532
+10000465;OAC Maturín;50196137
+10000466;OAC Puerto Ayacucho;50205529
+10000467;OAC Puerto Ordaz;50205532
+10000468;OAC San Félix;50205532
+10000471;OAC Concordia;50074937
+10000472;OAC El Vigia;50205530
+10000474;OAC Mérida Centro;50205530
+10000475;OAC Pirineos;50074937
+10000480;OAC Cabimas;50196135
+10000481;OAC Ciudad Ojeda;50196135
+10000482;Centro Atención Doral Center;50074947
+10000483;OAC Valera;50186712
+10000485;OAC San Francisco;50074947
+10000486;OAC Salto Angel;50074947
+10000490;Gcia. Gral. Empresas Instituc. Privadas;50198278
+10000515;Coord. Televentas;50071127
+10000516;Gcia. Gral. Servicios y Logística;50211237
+10000535;Gcia. Servicios de Salud;10000362
+10000536;Coordinación Riesgos y Seguros;50231114
+10000538;Coord. Almacén Distribución Reg. Capital;10000626
+10000539;Coord. Almacén Distribución Reg. Central;10000626
+10000540;Coord. Almacén Distribución Reg. Occid.;10000626
+10000541;Coord. Almacén Distribución Reg. Orient.;10000626
+10000545;Gcia. Transporte y Servicios;10000516
+10000546;Coord. Administración de Flota;10000545
+10000550;Gcia. Infraestructura;10000602
+10000551;Gcia. Mantenimiento y Servicios;10000516
+10000552;Coord. Mantenimiento Reg. Oriental;10000551
+10000553;Coord. Mantenimiento Reg. Occidental;10000551
+10000554;Coord. Mantenimiento Reg. Central;10000551
+10000557;Coord. Mantenimiento Región Capital;10000551
+10000565;Gcia. Facturación;50137671
+10000568;Coord. Insumos;10000565
+10000570;Coord. Producción de Factura;10000565
+10000571;Coord. Soporte Técnico de Facturación;10000565
+10000572;Gcia. Gral. Finanzas;50211237
+10000573;Gcia. Contraloría;10000572
+10000574;Gcia. Contabilidad;10000573
+10000575;Coord. Contabilidad de Ingresos;10000574
+10000576;Coord. Contabilidad de Planta;10000574
+10000578;Coord. Reportes Financieros;10000574
+10000579;Coord. Reg. y Análisis Contable;10000574
+10000586;Coord. de Nómina;10000573
+10000589;Gcia. Planificación Financiera;10000572
+10000590;Gcia. Impuestos;10000572
+10000591;Gcia. Recaudación y Pagos;50211237
+10000592;Coord. Monitoreo y Análisis Recaudación;10000591
+10000593;Coord. Análisis, Ajustes y Reclamos;10000591
+10000594;Coord. Recaudación Bancaria;10000591
+10000595;Coord. Rec. Oficinas Com. Otros Medios;10000591
+10000596;Gcia. Tesorería;10000572
+10000598;Coord. Operaciones Financieras;10000596
+10000602;Vicepresidencia Ejecutiva;10000000
+10000607;Coord. Operaciones Telecom. Internas;50195911
+10000610;Coord. Comunic. Movilnet;10000005
+10000612;Coord. Comunic. Región Centro Occidental;10000009
+10000613;Coord. Eventos;10000017
+10000614;Coord. Comunic. Telco;10000005
+10000626;Gcia. Almacenes;10000516
+10000646;Gcia. Seguridad de la Operación y Servic;50085876
+10000647;Coord.Aseguramiento de Ingresos y Costos;10000646
+10000649;Coord.Riesgos de Servicios y Antifraudes;10000646
+10000650;Coord. Ingeniería de Seguridad;10000646
+10000651;Gcia.Segur. Indust., Higiene y Ambiente;50085876
+10000653;Gcia. Serv. y Facilid. al Pers. y Jubil.;10000362
+10000656;Gcia. Gestión del Cambio;10000362
+10000658;Gcia. Atención Gestión Humana;10000362
+10000659;Gcia. Atención Gestión Humana;10000362
+10000660;Coord. Gestión Humana Región Centro Occ.;10000387
+10020000;Presidencia Caveguías;11000000
+10020023;Coord. Imprenta y Distribución;50072083
+10020031;Gcia. Sop. Tec. Public. e Información;10020000
+10020037;Coord. Atn.al Clte. Sopor. Fact. y Cobr.;50078696
+10030000;Presidencia Movilnet;11000000
+10030013;Vicepresidencia Operaciones Comerciales;10030000
+10030014;Dir. Soporte Comercial;10030013
+10030015;Gcia. Soporte Administrativo;10030014
+10030016;Gcia. Distribución Productos Celulares;10030014
+10030017;Gcia. Entrenamiento Comercial;10030025
+10030019;Dir. Mercadeo;10030013
+10030025;Dir. Servicio al Cliente;10030013
+10030025;Dir. Servicio al Cliente y Retención;10030013
+10030027;Gcia. Calidad de Servicio;10030025
+10030027;Gcia. Procesos y Calidad de Gestión;10030025
+10030028;Gcia. Atención al Cliente no Presencial;50119408
+10030029;Gcia. Facturación;10030025
+10030037;Dir. Comercial Occidente;10030013
+10030039;Gcia. Distrito Comercial Lara;50194897
+10030039;Gcia. Comercial Lara;50194897
+10030040;Gcia. Distrito Comercial Falcón;10030037
+10030040;Gcia. Comercial Falcón;10030037
+10030042;Gcia. Distrito Comercial Zulia Este;10030037
+10030042;Gcia. Comercial Zulia Este;10030037
+10030043;Gcia. Comercial Zulia Oeste;10030037
+10030043;Gcia. Distrito Comercial Zulia Oeste;10030037
+10030045;Gcia. Distrito Comercial Mérida;50194896
+10030045;Gcia. Comercial Mérida;50194896
+10030046;Gcia. Comercial Táchira;50194896
+10030046;Gcia. Distrito Comercial Táchira;50194896
+10030047;Gcia. Comercial Trujillo;10030037
+10030047;Gcia. Distrito Comercial Trujillo;10030037
+10030053;Dir. Comercial Centro;10030013
+10030055;Gcia. Comercial Carabobo;10030053
+10030055;Gcia. Distrito Comercial Carabobo;10030053
+10030056;Gcia. Comercial Portuguesa;50194897
+10030058;Gcia. Distrito Comercial Aragua;10030053
+10030058;Gcia. Comercial Aragua;10030053
+10030059;Gcia. Distrito Comercial Sur;10030053
+10030059;Gcia. Comercial Centro Sur;10030053
+10030064;Dir. Comercial Oriente;10030013
+10030066;Gcia. Comercial Anzoátegui;10030064
+10030066;Gcia. Distrito Comercial Anzoátegui;10030064
+10030067;Gcia. Distrito Comercial Nueva Esparta;10030064
+10030067;Gcia. Comercial Nueva Esparta;10030064
+10030069;Gcia. Distrito Comercial Bolívar Este;10030064
+10030069;Gcia. Comercial Bolívar Este;10030064
+10030070;Gcia. Distrito Comercial Bolívar Norte;10030064
+10030070;Gcia. Comercial Bolívar Norte;10030064
+10030071;Gcia. Distrito Comercial Monagas Norte;10030064
+10030071;Gcia. Comercial Monagas Norte;10030064
+10030083;Vicepresidencia Operaciones y Sistemas;10030000
+10030084;Dir. Soporte Operacional y Sistemas;10030083
+10030088;Gcia. Procesos Operativos;10030084
+10030091;Gcia. Desarrollo de Aplicaciones;10030084
+10030091;Gcia. Desarrollo e Integración  Sistemas;10030084
+10030092;Gcia. Desarrollo Tecnología Inalámbrica;10030084
+10030092;Gcia. Desarrollo Integración  Productos;10030084
+10030093;Gcia. Servicios Soporte y Producción;10030084
+10030094;Gcia. Soluciones Internet;10030084
+10030094;Gcia. Soporte Operacional;10030084
+10030095;Dir. Planif. e Ingeniería de la Red;10030083
+10030095;Dir. Planificación;10030083
+10030096;Gcia. Evolución Tecnológica de la Red;10030095
+10030105;Gcia. Administración de Contratos;50169281
+10030106;Gcia. Construcción;50169278
+10030108;Gcia.Implementación Red de Acceso;50169278
+10030109;Gcia. Proyectos;50169281
+10030113;Gcia. O&M Red de Acceso Región Capital;50179452
+10030114;Gcia. O&M Red de Acceso Región Occidente;50179452
+10030115;Gcia. O&M Red de Acceso Reg Ctro Occid.;50179452
+10030115;Gcia.O&M Red de Acceso Reg Centro Occid.;50179452
+10030116;Gcia.O&M Red de Acceso Región Oriente;50179452
+10030117;Gcia. Mantenimiento Mayor;50169280
+10030118;Gcia.Op.y Mantto.Conm.y Dat.Oriente;50169279
+10030120;Gcia. Control de Gestión Operativa;50157830
+11000000;Corporación CANTV;
+50057563;Coord. Proyectos;10000550
+50057565;Coord. Adecuación y Uso de Espacios;10000551
+50058552;Gcia. Atención al Cliente;10000332
+50058554;Coord. Crédito y Cobranzas;50058552
+50058556;Coord. Adm. Cuenta y Orden;50058552
+50058558;Coord. Facturación de Interconexión;50058552
+50063385;Coord. Mercadeo Estratégico al Canal;50140176
+50063387;Gcia. Ventas Region Centro Occidente;50089579
+50064649;Coordinación de Alianzas Estratégicas;10000300
+50064755;Coordinación Ventas Turismo;10000306
+50064763;Gcia. Ventas Instituciones;10000490
+50070698;Coord. Aseguramiento Calidad e Ingresos;10000300
+50071127;Gcia. Servicios Masivos;10000394
+50071131;Gcia. Canales y Soporte Comercial;10000394
+50071363;Coord. Asesoría y Procedim. Laborales;10000380
+50072083;Gcia. Producción;10020000
+50072084;Coord. Producción Gráfica;50072083
+50072105;Gcia. Distribución de Medios Prepagados;10030014
+50072107;Gcia. Administración Medios Prepagados;10030014
+50072109;Gerencia de Valores;10030014
+50073110;Coord. Soporte y Gestión Comercial;50071131
+50073111;Coord. Operaciones de Telecom. Públicas;50148900
+50073165;Gcia. Ventas;10020000
+50073167;Coord. Ventas Impresos Caracas;50073165
+50073169;Coord. Ventas PYME;50073165
+50073170;Coord. Ventas Impresos Centro;50073165
+50073171;Coord. Ventas Impresos Occidente;50073165
+50073172;Coord. Ventas Impresos Oriente;50073165
+50073630;Coord. Roaming Internacional Movilnet;10000342
+50073637;Coord.Planificación de Negocios Movilnet;10000337
+50073640;Gcia. Operaciones Centralizadas;50094636
+50073718;Gcia. Costos y Desempeño Económico;50137673
+50073738;Gcia. Soporte de las Redes;50073640
+50073742;Coord. Soporte Conmutación;50073738
+50073746;Coord. Admon. de Redes de Transporte;50073738
+50073805;Gerencia Servicios Masivos Reg Capital;50071127
+50073807;Gerencia Serv. Mas. Reg Centro Occidente;50071127
+50073808;Gerencia Servicios Masivos Reg Andes;50071127
+50073809;Gerencia Servicios Masivos Reg Occidente;50071127
+50073875;Coord. Seguridad de Redes;50079704
+50073886;Coord. Control Administrativo;10000399
+50073900;Gcia. Operaciones TI Centralizadas;50073640
+50073902;Coord. Operaciones de Hosting;50073900
+50073904;Coord.Ctrol. Infraestructura Datacenters;50073900
+50073910;Gcia. Operaciones TI Distribuidas;50073640
+50073912;Coord. Centro Interactivo Corporativo;50073910
+50073914;Coord. Operaciones de Campos;50073910
+50073916;Coord. Control de Inventario;50073910
+50073918;Coord. Telefonía Privada;50073910
+50074093;Coord. Canales Atención Presencial;50071131
+50074148;Coord. Servicios Masivos Aragua;50156451
+50074317;Coord. Servicios Masivos Nueva Esparta;50156453
+50074761;Coord. Servicios Masivos Guárico;50156451
+50074771;Coord. Servicios Masivos Portuguesa;50073807
+50074937;Coord. Servicios Masivos Táchira;50073808
+50074947;Coord. Servicios Masivos Zulia Oeste;50073809
+50075083;Gcia. Gral. Mercadeo Corporativo;50198278
+50078696;Gcia. Planificación y Mercadeo;10020000
+50078850;Coord. Productos Impresos;50078696
+50078854;Coord. Productos Digitales  Alternativos;50078696
+50079097;Gcia. de Productos y Precios;50075083
+50079098;Gcia. Comunicaciones de Mercadeo;50075083
+50079689;Gcia. Finanzas Telecomunicaciones Fijas;10000572
+50079695;Gcia.Finanzas Telecomunicaciones Móviles;10000572
+50079704;Gcia. Seguridad Tecnológica;50085876
+50079707;Coord. Seguridad Acceso Lógico;50079704
+50148906;Coord. Acceso Datos;50148698
+50079708;Coord. Seguridad de Información;50079704
+50079709;Coord. Investigac. Informática Forense;50085881
+50079725;Gcia. Finanzas Apoyo a Unidades de Serv.;10000572
+50080830;Gcia. Procura Obras;50222905
+50080831;Gcia. Procura Modalidades Excepcionales;50222905
+50081376;Gcia. de Calidad y Activos de la Red;50157830
+50082100;Coord. Pase a Producción;10000043
+50082138;Coord. Ventas Región Centro Occ. I;50063387
+50082139;Coord. Ventas Región Centro Occ.II;50063387
+50082548;Coord. Servicios Electrónicos;50154804
+50083324;Coord. Operaciones Red Presurizada;50154804
+50083417;Coord. Desincorporación;50222979
+50083419;Coord. Gestión de Importaciones;50190474
+50085397;Dir. Comercial Gran Caracas;10030013
+50085399;Gcia.Comercial Caracas Este;50085397
+50085470;Coord. Medios y Salidas de Facturación;10000565
+50085500;Gcia.Comercial Caracas Oeste;50085397
+50085501;Gcia.Comercial Tuy Miranda Este;50085397
+50085502;Gcia.Comercial  Vargas Altos Mirandinos;50085397
+50085876;Gcia. Gral. Seguridad Integral;10000000
+50085878;Gcia.Certificación Procesos de Seguridad;50085876
+50085881;Gcia. Investigaciones;50085876
+50086312;Coord. Productos Voz;50079097
+50086501;Coord. Gestión Calidad y Certificaciones;10000039
+50086534;Gcia. Inteligencia y Servicios Mercadeo;50075083
+50086932;Coord. Logística Productos Voz;50071131
+50086933;Coord. Comunic. Entrenamiento a Canales;50071131
+50087001;Coord. de Administración y Ppto.;50075083
+50087002;Coord. Planificación de Medios;50079098
+50087003;Coord. Publicidad e Imagen de Marca;50079098
+50087005;Coord.Métodos Cuantitativo Base de Datos;50086534
+50087006;Coord. Inteligencia Competitiva;50086534
+50087008;Coord.Invest. de Mercado y Nvos.Negocios;50086534
+50089132;Coord. Desarrollo de Productos;50079097
+50089349;Coord. Ingeniería de Datos;50141650
+50089579;Gcia. Ventas;10000490
+50089866;Coord. Eventos y Patrocinios;50079098
+50089906;Coord. Documentación y Cambios;50141652
+50089907;Coord. Pruebas Integrales;50141652
+50090544;Coord. Mantenimiento Reg. Centro Occ;10000551
+50091112;Coord. Control de Cambio;10000043
+50091114;Coord. Pase a Gestión;10000043
+50091721;Coord. Investigaciones Técnicas;50085881
+50091727;Coord. Investigaciones Región I;50085881
+50091800;Coord. Investigaciones Región II;50085881
+50091803;Coord. Certificación Seguridad Productos;50085878
+50091812;Coord. Control de Seguridad;50195525
+50091815;Coord.Planif. y Control Gestión de Seg.;50195525
+50094636;Gcia. Gral.Tecnología y Operaciones;10000602
+50096151;Gcia. de Energía;10000602
+50097047;Coord. Comunicaciones de Mercadeo;50079098
+50097773;Gcia. Planif. e Ingeniería de Energía;50096151
+50097774;Gcia. Operac. Mtto. Región Ctro.Oriental;50096151
+50097900;Gcia. Operac. Mtto. Región Ctro. Occid.;50096151
+50097901;Coord. Planificación de Energía;50097773
+50097902;Coord. Ingeniería y Construcción Energía;50097773
+50097903;Coord. Seguimiento y Control de Energía;50097773
+50097904;Coord. Oper.Mtto. Zona Capital;50097774
+50097906;Coord. Oper. Mantto. Zona Oriente;50097774
+50097907;Coord. Oper.Mtto. Zona Central;50097900
+50097908;Coord. Oper.Mtto. Zona Centro Occid.;50097900
+50097909;Coord. Oper.Mtto. Zona Occidental;50097900
+50108480;Gcia. Seguridad Física;50085876
+50108481;Coord. Protección Técnica;50108480
+50108482;Coord. Control Activos Físicos;50108480
+50108483;Coord. Segur. Física Región Capital;50108480
+50108484;Coord. Segur. Física Región Occidente;50108480
+50108485;Coord. Segur. Física Región Oriente.;50108480
+50109577;Coord. Productos Electrónicos;50072083
+50109578;Coord. Validación;50072083
+50117873;Coordinación Negocios de Datos;10000342
+50118628;Gcia. Desarrollo de Canales;50119411
+50118632;Gcia. Administración y Gestión Canales;50119411
+50118636;Gcia. Mercadeo al Canal;50119411
+50119408;Dir. Canales no Presenciales;10030013
+50119411;Dir. Desarrollo de Canales;10030013
+50119514;Gcia. Comercial Sucre;10030064
+50119736;Gcia. Mercadeo Segmento Jóvenes;10030019
+50119743;Gcia. Mercadeo Segmento Bajo Consumo;10030019
+50119745;Gcia. Mercadeo Segmento Alto Consumo;10030019
+50119798;Gcia. Retención de Clientes;10030025
+50119813;Gcia. Promoción y Publicidad;10030019
+50121660;Gcia. Crédito y Cobranzas;10030025
+50121731;Coord.Proyectos Seg. Ind.,Higiene y Amb.;10000651
+50121732;Coord.Seg.Indust.,Hig.Ocupac. Amb.Reg I;10000651
+50121733;Coord.Control Gest.Seg.Indust.,Hig.y Amb;10000651
+50129659;Área Transmisión;10000241
+50137671;Gcia. Ing. Desarrollo y Const. IT/IS;50094636
+50137672;Gcia. Operaciones Regionales;50094636
+50137673;Gcia. Gestión de Calidad y Desempeño;50094636
+50138051;Coordinación de Mercadeo;10000337
+50138177;Gcia. Gestión y Calidad de Servicio;10030084
+50138584;Área Telefonía Pública;10000132
+50138586;Área Telefonía Pública;10000136
+50138588;Área Telefonía Pública;10000141
+50138591;Área Telefonía Pública;10000146
+50138594;Área Telefonía Pública;10000152
+50138596;Área Telefonía Pública;10000218
+50138598;Área Telefonía Pública;10000221
+50138605;Área Telefonía Pública;10000159
+50138607;Área Telefonía Pública;10000163
+50138609;Área Telefonía Pública;10000169
+50138611;Área Telefonía Pública;10000174
+50138626;Área Telefonía Pública;10000227
+50138628;Área Telefonía Pública;10000232
+50138631;Área Telefonía Pública;10000238
+50138633;Área Telefonía Pública;10000241
+50138657;Área Telefonía Pública;10000185
+50138659;Área Telefonía Pública;10000190
+50138661;Área Telefonía Pública;10000195
+50138702;Área Telefonía Pública;10000201
+50138919;Coord. Soporte de Proyectos;10000398
+50139633;Coord.Gestión Interinstitucional de Seg.;50195525
+50139694;Coord. Almacén Distribución Movilnet;10000626
+50139695;Coord. Serv. Especiales y Operacionales;10000545
+50139762;Coord. Riesgos de la Operación;10000646
+50140072;Gcia. Planificación;10000490
+50140073;Gcia. Planificación;50175494
+50140163;Coord. Investigación e Inteligencia Comp;50140176
+50140164;Coord. Planificación;50140072
+50140165;Cood. Precios y Tarifas;50140072
+50140167;Coord. Control de Gestión;50140072
+50140176;Gcia. Mercadeo;10000490
+50140208;Coord. Mercadeo Finanzas y Servicios;50140176
+50140210;Coord. Mercadeo Indust. Com. y Med;50140176
+50140214;Coord. Mercadeo Emprendedores;50140176
+50140215;Coord. Mercadeo Seguidores;50140176
+50140216;Coord. Productos de Voz;50161976
+50140217;Coord. Productos Móviles;50161976
+50140218;Coord. Productos de Tecnología de Info.;50161976
+50140800;Coord. Servicios Masivos Caracas Oeste;50073805
+50141349;Gcia. Cobranzas y Reclamos;50175494
+50141355;Coordinación Región Capital;50141377
+50141356;Coordinación Región Centro;50141377
+50141357;Coordinación Región Occidente;50141377
+50141358;Coordinación Región Oriente;50141377
+50141359;Coordinación Región Ctro.Occidente;50141377
+50141375;Gcia. Servicios Corporaciones Privadas;10000300
+50141376;Gcia. Servicios Corporaciones Públicas;10000300
+50141377;Gcia. Servicios Empresas;10000300
+50141378;Coord. Cob., y Recl. Corp. Privadas;50141349
+50141379;Coord. Cob., y Recl. Corp. Públicas;50141349
+50141380;Coord.Sector Banca y Finanzas;50141375
+50141381;Coord.Sector Petróleo e Industrias;50141375
+50141382;Coord.Sector Comercio y Medios;50141375
+50141383;Coord. Administración Centralizada;50141376
+50141384;Coord. Administración Descentralizada;50141376
+50141650;Gcia. Ingeniería de Soluciones;50137671
+50141652;Gcia. Entrega de Soluciones;50137671
+50141653;Gcia. Des.Mantto.Calidad de Aplicaciones;50137671
+50141719;Coord. Mediación;10000066
+50141851;Coord.Config.Ambientes y Ctrol.Versiones;50141652
+50141854;Coord. Ingeniería Admon. Financiera;50141650
+50141856;Coord. Ing. Aplicaciones Web y Portales;50141650
+50141857;Coord. Aplicaciones Sistemas Abiertos;50141650
+50141858;Coord. Aplicaciones Sistemas Legacy;50141650
+50142139;Coord. Planificación y Gestión Operativa;50154804
+50142495;Coord. Servicios Tercerizados;50141653
+50142496;Coord. Soluciones SAP;50141653
+50142498;Coord.Gest.de Prob.Manejo de Incidencias;50141653
+50142516;Coord. Registro de Proveedores;50231114
+50142517;Coord. Pagos a Proveedores;10000591
+50142523;Gcia. Atención al Cliente;50137671
+50142623;Coord. Implementación de Proyectos;50141376
+50142868;Gcia. Materiales y Equipos;50169281
+50142870;Gcia. Búsqueda de Sitio;50169281
+50142927;Dir. Centro Operaciones de la Red;10030083
+50142933;Gcia. Sistemas de Monitoreo;50142927
+50142938;Gcia. Soporte a Clientes;50142927
+50143000;Coord. Ventas Región Capital III;10000306
+50143001;Coordinación Vtas. Distrito Noreste;10000306
+50143002;Coord. Ventas Región Capital IV;10000306
+50143003;Coord. Ventas Región Capital V;10000306
+50143004;Coord. Ventas Región Capital I;10000306
+50143005;Coord. Ventas Región Capital VI;10000306
+50143006;Coord. Ventas Región Capital II;10000306
+50143014;Coord. Ventas Región Centro I;10000307
+50143015;Coord. Ventas Región Centro II;10000307
+50143016;Coord. Ventas Región Centro III;10000307
+50143024;Coord. Ventas Región Occidente I;10000308
+50143029;Coord. Ventas Región Occidente II;10000308
+50143031;Coord. Ventas Región Occidente III;10000308
+50143033;Coord. Ventas Región Oriente I;10000309
+50143035;Coord. Ventas Región Oriente II;10000309
+50143037;Coord. Ventas Región Oriente III;10000309
+50143043;Gcia. Planificación Red de Transporte;10030095
+50143045;Gcia. Planificación Red de Acceso;10030095
+50143047;Gcia. Planificación Plataformas y Serv.;10030095
+50143049;Gcia. Modelaje y Dimensionamiento;10030095
+50143080;Dir. Ingeniería;10030083
+50143081;Gcia. Ingeniería de Radio Frecuencia;50143080
+50143082;Gcia. Ingeniería de Conmutación;50143080
+50143083;Gcia. Ingeniería de Transmisión;50143080
+50143084;Gcia. Ingeniería Redes Paquetizadas;50143080
+50143085;Gcia. Ingeniería de Celdas;50143080
+50143086;Gcia. Ingeniería Sistemas de Energía;50143080
+50143278;Dir. Optimización  y Desempeño;10030083
+50143284;Gcia. Optimización CORE / Network;50143278
+50143286;Gcia. Optimización de Radio Frecuencia;50143278
+50143292;Gcia. Desempeño de Productos y Servicio;50143278
+50143451;Coord. Control Producción Postpago;50165535
+50143454;Coord. Inteligencia del Negocio;50165535
+50143456;Coord. Soporte Infraest.Atención Cliente;10030093
+50143461;Coord.Administración y  Soporte Postpago;50165535
+50143463;Coord.Mantenimiento y Control de Cambios;50165535
+50143465;Coord. Soporte Aplicación y Servicio;10030093
+50143470;Coord. Soporte Servicios Emergentes;10030094
+50143472;Coord. Soporte Procesos Prepagados;50148806
+50143488;Coord. Sistemas Operativos;10030088
+50143492;Coord. Storage;10030088
+50143494;Coord. Base de Datos;10030088
+50143498;Coord.Soporte Plataformas Aplicación;10030088
+50143722;Gcia. Planificación de Redes;10000041
+50143726;Gcia. Arquitectura de Redes;10000041
+50143727;Gcia. Aplicaciones Servicios Centralizad;10000041
+50146178;Coord. Relación con el Cliente;50142523
+50146179;Coord. Gestión de Requerimientos;50142523
+50146180;Coord. Planificación y Costos;50142523
+50146182;Gcia. Repuestos y Logística;50169280
+50146211;Gcia. de Transmisión;50169279
+50147105;Coord.Aplicaciones Sist.Aprovisionamient;50141650
+50147539;Coord. Ing. Infraestructura G Caracas T;50169525
+50147547;Coord.Ingeniería Tráfico de Celdas;50143085
+50147567;Coord. Ingeniería de Equipos;50143085
+50147574;Coord.Ingeniería de Redes Operacionales;50143084
+50147577;Coord.Ingeniería de Datos Inalámbricos;50143084
+50147580;Coord.Ingeniería Tráfico de Conmutación;50143082
+50147583;Coord.Ing.Crecimiento de Conmutación;50143082
+50147587;Coord.Ingeniería Transmisión Regional;50143083
+50147588;Coord.Ingeniería Transmisión Regional;50143083
+50147599;Coord.Ing.Radio Frecuencia Reg.Capital;50143081
+50147625;Coord.Ing.Radio Frecuencia Reg.Centro;50143081
+50147626;Coord.Ing.Radio Frecuencia Reg.Oriente;50143081
+50147627;Coord.Ing.Radio Frecuencia Reg.Occidente;50143081
+50147841;Coord.Optimización CORE/Network;50143284
+50147842;Coord. Estadísticas Operativas;50143284
+50147853;Coord.Optim.Radio Frecuencia Caracas;50143286
+50147854;Coord.Optim.Radio Frecuencia Centro;50143286
+50147855;Coord.Optim.Radio Frecuencia Oriente;50143286
+50147856;Coord.Optim.Radio Frecuencia Occidente;50143286
+50147874;Coord.Desemp.Opera.Productos y Servicios;50143292
+50147900;Coord.Homologación Productos y Servicios;50143292
+50147911;Gcia. Soporte Red Móvil;50143278
+50147912;Gcia. Soporte Redes Paquetizadas;50143278
+50147915;Coord. Soporte Conmutación Móvil;50147911
+50147916;Coord. Integración a la Red Móvil;50147911
+50147934;Coord. Soporte BackBone;50147912
+50147935;Coord. Datos Inalámbricos;50147912
+50147946;Coord. Integración de Redes y Sistemas;50142933
+50147947;Coord.Análisis y Calidad de Redes y Sist;50188377
+50147974;Coord. Monitoreo y Control;50151068
+50147976;Coord. Soporte Prim.Línea Fijo Inalámb.;50142938
+50147977;Coord. Soporte de Averías;50142938
+50147978;Coord. Conciliación y Aprovisionamiento;50142938
+50147996;Coord. Soporte Prim.Línea Móvil;50142938
+50148004;Coord. Procesos y Seguimiento;50142938
+50148025;Coord. Monitoreo y Control;50151068
+50148026;Coord. Procesos y Backup;50151068
+50148027;Coord. Monitoreo y Control;50151068
+50148028;Coord. Monitoreo y Control;50151068
+50148030;Coord. Monitoreo y Control;50151068
+50148031;Coord. Control de Cambios;50142927
+50148182;Coord.Construc.Red Acc.Central y CtroOcc;10030106
+50148183;Coord. Construc.Red Acc. Occid.y Andes;10030106
+50148184;Coord.Construc.Red de Acc. Oriente;10030106
+50148262;Coord.Planif.Materiales y Equipos;50142868
+50148263;Coord.Logística, Materiales y Equipos;50142868
+50148267;Coord. Implement. Red de Acceso Capital;10030108
+50148268;Coord. Implem. Red de Acceso Occ y Andes;10030108
+50148636;Gcia.Implementación Red Fija;50169278
+50148638;Coord.Conmutación;50148636
+50148639;Coord.Transmisión y Nodos de Servicios;50148636
+50148640;Coord.Red de Datos;50148636
+50148652;Coord.Búsqueda de Sitio Reg Central;50142870
+50148654;Coord.Administración Servicios de la Red;10030105
+50148655;Coord.Gestión Contratación de Servicios;10030105
+50148656;Coord.Administración de Sitios de la Red;10030105
+50148657;Coord. Administración de Sitios;50198185
+50148698;Gcia. Mercadeo Hogares;10000394
+50148729;Coord. Atención y Soporte al Cliente;50138177
+50148730;Coord. Calidad del Servicio;50138177
+50148731;Coord. Control Interno;50138177
+50148806;Gcia. Control Operativo;10030084
+50148809;Coord. Conciliación y Control Interno;50148806
+50148810;Coord. Interconexión;50148806
+50148811;Coord.Post-Mediac.y Conciliac.con Tercer;50148806
+50148830;Coord. Desarrollo Aplicaciones;10030091
+50148831;Coord. Integración de Aplicaciones;10030091
+50148832;Coord. Control Calidad de Aplicaciones;10030091
+50148833;Coord. Desarrollo Procesos del Negocio;10030091
+50148834;Coord. Análisis de Factibilidad;10030091
+50148835;Coord. Información Comercial;10030091
+50148900;Gcia. Telecomunicaciones Públicas;10000394
+50148901;Coord. Canales Atención no Presencial;50071131
+50148902;Coord. Canales de Pago;50071131
+50148904;Coord. Acceso Voz;50148698
+50148907;Coord. Uso, Valor Agregado y Contenidos;50148698
+50148908;Coord. Mercadeo al Canal;50148698
+50148909;Coord. Segmentos y Retención;50148698
+50148949;Coord.Oper.y Mtto.Conmutación y Datos;10030118
+50148977;Coord. Proyectos Nuevos Productos;10030092
+50148978;Coord. Proyectos Mejora Continua;10030092
+50148979;Coord. Proyectos Sistemas;10030092
+50148980;Coord. Proyectos Especiales;10030092
+50149050;Coord.Oper.y Mtto.Conmutación y Datos;10030118
+50149051;Coord.Oper.y Mtto.Conmutación y Datos;10030118
+50149064;Coord. Planificación de Repuestos;50146182
+50149065;Coord. Logística de Recursos;50146182
+50149110;Coord. Ingeniería y Mantenimiento;10030117
+50149111;Coord. Ing. Infraestructura Central;50169525
+50149150;Coord.Oper.Mantto.Red Acceso Chacao;10030113
+50149151;Coord.Oper.Mantto.Red Acceso La Salle;10030113
+50149152;Coord.Oper.Mantto.Red Acc.Catia La Mar;10030113
+50149172;Coord.Oper.Mantto.Red Acc.La Urbina;10030113
+50149173;Coord.Oper.Mantto.Red Acc.San Antonio;10030113
+50149174;Coord.Oper.Mantto.Red Acc.Guarenas;10030113
+50149190;Coord.Oper.Mantto.Red Acceso Valencia;50198176
+50149191;Coord.Oper.Mantto.Red Acceso Maracay;50198176
+50149192;Coord.Oper.Mantto.Red Acc.Barquisimeto;10030115
+50149209;Coord.Oper.y Mtto.Conmutación y Datos;50169469
+50149210;Coord.Oper.y Mtto.Conmutación y Datos;50169469
+50149219;Coord.Oper.Mantto.Red Acc. Pto.Ordaz;10030116
+50149220;Coord.Oper.Mantto.Red Acc Pto.La Cruz;10030116
+50149221;Coord.Oper.Mantto.Red Acceso Margarita;10030116
+50149222;Coord.Oper.y Mtto.Conmutación y Datos;10030118
+50149223;Coord.Oper.y Mtto.Conmutación y Datos;10030118
+50149240;Coord.Oper.Mantto.R.Acceso Falcón;10030114
+50149241;Coord.Oper.Mantto.R.Acceso Maracaibo;10030114
+50149242;Coord.Oper.Mantto.R.Acceso San Cristobal;50198175
+50149243;Coord.Oper.y Mtto.Conmutación y Datos;50169469
+50149244;Coord.Oper.y Mtto.Conmutación y Datos;50169469
+50149585;Coord.Mediación y Aprovisionamiento;50148806
+50149815;Coord. Admon. y Control de Canales;50140072
+50149817;Coord. Ventas Canales Telefónicos y Virt;10000300
+50150248;Coord.Prevención Consumo de Drogas;10000362
+50150648;Coord. Provisión Serv. Redes de Telecom;50152150
+50150735;Coord. Soporte Redes de Nva.Generación;50073738
+50150738;Coord. Operaciones de Redes;50073910
+50150743;Coord.Gest.Medic.Tráf. de Voz y Eq.Factu;10000066
+50151044;Coord. Productos de Voz;50148900
+50151045;Coord. Segmentos y Medios de Pago;50148900
+50151046;Coord. Productos de Datos;50148900
+50151068;Gcia. Monitoreo y Control;50142927
+50151533;Coord. Red Inteligente;10000066
+50152150;Gcia. Centro de Operaciones Última Milla;50073640
+50152961;Gcia. Canales;50075083
+50152972;Coord. Productos de Datos;50161976
+50153238;Coord. Desempeño Costos Operativos;50073718
+50153239;Coord. Costos Operativos;50073718
+50154300;Coord. Operaciones de Plataformas;50141650
+50154477;Coord. Atención Comercial Postventa;10000399
+50154478;Coord. Atención Técnica Postventa;10000399
+50154480;Coord. Aseguramiento de la Calidad;10000399
+50154802;Coord. Productos Datos;50079097
+50154804;Gcia. Gestión Operativa;50137672
+50154805;Coord. Seg.y Análisis Gestión Operativa;50154804
+50155352;Coord. Inmuebles;10000551
+50156451;Gerencia Servicios Masivos Reg Central;50071127
+50156453;Gerencia Servicios Masivos Reg Oriente;50071127
+50157187;Coord. Monitoreo y Control;50151068
+50157830;Dir. Gestión de Programas;10030083
+50157832;Gcia. Gestión de Proyectos;50157830
+50157862;Coord. de Calidad;50081376
+50157863;Coord. Activos de la Red;50081376
+50158070;Coord. Ingeniería y Mantenimiento;50146211
+50158071;Coord. Ingeniería y Mantenimiento;50146211
+50160088;Gcia. Centro Transacciones Corporativas;50137671
+50160089;Coord. Desarrollo CTC;50160088
+50160090;Coord. Operación y Mantenimiento;50160088
+50160096;Gcia. Gestión de Tráfico;50073640
+50160341;Coord. Seguimiento de Fallas;50151068
+50160840;Gcia. Productos;10030019
+50160847;Gcia. Precios y Promociones;10030019
+50160865;Aprendices Cantv y filiales;10000366
+50160866;Aprendices Cantv Caracas;50160865
+50160867;Aprendices Cantv Centro;50160865
+50160868;Aprendices Cantv Occidente;50160865
+50160869;Aprendices Cantv Oriente;50160865
+50160871;Aprendices Cantv Centro Occidente;50160865
+50160872;Aprendices Movilnet;50160865
+50160874;Aprendices Caveguías;50160865
+50160875;Aprendices Cantv. net;50160865
+50161107;Coord. Implement. Red de Acceso Oriente;10030108
+50161109;Coord. Control de Inventario;50146182
+50161204;Coord. Soporte Prepago;10030094
+50161205;Coord. Soporte Servicio de Mensajería;10030094
+50161207;Coord.Sop.Servicio Roaming Internacional;50147911
+50161530;Gcia. Nodos y Transporte;10000035
+50161531;Gcia. Red Miranda;10000035
+50161532;Gcia. Red Dtto.Capital-Vargas;10000035
+50161533;Gcia. Obras y Proy.Red y Nodos de Acceso;10000035
+50161559;Coord. Consultoría y Atención al Usuario;10000366
+50161560;Coord. Planificación de Formación;10000366
+50161561;Coord. Centro Estudios Telecom. Informát;10000366
+50161976;Gcia. Productos;10000490
+50161981;Coord.Productos de Internet y Contenidos;50161976
+50162203;Coord. Seg.Provisión Circuitos de Datos;50152150
+50162644;Coord. Energía Red de Acceso;50143086
+50162645;Coord. Energía Red Fija;50143086
+50162665;Coord. Clientes Gerencias Generales;50073900
+50162666;Coord. Clientes Unidades de Negocios;50073900
+50162667;Coord.Clientes Operaciones Centralizadas;50073900
+50162923;Coord.Homologación Terminal Inalámbrico;50143292
+50163119;Coord.Nodos y Transp. Area Metropolitana;50161530
+50163120;Coord.Nodos y Transp. Area Foráneas;50161530
+50163121;Coord.Sist.Espec.Inálb.Fibra Optica;50161530
+50163128;Coord. Miranda I;50161531
+50163129;Coord. Miranda II;50161531
+50163130;Coord. Clientes Especiales;50161531
+50163135;Coord. Capital I;50161532
+50163136;Coord. Capital II;50161532
+50163137;Coord. Clientes Especiales;50161532
+50163371;Gcia. Inst. Púb. Pod. Púb. Seg. y Defen.;50189131
+50163374;Gcia. Inst. Púb. Recursos Energéticos;50189131
+50163615;Coord. Ing. y Expansión Red de Acceso;50161533
+50163616;Coord. Registro y Control Red de Acceso;50161533
+50163617;Coord. Control Financiero y de Calidad;50161533
+50163618;Coord. Construcción Red de Acceso;50161533
+50163619;Coord. Moderniz. y Adecuación de Planta;50161533
+50163848;Área Operac Centr DP;50163135
+50163849;Área Mantenimiento;50163135
+50163996;Área Datos;50163137
+50163997;Área Telefonía Pública;50163137
+50163998;Área ABA;50163137
+50164125;Área Técnica;50163135
+50164126;Área Operac Centr DP;50163136
+50164127;Área Mantenimiento;50163136
+50164128;Área Técnica;50163136
+50164131;Área Datos;50163130
+50164132;Área Telefonía Pública;50163130
+50164133;Área ABA;50163130
+50164134;Área Operac Centr DP;50163128
+50164135;Área Mantenimiento;50163128
+50164136;Área Técnica;50163128
+50164137;Área Operac Centr DP;50163129
+50164138;Área Mantenimiento;50163129
+50164139;Área Técnica;50163129
+50164209;Área Datos;50163119
+50164210;Área Transmisión;50163121
+50164211;Área Conmutación;50163119
+50164212;Área Servicios Especiales;50163121
+50164213;Área Fibra Óptica;50163121
+50164214;Área Sistemas Inalámbricos;50163121
+50164255;Coord. Implementación de Proyectos;50141375
+50164257;Coord. Logística Comercial;10000300
+50164259;Coord. Factur. Reclamos Análisis Riesgo;50141349
+50165535;Gcia.Sop.Postpago e Inteligencia Negocio;10030084
+50165627;Coord.Gestión Cambios y Configuraciones;10030093
+50165628;Coord. Operaciones y Optimización;10030093
+50166014;Coord.Ingeniería Facilidades de la Red;50143083
+50166146;Área Técnica;10000152
+50166382;Coord. Apoyo Técnico Neg. Regulados;10000333
+50166383;Coord. Apoyo Técnico Neg. No Regulados;10000333
+50166384;Coord. Apoyo Técnico Movilnet;10000333
+50167058;Gcia. Atención Gestión Humana;10000362
+50167315;Gcia. Planificación y Optimización;50119408
+50167316;Gcia. Canales Virtuales;50119411
+50167317;Gcia. Atención y Resolución 2do. Nivel;50119408
+50169277;Dir. Operación y Mantenimiento de la Red;10030083
+50169278;Gcia. Gestión Técnica;50198014
+50169279;Gcia. Conmutación y Datos;50169277
+50169280;Gcia. Gestión Operativa;50169277
+50169281;Gcia. Gestión Administrativa;50198014
+50169386;Coord. Planific. e Investigac. Mercado;50078696
+50169465;Gcia. Gestión de Fallas;50179452
+50169469;Gcia.Op.y Mantto.Conm.y Dat.Occidente;50169279
+50169473;Gcia. Análisis de Fallas;50169280
+50169525;Gcia. Ingeniería de Infraestructura;50169278
+50171819;Gcia. Data Center Clientes Externos;50073640
+50171924;Coord.Búsqueda de Sitio Reg Oriental;50142870
+50171950;Coord.Búsqueda de Sitio Reg Occidental;50142870
+50171959;Coord. Ing. Infraestructura Occidente;50169525
+50171960;Coord. Ing. Infraestructura Oriente;50169525
+50172001;Coord. Ingeniería y Mantenimiento;10030117
+50172003;Coord. Ingeniería y Mantenimiento;50146211
+50172074;Gcia. Tecnologías de Información;10000362
+50172233;Coord. Ventas Med. Digitales Alternativo;50073165
+50172236;Coord. Ventas Impresos Centro Occid.;50073165
+50172253;Coord. Gastos Operativos;50073718
+50172348;Gcia. Planificación de Medios de Acceso;10000041
+50172978;Coord. Diseño Modelo Medición Desempeño;10000125
+50172982;Coord. Desarrollo Modelo de Desempeño;10000125
+50172983;Coord. Control de Gestión;10000125
+50173270;Gcia. Servicios y Soluciones Operativas;50137673
+50173531;Coord. Ingeniería de Periféricos;50143082
+50173915;Coord.  Ventas Virtuales;50071127
+50174581;Coord. Gestión de Fondos;10000596
+50174582;Coord. Soporte de Tesorería;10000596
+50174733;Coord. Gestión del Cambio Organizacional;10000656
+50175493;Gcia. Gral. para Fortalec. Poder Popular;10000000
+50175494;Gcia. Gral. Instituciones Públicas;50198278
+50175497;Gcia. Gral. Planificación;50211237
+50175505;Coord.Oper.Mantto.R.Acceso Mérida/Truj.;50198175
+50175506;Coord.Oper.Mantto.Red Acceso Cojedes;10030115
+50175507;Coord. Oper. Mantto. Red Acceso Sucre;10030116
+50179060;Gcia. Optimización de Procesos;50175497
+50179072;Gcia. Control Posterior;10000255
+50179073;Gcia. Determinación de Responsabilidades;10000255
+50179075;Coord. Administración y Gestión;10000255
+50179085;Gcia. Impulso a la Economía Social;50175493
+50179086;Gcia. Programas Sociales;50175493
+50179088;Gcia. Acompañ. Comunal Reg. Capital;50175493
+50179089;Gcia. Acompañ. Comunal Reg. Los Andes;50175493
+50179090;Gcia. Acompañ. Comunal Reg. Centro;50175493
+50179091;Gcia. Acompañ. Comunal Reg. Oriente;50175493
+50179092;Gcia. Acompañ. Comunal Reg. Occidente;50175493
+50179093;Gcia. Acompañ. Comunal Reg. Centro Occid;50175493
+50179094;Coord. Acompañ. Comunal Edo. Miranda;50179088
+50179095;Coord. Acompañ. Comunal Edo. Vargas;50179088
+50179096;Coord. Acompañ. Comunal Dtto. Capital;50179088
+50179097;Coord. Acompañ. Comunal Edo. Bolívar;50179091
+50179098;Coord. Acompañ. Comunal Edo. Amazonas;50179090
+50179099;Coord. Acompañ. Comunal Edo. Apure;50179090
+50179125;Coord. Acompañ. Comunal Edo. Aragua;50179090
+50179126;Coord. Acompañ. Comunal Edo. Carabobo;50179090
+50179127;Coord. Acompañ. Comunal Edo. Cojedes;50179093
+50179128;Coord. Acompañ. Comunal Edo. Guárico;50179090
+50179129;Coord. Acompañ. Comunal Edo. Anzoátegui;50179091
+50179130;Coord. Acompañ. Comunal Edo. Monagas;50179091
+50179131;Coord. Acompañ. Comunal Edo. NvaEsparta;50179091
+50179132;Coord. Acompañ.Comunal Edo.Delta Amacuro;50179091
+50179133;Coord. Acompañ. Comunal Edo. Sucre;50179091
+50179135;Coord. Acompañ. Comunal Edo. Zulia;50179092
+50179136;Coord. Acompañ. Comunal Edo. Táchira;50179089
+50179137;Coord. Acompañ. Comunal Edo. Trujillo;50179092
+50179138;Coord. Acompañ. Comunal Edo. Mérida;50179089
+50179139;Coord. Acompañ. Comunal Edo. Barinas;50179089
+50179140;Coord. Acompañ. Comunal Edo. Lara;50179093
+50179141;Coord. Acompañ. Comunal Edo. Portuguesa;50179093
+50179142;Coord. Acompañ. Comunal Edo. Falcón;50179092
+50179143;Coord. Acompañ. Comunal Edo. Yaracuy;50179093
+50179224;Gcia. Prom. Inst. y Audiovisuales;10000004
+50179227;Coord.Planificación y Control de Gestión;50237442
+50179418;Coord. Gestión Comercial;50071127
+50179452;Gcia.Operación y Mantto Red de Acceso;50169277
+50179962;OAC Maracay;50074148
+50180921;Gcia. Interconexión Inst. Públicas;10000332
+50180923;Coord. Negociación y Convenios Públicos;50180921
+50181001;Dir. Planificación;10030013
+50181015;Coord. Aud.Financiera y Ctrol.Normativo;50179072
+50181016;Coord. Potestad Investigativa;50179072
+50181068;Coord. Promoción Institucional;50179224
+50181069;Coord. Audiovisuales;50179224
+50181075;Coord. Infraestructura e Interconexión;50180921
+50181487;Coord. Comunicaciones y Publicidad;50078696
+50181681;Gerencia de Asuntos Privados;10000001
+50181683;Gerencia de Asuntos Judiciales;10000001
+50181684;Gerencia de Asuntos Públicos;10000001
+50181697;Coord. Monitoreo de Seguridad;50079704
+50181931;Coord. Control de Gestión;10020000
+50182169;Coord. Tráfico y Numeración;50147911
+50182170;Coord.Señalización Registro Suscriptores;50147911
+50182213;Oficina CCCT;50085399
+50182214;Oficina Comercial Lido;50085399
+50182215;Oficina Comercial Sambil Caracas;50085399
+50182216;Oficina Comercial El Recreo;50085500
+50182217;Oficina Comercial Metrocenter;50085500
+50182218;Oficina Comercial Buenaventura;50085501
+50182219;Oficina Comercial Sambil Maracaibo;10030043
+50182220;Oficina Comercial Maracaibo;10030043
+50182221;Oficina Comercial Mérida;10030045
+50182222;Oficina Comercial San Cristóbal Barrio O;10030046
+50182223;Oficina Comercial Sambil San Cristóbal;10030046
+50182224;Oficina Comercial Valera;10030047
+50182225;Oficina Comercial Bqto. Metrópolis;10030039
+50182226;Oficina Comercial Las Trinitarias;10030039
+50182227;Oficina Comercial Valencia;10030055
+50182228;Oficina Comercial Valencia Metrópolis;10030055
+50182229;Oficina Comercial Maracay;10030058
+50182230;Oficina Comercial Puerto La Cruz;10030066
+50182231;Oficina Comercial Nueva Esparta;10030067
+50182232;Oficina Comercial Orinokia;10030069
+50182233;Oficina Comercial Ciudad Bolívar;10030070
+50182234;Oficina Comercial Maturín;10030071
+50182917;Gcia. Técnica de Productos y Servicios;10030083
+50185563;Oficina Comercial Alto Valor;50191042
+50186709;Coord. Serv. Masivos Vargas Altos Mirand;50073805
+50186710;Coord. Servicios Masivos Yaracuy;50073807
+50186711;Coord. Servicios Masivos Barinas;50073808
+50186712;Coord. Servicios Masivos Trujillo;50073809
+50186713;Coord. Servicios Masivos Anzoátegui;50156453
+50187647;Gcia. Planif. y Arquitectura de Sistemas;10000041
+50188064;Coord.Seg.Indust.,Hig.Ocupac. Amb.Reg II;10000651
+50188070;Coord. Salud Integral;10000535
+50188071;Coord. Administración de Salud;10000535
+50188198;Emergencias *1;10030028
+50188199;Roaming;10030028
+50188200;Plan Naranja;10030028
+50188201;Tienda Virtual, Centro Canje, Can. Venta;10030028
+50188202;Atento;10030028
+50188203;Unisys;10030028
+50188205;Reclamos Turnos I y II;50167317
+50188206;Isla de Retención;50167317
+50188207;Soporte Técnico;50167317
+50188208;Seguimiento;50167317
+50188377;Gcia. Procesos, Gestión y Calidad;50142927
+50189021;Coordinación de Operación de Medios;50079098
+50189131;Gcia. Consultoría Servicios y Soluciones;50175494
+50189165;Coord. Calidad de Vida Part. Trabajo Vol;10000653
+50189167;Coord. Gestión Humana Región Los Andes;10000387
+50189170;Coord. Gestión del Cambio Proy. Estrateg;10000656
+50189541;Gcia. Inst. Púb. Regional y Local;50189131
+50189543;Gcia. Inst. Púb. Des. Ecom. Ind. y Comer;50189131
+50189545;Gcia. Inst. Púb. Des. Soc. y Cal. Vid.;50189131
+50189548;Coord. Administración y Soporte Gestores;50142933
+50189549;Coord. Capacidad de Monitoreo y Automat.;50142933
+50189550;Coord. Auditoría y Gestión;50188377
+50189587;Gcia. Análisis Estud. del Sector Públic;50175494
+50190474;Gcia. Gestión de Procura;50222905
+50190790;Gcia. Procura Bienes y Servicios;50222905
+50191042;Gcia.Comercial Alto Consumo Gran Caracas;50085397
+50192281;Oficina Comercial Plaza Mayor;10030066
+50192350;Oficina Comercial Millenium;50085399
+50192746;Aprendices Cantv Los Andes;50160865
+50192927;Pasantes Cantv Caracas;10000372
+50192928;Pasantes Cantv Centro;10000372
+50192929;Pasantes Cantv Occidente;10000372
+50192930;Pasantes Cantv Oriente;10000372
+50192931;Pasantes Cantv  Centro Occidente;10000372
+50192932;Pasantes Cantv Los Andes;10000372
+50192933;Pasantes Movilnet;10000372
+50192934;Pasantes Caveguías;10000372
+50193351;Gcia. Análisis Económico y del Entorno;50175497
+50194896;Dir. Comercial Andes;10030013
+50194897;Dir. Comercial CentroOccidente;10030013
+50195419;Coord. Segur. Física Región Central;50108480
+50195421;Coord. Segur. Física Región Cent.Occ.;50108480
+50195424;Coord. Segur. Física Región Los Andes;50108480
+50195525;Gcia.Planif.Asunt. Interinstituc. Segur.;50085876
+50195527;Coord. Cuerpo Combatiente;50195525
+50195529;Coord. Sala Situacional;50085878
+50195678;Coord. Certificación Segurid. Plataforma;50085878
+50195911;Gcia. Aprovisionamiento;10000394
+50195913;Coord. Proyectos de Aprovisionamiento;50195911
+50196002;Coord. Aprovisionamiento de Voz;50195911
+50196003;Coord. Aprovisionamiento de Datos;50195911
+50196130;Coord. Servicios Masivos Caracas Este;50073805
+50196132;Coord. Servicios Masivos Carabobo;50156451
+50196134;Coord. Servicios Masivos Lara;50073807
+50196135;Coord. Servicios Masivos Zulia Este;50073809
+50196137;Coord. Servicios Masivos Monagas;50156453
+50196480;Coord. Logística Productos Datos;50071131
+50198014;Dir. Expansión de la Red;10030083
+50198016;Coord.Oper.Mantto.Red Acceso San Martín;10030113
+50198017;Coord.Oper.Mantto.Red Acceso Caucagua;10030113
+50198020;Coord.Oper.Mantto.Red Acceso Cta.Orient;10030114
+50198021;Coord.Oper.Mantto.Red Acceso Barinas;50198175
+50198022;Coord.Oper.Mantto.Red Acceso Maturín;10030116
+50198023;Coord.Oper.Mantto.Red Acceso Cdad.Boliv.;10030116
+50198024;Coord.Oper.Mantto.Red Acceso Centro Sur;50198176
+50198175;Gcia.O& M.Red de Acceso Reg. Andes;50179452
+50198176;Gcia.O& M.Red de Acceso Reg. Central;50179452
+50198185;Gcia.Gestión Administrativa Oper. y Mant;50169280
+50198186;Coord. Administración de Contratos;50198185
+50198189;Coord.Construc.Red de Acc. Capital;10030106
+50198191;Coord.Implement.Red de Acc.Cen y CentOcc;10030108
+50198252;Becarios Capital;50161561
+50198253;Becarios Centro;50161561
+50198254;Becarios Oriente;50161561
+50198255;Becarios Centro Occidente;50161561
+50198256;Becarios Occidente;50161561
+50198257;Becarios Los Andes;50161561
+50198278;Vicepresidencia Prestación Servicios;10000000
+50198282;Gcia. Gral. Proyectos Mayores;10000602
+50198285;Gcia. Asuntos Regulatorios;50175497
+50198287;Gcia.Mercadeo y ProductosTV y Multimedia;10000394
+50198289;Gcia. de Contenidos;50075083
+50198291;Gcia. Operaciones Servicios TV y Multim.;50198278
+50198295;Gcia. Gestión Administrativa;50198282
+50198297;Gcia. Planificación de Proyectos;50198282
+50198299;Gcia. Servicios Técnicos de Proyectos;50198282
+50198301;Gcia. Oficina de Proyectos;50198282
+50198303;Gcia. Programas Soluciones TI;50198282
+50198304;Gcia. Programas Infraestructura TI;50198282
+50198305;Gcia. Programas Redes Acceso;50198282
+50198306;Gcia. Programas Plataforma Satelital;50198282
+50198307;Gcia. Programas Conmutación Redes Datos;50198282
+50198308;Gcia. Programas Red Troncal y Transporte;50198282
+50198427;Coord. Mercadeo y Productos Televisión;50198287
+50198428;Coord. Comunicaciones e Invest. Mercado;50198287
+50198429;Coord. Mercadeo y Prod. Serv. Multimedia;50198287
+50198459;Coord. Contenido Digital;10000005
+50198460;Coord. Programación de Contenidos;50198289
+50198461;Coord. Adquisición de Contenidos;50198289
+50198466;Coord. Gestión de Contenidos Digitales;50198291
+50198467;Coord. Gestión de Servicios Digitales;50198291
+50199041;Coord. Calidad de Datos;10000565
+50199043;Coord. Sistemas de Recaudación;50160088
+50199045;Coord. Sistemas Facturación Cantv;50160088
+50199300;Gcia. Región Los Andes;50137672
+50199302;Coord. Proyectos Red de Acceso;50199300
+50199723;Gcia. Mercadeo Temático;10030019
+50201151;Área Transmisión;10000185
+50201153;Área Datos;10000185
+50201996;Gcia. para el Desarrollo Comunal;50175493
+50202099;Coord. Mantenimiento de Soluciones;50141653
+50202862;Oficina Comercial San Juan de los Morros;10030059
+50202994;Coord.Oper.y Mtto.Conmutación y Datos;50169469
+50202995;Coord.Oper.y Mtto.Conmutación y Datos;50169469
+50203294;Oficina Comercial Acarigua;10030056
+50203295;Oficina Comercial Cumaná;50119514
+50203533;OAC Guanare;50074771
+50203534;OAC Carúpano;50225083
+50203535;OAC Trujillo;50186712
+50204352;Oficina Comercial Sambil Paraguana;10030040
+50205356;Coord. Servicios Masivos Tuy MirandaEste;50073805
+50205528;Coord. Servicios Masivos Cojedes;50073807
+50205529;Coord. Servicios Masivos Apure-Amazonas;50156451
+50205530;Coord. Servicios Masivos Mérida;50073808
+50205531;Coord. Servicios Masivos Falcón;50073809
+50205532;Coord. Serv. Masivos Bolivar Delta Amac;50156453
+50205958;Gcia. Programa OPSUT;50198282
+50206108;Gcia. Planif. Ingeniería de Operaciones;50094636
+50206109;Gcia. Planificación de Operaciones;50206108
+50206110;Gcia. Ing. Construc. Proy. Men. Red;50206108
+50206111;Gcia. Ing. Construc. Proy. Men. TI;50206108
+50211230;Coord. Centro Operación Postpago;50165535
+50211237;Vicepresidencia Gestión Interna;10000000
+50211831;Coord. Almacén Distribución Reg. CtroOcc;10000626
+50212197;Coord. Planificación y Presupuesto;10000384
+50212198;Coord. Organización;10000384
+50212199;Coord. Compensación y Beneficios;10000384
+50212200;Coord. Control de Gestión;10000384
+50213014;OAC Barcelona;50186713
+50213911;Gcia. Seguimiento a la Gestión;50211237
+50214077;Coord. Ingeniería Software Libre;50141653
+50215223;Coord. Miranda III;50161531
+50215250;Coord. Vargas;50161532
+50215255;Área Técnica;50215250
+50215256;Área Mantenimiento;50215250
+50215258;Área Provisión;50215250
+50215259;Área I;50215250
+50215260;Área II;50215250
+50215263;Área Técnica;50215223
+50215264;Área Mantenimiento;50215223
+50215265;Área Provisión;50215223
+50215266;Área I;50215223
+50215267;Área II;50215223
+50215268;Área III;50215223
+50215269;Área Provisión;50163128
+50215271;Área Provisión;50163135
+50215272;Área Provisión;50163136
+50215273;Área Provisión;50163129
+50215337;Gcia. Operaciones Servicios y Proy. Esp;50094636
+50215339;Coord. Despliegue Satelital;50215337
+50215340;Coord. Proyectos Especiales;50215337
+50216391;Mensajeros Motorizados;10000546
+50216392;Conductores;10000546
+50218472;Proyecto Canaima;50198278
+50218485;Región Capital;50218472
+50218488;Región Central;50218472
+50218489;Región Centro Occidente;50218472
+50218490;Región Occidente;50218472
+50218491;Región Andes;50218472
+50218492;Región Oriente;50218472
+50219699;Coord.Atención a Cooperativistas y Terc.;10000362
+50220758;Coord. Planificación Participativa;50201996
+50220759;Coord. Gestión Administrativa;50237442
+50220760;Coord. Seguimiento y Evaluación;50201996
+50221244;Coord. Precios Justos;50190474
+50222905;Gcia. Gral. Procura;50211237
+50222979;Gcia. Bienes Nacionales;10000516
+50222984;Coord. Inventario;50222979
+50222986;Coord. Servicios Internos;10000551
+50223434;Unidad organizativa nueva;
+50223690;Proyecto SIGESP Cantv;50211237
+50224162;Coord. Planificación y Control;10000516
+50224174;Coord. Planificación y Control;50222905
+50224191;Coord. Análisis Requerimientos;50190474
+50224192;Coord. Soporte a las Contrataciones;50190474
+50224193;Coord. Pliego de Condiciones;50080830
+50224194;Coord. Calificación y Evaluación;50080830
+50224195;Coord. Logística;50080830
+50224196;Coord. Tramitación y Colocación Órdenes;50080830
+50224197;Coord. Pliego de Condiciones;50190790
+50224198;Coord. Calificación y Evaluación;50190790
+50224199;Coord. Logística;50190790
+50224200;Coord. Tramitación y Colocación Órdenes;50190790
+50224201;Coord. Contrataciones Directas;50080831
+50224202;Coord. Contrataciones Especiales;50080831
+50224821;Coord. Cultura Física;10000653
+50224980;Coord. Certificación Seguridad Procesos;50085878
+50224995;Coord. Oper.Mtto. Zona Los Andes;50097900
+50225083;Coord. Servicios Masivos Sucre;50156453
+50226218;Coord. Planificación y Control;10000004
+50230058;Gcia.Estudios Estadísticos y Actuariales;50211237
+50231110;Coord. Planif. Materiales de Inventario;10000516
+50231114;Gerencia Servicios Administrativos;10000516
+50231118;Coord. Servicios de Telecomunic Exentas;50231114
+50231139;Oficina Comercial San Felipe;10030039
+50232048;Coord. Planificación y Control;10000550
+50232049;Coord. Construcción;10000550
+50232112;Oficina Comercial Barinas;10030046
+50232158;Coord. Comunicaciones Unificadas;50179224
+50232455;Oficina Comercial Caricuao;50085500
+50232482;Oficina Comercial San Fernando de Apure;10030059
+50232532;Oficina Comercial San Antonio;50085502
+50232586;Oficina Comercial Cabimas;10030042
+50237394;Gcia. Planificación Red Núcleo;10030095
+50237442;Gcia.Planificac. Admón y Control Gestión;50175493
+50238036;Coord. Programas Especiales;50175493
+50239299;Coord. Soporte Técnico TV Postventa;10000399
+50239301;Coord. Gestión de Soluciones;50198291
+50239858;Coord. para la Organización Comunal;50201996
+50239859;Coord. para la Economía Comunal;50201996
+50240252;Coord. Servicios de Ventas;50089579
