@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Estados'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(

@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -37,40 +37,9 @@
 		<?php echo $form->textField($model,'parent_id_permisos'); ?>
 		<?php echo $form->error($model,'parent_id_permisos'); ?>
 	</div>
-		<?php /*
-	<div class="row">
-		<?php echo $form->labelEx($model,'in_stat'); ?>
-		<?php echo $form->textField($model,'in_stat',array('size'=>1,'maxlength'=>1)); ?>
-		<?php echo $form->error($model,'in_stat'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'usr_crea'); ?>
-		<?php echo $form->textField($model,'usr_crea',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'usr_crea'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fe_crea'); ?>
-		<?php echo $form->textField($model,'fe_crea'); ?>
-		<?php echo $form->error($model,'fe_crea'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'usr_modf'); ?>
-		<?php echo $form->textField($model,'usr_modf',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'usr_modf'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fe_modf'); ?>
-		<?php echo $form->textField($model,'fe_modf'); ?>
-		<?php echo $form->error($model,'fe_modf'); ?>
-	</div>
-	*/?>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Crear' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

@@ -27,8 +27,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'fecha_creacion'); ?>
-		<?php echo $form->textField($model,'fecha_creacion'); ?>
+		<?php // echo $form->label($model,'fecha_creacion'); ?>
+		<?php // echo $form->textField($model,'fecha_creacion'); ?>
 	</div>
 
 	<div class="row">

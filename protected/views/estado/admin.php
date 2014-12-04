@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Estados'=>array('index'),
-	'Manage',
+	'Administrar',
 );
 
 $this->menu=array(
-	array('label'=>'List Estado', 'url'=>array('index')),
-	array('label'=>'Create Estado', 'url'=>array('create')),
+	array('label'=>'Listar Estado', 'url'=>array('index')),
+	array('label'=>'Crear Estado', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -33,7 +33,7 @@ Opcionalmente, puede introducir un operador de comparación(<b>&lt;</b>, <b>&lt;
 or <b>=</b>) al comienzo de cada uno de sus valores de búsqueda para especificar cómo se debe hacer la comparación.
 </p>
 
-<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Búsqueda Avanzada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -49,8 +49,6 @@ or <b>=</b>) al comienzo de cada uno de sus valores de búsqueda para especifica
 		'descripcion',
 		'activo',
 		'notificacion',
-		//'fecha_creacion',
-		//'fecha_actualizacion',
 		'tipo_notificacion',
 		
 		array(

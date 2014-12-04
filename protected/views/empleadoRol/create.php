@@ -1,7 +1,7 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'Rol empleadoRol empleado'=>array('index'),
+	'Rol empleadoRol'=>array('index'),
 	'Crear',
 );
 

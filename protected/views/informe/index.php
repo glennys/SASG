@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Informe', 'url'=>array('create')),
-	array('label'=>'Manage Informe', 'url'=>array('admin')),
+	array('label'=>'Crear Informe', 'url'=>array('create')),
+	array('label'=>'Administrar Informe', 'url'=>array('admin')),
 );
 ?>
 

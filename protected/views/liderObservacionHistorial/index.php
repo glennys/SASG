@@ -1,16 +1,16 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'LiderObservacionHistorials',
+	'Historial Lider',
 );
 
 $this->menu=array(
-	array('label'=>'Create LiderObservacionHistorial', 'url'=>array('create')),
-	array('label'=>'Manage LiderObservacionHistorial', 'url'=>array('admin')),
+	array('label'=>'Crear Historial Lider', 'url'=>array('create')),
+	array('label'=>'Administrar Historial Lider', 'url'=>array('admin')),
 );
 ?>
 
-<h1>LiderObservacionHistorials</h1>
+<h1>Historial Lider</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

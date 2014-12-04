@@ -1,15 +1,15 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'EstadoObservacioness'=>array('index'),
-	'Create',
+	'Estado Observacioness'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List EstadoObservacioness', 'url'=>array('index')),
-    array('label'=>'Manage EstadoObservaciones', 'url'=>array('admin')),
+	array('label'=>'Listar Estado Observacioness', 'url'=>array('index')),
+    array('label'=>'Administrar Estado Observaciones', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create EstadoObservaciones</h1>
+<h1>Crear Estado Observaciones</h1>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

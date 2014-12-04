@@ -1,13 +1,13 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'EstadoInformes'=>array('index'),
-	'Create',
+	'Estado Informes'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List EstadoInformes', 'url'=>array('index')),
-    array('label'=>'Manage EstadoInforme', 'url'=>array('admin')),
+	array('label'=>'Listar Estado Informes', 'url'=>array('index')),
+    array('label'=>'Administrar EstadoInforme', 'url'=>array('admin')),
 );
 ?>
 

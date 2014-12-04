@@ -1,15 +1,15 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'LiderObservacionHistorials'=>array('index'),
-	'Create',
+	'Historial Lider'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List LiderObservacionHistorials', 'url'=>array('index')),
-    array('label'=>'Manage LiderObservacionHistorial', 'url'=>array('admin')),
+	array('label'=>'Listar Historial Lider', 'url'=>array('index')),
+    array('label'=>'Administrar Historial Lider', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create LiderObservacionHistorial</h1>
+<h1>Crear Historial Lider</h1>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

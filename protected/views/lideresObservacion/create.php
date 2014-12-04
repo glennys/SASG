@@ -1,15 +1,15 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'LideresObservacions'=>array('index'),
-	'Create',
+	'Lideres Observación'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List LideresObservacions', 'url'=>array('index')),
-    array('label'=>'Manage LideresObservacion', 'url'=>array('admin')),
+	array('label'=>'Listar Lideres Observación', 'url'=>array('index')),
+    array('label'=>'Administrar Lideres Observación', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create LideresObservacion</h1>
+<h1>Crear Lideres Observación</h1>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

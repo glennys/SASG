@@ -81,6 +81,7 @@
                                     array('label'=>'Procesos', 'url'=>array('/Procesos/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Operaciones', 'url'=>array('/Operaciones/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     
+                                    
                                 ),
                             ),
                             array('label'=>'Observaciones',
@@ -91,6 +92,8 @@
                                     array('label'=>'Consultor', 'url'=>array('/ObservacionesConsultor/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Unidad', 'url'=>array('/ObservacionesUnidadclass/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Unidad Consultor', 'url'=>array('/ObservacionesUnidadConsultor/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Historial lider', 'url'=>array('/LiderObservacionHistorial/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Lider observacion', 'url'=>array('/LideresObservacion/admin'), 'visible'=>!Yii::app()->user->isGuest),                                    
                                 ),
                             ),
                              array('label'=>'Naturaleza',

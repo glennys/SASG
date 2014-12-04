@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Modulos'=>array('index'),
 	$model->id_permisos=>array('view','id'=>$model->id_permisos),
-	'Update',
+	'Modificar',
 );
 
 $this->menu=array(
-	array('label'=>'List Modulo', 'url'=>array('index')),
-	array('label'=>'Create Modulo', 'url'=>array('create')),
-	array('label'=>'View Modulo', 'url'=>array('view', 'id'=>$model->id_permisos)),
-	array('label'=>'Manage Modulo', 'url'=>array('admin')),
+	array('label'=>'Listar Módulo', 'url'=>array('index')),
+	array('label'=>'Crear Módulo', 'url'=>array('create')),
+	array('label'=>'Vista Módulo', 'url'=>array('view', 'id'=>$model->id_permisos)),
+	array('label'=>'Administrar Módulo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Modulo <?php echo $model->id_permisos; ?></h1>
+<h1>Modificar Módulo <?php echo $model->id_permisos; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

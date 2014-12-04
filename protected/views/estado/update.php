@@ -9,13 +9,13 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Estado', 'url'=>array('index')),
-	array('label'=>'Create Estado', 'url'=>array('create')),
-	array('label'=>'View Estado', 'url'=>array('view', 'id'=>$model->id_estado)),
-	array('label'=>'Manage Estado', 'url'=>array('admin')),
+	array('label'=>'Listar Estado', 'url'=>array('index')),
+	array('label'=>'Crear Estado', 'url'=>array('create')),
+	array('label'=>'Vista Estado', 'url'=>array('view', 'id'=>$model->id_estado)),
+	array('label'=>'Administrar Estado', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Estado <?php echo $model->id_estado; ?></h1>
+<h1>Modificar Estado <?php echo $model->id_estado; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

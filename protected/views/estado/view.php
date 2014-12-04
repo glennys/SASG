@@ -8,15 +8,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Estado', 'url'=>array('index')),
-	array('label'=>'Create Estado', 'url'=>array('create')),
-	array('label'=>'Update Estado', 'url'=>array('update', 'id'=>$model->id_estado)),
-	array('label'=>'Delete Estado', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_estado),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Estado', 'url'=>array('admin')),
+	array('label'=>'Listar Estado', 'url'=>array('index')),
+	array('label'=>'Crear Estado', 'url'=>array('create')),
+	array('label'=>'Modificar Estado', 'url'=>array('update', 'id'=>$model->id_estado)),
+	array('label'=>'Eliminar Estado', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_estado),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Administrar Estados', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Estado #<?php echo $model->id_estado; ?></h1>
+<h1>Vista Estado #<?php echo $model->id_estado; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
@@ -25,8 +25,6 @@ $this->menu=array(
 		'descripcion',
 		'activo',
 		'notificacion',
-		//'fecha_creacion',
-		//'fecha_actualizacion',
 		'tipo_notificacion',
 	),
 )); ?>

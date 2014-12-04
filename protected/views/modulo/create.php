@@ -3,16 +3,16 @@
 /* @var $model Modulo */
 
 $this->breadcrumbs=array(
-	'Modulos'=>array('index'),
-	'Create',
+	'Módulos'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Modulo', 'url'=>array('index')),
-	array('label'=>'Manage Modulo', 'url'=>array('admin')),
+	array('label'=>'Listar Módulos', 'url'=>array('index')),
+	array('label'=>'Administrar Módulo', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Modulo</h1>
+<h1>Crear Módulo</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

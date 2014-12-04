@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Impacto', 'url'=>array('create')),
-	array('label'=>'Manage Impacto', 'url'=>array('admin')),
+	array('label'=>'Crear Impacto', 'url'=>array('create')),
+	array('label'=>'Administrar Impactos', 'url'=>array('admin')),
 );
 ?>
 

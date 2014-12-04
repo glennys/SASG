@@ -21,14 +21,6 @@
 	<?php echo CHtml::encode($data->notificacion); ?>
 	<br />
 
-	<b><?php //echo CHtml::encode($data->getAttributeLabel('fecha_creacion')); ?>:</b>
-	<?php //echo CHtml::encode($data->fecha_creacion); ?>
-	
-
-	<b><?php //echo CHtml::encode($data->getAttributeLabel('fecha_actualizacion')); ?>:</b>
-	<?php //echo CHtml::encode($data->fecha_actualizacion); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('tipo_notificacion')); ?>:</b>
 	<?php echo CHtml::encode($data->tipo_notificacion); ?>
 	<br />

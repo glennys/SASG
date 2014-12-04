@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Impactos'=>array('index'),
 	$model->id_impacto=>array('view','id'=>$model->id_impacto),
-	'Update',
+	'Modificar',
 );
 
 $this->menu=array(
-	array('label'=>'List Impacto', 'url'=>array('index')),
-	array('label'=>'Create Impacto', 'url'=>array('create')),
-	array('label'=>'View Impacto', 'url'=>array('view', 'id'=>$model->id_impacto)),
-	array('label'=>'Manage Impacto', 'url'=>array('admin')),
+	array('label'=>'Listar Impacto', 'url'=>array('index')),
+	array('label'=>'Crear Impacto', 'url'=>array('create')),
+	array('label'=>'Vista Impacto', 'url'=>array('view', 'id'=>$model->id_impacto)),
+	array('label'=>'Administrar Impacto', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Impacto <?php echo $model->id_impacto; ?></h1>
+<h1>Modificar Impacto <?php echo $model->id_impacto; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -10,16 +10,16 @@
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tipo_auditoria')); ?>:</b>
-	<?php echo CHtml::encode($data->id_tipo_auditoria); ?>
+	<?php echo CHtml::encode($data->idTipoAuditoria->descripcion); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_estado')); ?>:</b>
-	<?php echo CHtml::encode($data->id_estado); ?>
+	<?php echo CHtml::encode($data->idEstado->descripcion); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha_creacion')); ?>:</b>
-	<?php echo CHtml::encode($data->fecha_creacion); ?>
-	<br />
+	<b><?php // echo CHtml::encode($data->getAttributeLabel('fecha_creacion')); ?></b>
+	<?php // echo CHtml::encode($data->fecha_creacion); ?>
+	
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha_periodo_auditoria')); ?>:</b>
 	<?php echo CHtml::encode($data->fecha_periodo_auditoria); ?>
@@ -33,7 +33,6 @@
 	<?php echo CHtml::encode($data->codigo); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('nombre')); ?>:</b>
 	<?php echo CHtml::encode($data->nombre); ?>
 	<br />
@@ -50,6 +49,6 @@
 	<?php echo CHtml::encode($data->ano); ?>
 	<br />
 
-	*/ ?>
+	
 
 </div>

@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Impactos'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Impacto', 'url'=>array('index')),
-	array('label'=>'Manage Impacto', 'url'=>array('admin')),
+	array('label'=>'Listar Impacto', 'url'=>array('index')),
+	array('label'=>'Administrar Impacto', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Impacto</h1>
+<h1>Crear Impacto</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

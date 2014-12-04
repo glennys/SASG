@@ -27,12 +27,38 @@
 	
     <div class="row">
         <?php echo $form->labelEx($model,'fecha_modificacion'); ?>
-        <?php echo $form->textField($model,'fecha_modificacion'); ?>
+        <?php
+            
+           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model'=>$model,
+                'attribute'=>'fecha_modificacion',
+                'value'=>$model->fecha_modificacion,
+            'language' => 'es',
+           'htmlOptions' => array('readonly'=>"readonly"),
+                'options'=>array(
+                    'autoSize'=>true,
+                    'defaultDate'=>$model->fecha_modificacion,
+                     'dateFormat'=>'yy-mm-dd',
+                    //'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
+            'buttonImageOnly'=>true,
+            'buttonText'=> '',
+            'selectOtherMonths'=>true,
+            'showAnim'=>'slide',
+            'showButtonPanel'=>true,
+            'showOn'=>'focus', // se puede colocar focus  o button
+            'showOtherMonths'=>true, 
+            'changeMonth' => 'true', 
+            'changeYear' => 'true', 
+            'minDate'=>'date("Y-m-d")', 
+            'maxDate'=> "+20Y",
+            ),
+          )); 
+         ?>
         <?php echo $form->error($model,'fecha_modificacion'); ?>
     </div>
 	
     <div class="row buttons">
-        <?php echo CHtml::submitButton('Submit'); ?>
+        <?php echo CHtml::submitButton('Guardar'); ?>
     </div>
 
 <?php $this->endWidget(); ?>

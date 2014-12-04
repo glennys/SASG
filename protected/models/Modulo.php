@@ -67,7 +67,7 @@ class Modulo extends CActiveRecord
 	{
 		return array(
 			'id_permisos' => 'Id Permisos',
-			'nombre_modulo' => 'Nombre Modulo',
+			'nombre_modulo' => 'Nombre Módulo',
 			'tipo' => 'Tipo',
 			//'fecha_creacion' => 'Fecha Creacion',
 			//'fecha_actualizacion' => 'Fecha Actualizacion',
