@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Procesoses'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Procesos', 'url'=>array('index')),
-	array('label'=>'Manage Procesos', 'url'=>array('admin')),
+	array('label'=>'Listar Procesos', 'url'=>array('index')),
+	array('label'=>'Administrar Procesos', 'url'=>array('admin')),
 );
 ?>
 

@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Seguimientos'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Seguimiento', 'url'=>array('index')),
-	array('label'=>'Manage Seguimiento', 'url'=>array('admin')),
+	array('label'=>'Listar Seguimiento', 'url'=>array('index')),
+	array('label'=>'Administrar Seguimiento', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Seguimiento</h1>
+<h1>Crear Seguimiento</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

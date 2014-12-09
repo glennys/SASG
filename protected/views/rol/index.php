@@ -3,16 +3,16 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Rols',
+	'Roles',
 );
 
 $this->menu=array(
-	array('label'=>'Create Rol', 'url'=>array('create')),
-	array('label'=>'Manage Rol', 'url'=>array('admin')),
+	array('label'=>'Crear Rol', 'url'=>array('create')),
+	array('label'=>'Administrar Rol', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Rols</h1>
+<h1>Roles</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

@@ -3,16 +3,16 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Procesoses',
+	'Procesos',
 );
 
 $this->menu=array(
-	array('label'=>'Create Procesos', 'url'=>array('create')),
-	array('label'=>'Manage Procesos', 'url'=>array('admin')),
+	array('label'=>'Crear Procesos', 'url'=>array('create')),
+	array('label'=>'Administrar Procesos', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Procesoses</h1>
+<h1>Procesos</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

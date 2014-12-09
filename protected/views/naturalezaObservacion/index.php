@@ -1,16 +1,16 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'NaturalezaObservacions',
+	'Naturaleza Observación',
 );
 
 $this->menu=array(
-	array('label'=>'Create NaturalezaObservacion', 'url'=>array('create')),
-	array('label'=>'Manage NaturalezaObservacion', 'url'=>array('admin')),
+	array('label'=>'Create Naturaleza Observación', 'url'=>array('create')),
+	array('label'=>'Administrar Naturaleza Observación', 'url'=>array('admin')),
 );
 ?>
 
-<h1>NaturalezaObservacions</h1>
+<h1>Naturaleza Observación</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

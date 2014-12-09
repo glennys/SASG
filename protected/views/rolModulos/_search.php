@@ -7,11 +7,11 @@
 	)); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_rol'); ?>
+		<?php echo $form->label($model,'Rol'); ?>
 		<?php echo $form->textField($model,'id_rol'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_permisos'); ?>
+		<?php echo $form->label($model,'Permisos'); ?>
 		<?php echo $form->textField($model,'id_permisos'); ?>
 	</div>
 

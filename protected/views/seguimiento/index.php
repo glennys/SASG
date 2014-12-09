@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Seguimiento', 'url'=>array('create')),
-	array('label'=>'Manage Seguimiento', 'url'=>array('admin')),
+	array('label'=>'Crear Seguimiento', 'url'=>array('create')),
+	array('label'=>'Administrar Seguimiento', 'url'=>array('admin')),
 );
 ?>
 

@@ -3,16 +3,16 @@
 /* @var $model Rol */
 
 $this->breadcrumbs=array(
-	'Rols'=>array('index'),
-	'Create',
+	'Roles'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Rol', 'url'=>array('index')),
-	array('label'=>'Manage Rol', 'url'=>array('admin')),
+	array('label'=>'Listar Rol', 'url'=>array('index')),
+	array('label'=>'Administrar Rol', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Rol</h1>
+<h1>Crear Rol</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

@@ -15,36 +15,62 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_actividad'); ?>
+		<?php echo $form->labelEx($model,'Actividad'); ?>
 		<?php echo $form->textField($model,'id_actividad'); ?>
 		<?php echo $form->error($model,'id_actividad'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'descripcion'); ?>
+		<?php echo $form->labelEx($model,'Descripción'); ?>
 		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'adjunto'); ?>
+		<?php echo $form->labelEx($model,'Adjunto'); ?>
 		<?php echo $form->textField($model,'adjunto'); ?>
 		<?php echo $form->error($model,'adjunto'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_modificacion'); ?>
-		<?php echo $form->textField($model,'fecha_modificacion'); ?>
+		<?php echo $form->labelEx($model,'Fecha Modificación'); ?>
+		<?php
+ 			
+           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+		   		'model'=>$model,
+		   		'attribute'=>'fecha_modificacion',
+		   		'value'=>$model->fecha_modificacion,
+		   	'language' => 'es',
+		   'htmlOptions' => array('readonly'=>"readonly"),
+		   		'options'=>array(
+		    		'autoSize'=>true,
+		    		'defaultDate'=>$model->fecha_modificacion,
+		   			 'dateFormat'=>'yy-mm-dd',
+		    		//'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
+		    'buttonImageOnly'=>true,
+		    'buttonText'=> '',
+		    'selectOtherMonths'=>true,
+		    'showAnim'=>'slide',
+		    'showButtonPanel'=>true,
+		    'showOn'=>'focus', // se puede colocar focus  o button
+		    'showOtherMonths'=>true, 
+		    'changeMonth' => 'true', 
+		    'changeYear' => 'true', 
+		    'minDate'=>'date("Y-m-d")', 
+		    'maxDate'=> "+20Y",
+		    ),
+		  )); 
+		 ?>
 		<?php echo $form->error($model,'fecha_modificacion'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'tipo'); ?>
+		<?php echo $form->labelEx($model,'Tipo'); ?>
 		<?php echo $form->textField($model,'tipo'); ?>
 		<?php echo $form->error($model,'tipo'); ?>
 	</div>

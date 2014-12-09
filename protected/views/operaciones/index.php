@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Operaciones', 'url'=>array('create')),
-	array('label'=>'Manage Operaciones', 'url'=>array('admin')),
+	array('label'=>'Crear Operaciones', 'url'=>array('create')),
+	array('label'=>'Administrar Operaciones', 'url'=>array('admin')),
 );
 ?>
 

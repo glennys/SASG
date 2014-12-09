@@ -1,15 +1,15 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'ObservacionesConsultors'=>array('index'),
-	'Create',
+	'Observaciones Consultor'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List ObservacionesConsultors', 'url'=>array('index')),
-    array('label'=>'Manage ObservacionesConsultor', 'url'=>array('admin')),
+	array('label'=>'Listar Observaciones Consultor', 'url'=>array('index')),
+    array('label'=>'Administrar Observaciones Consultor', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create ObservacionesConsultor</h1>
+<h1>Crear Observaciones Consultor</h1>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

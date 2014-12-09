@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Naturalezas'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Naturaleza', 'url'=>array('index')),
-	array('label'=>'Manage Naturaleza', 'url'=>array('admin')),
+	array('label'=>'Listar Naturaleza', 'url'=>array('index')),
+	array('label'=>'Administrar Naturaleza', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Naturaleza</h1>
+<h1>Crear Naturaleza</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

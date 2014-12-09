@@ -23,13 +23,41 @@ $this->menu=array(
 	'attributes'=>array(
 		//'id_observaciones',
 		'id_informe',
-		'id_unidad',
-		'id_naturaleza',
-		'id_tipo_criticidad',
-		'id_tipo_observacion',
-		'id_impacto',
-		'id_clasificacion',
-		'id_estado',
+		//'id_unidad',
+		array(
+   'name'=>'id_unidad',
+   'value'=>$model->idUnidad->descripcion,
+        ), 
+		//'id_naturaleza',
+		  array(
+   'name'=>'id_naturaleza',
+   'value'=>$model->idNaturaleza->descripcion,
+  ),
+		//'id_tipo_criticidad',
+		array(
+   'name'=>'id_tipo_criticidad',
+   'value'=>$model->idTipoCriticidad->descripcion,
+  ),
+		//'id_tipo_observacion',
+		array(
+   'name'=>'id_tipo_observacion',
+   'value'=>$model->idTipoObservacion->descripcion,
+  ),
+		//'id_impacto',
+		array(
+   'name'=>'id_impacto',
+   'value'=>$model->idImpacto->descripcion,
+  ),
+		//'id_clasificacion',
+		array(
+   'name'=>'id_clasificacion',
+   'value'=>$model->idClasificacion->descripcion,
+  ),
+		//'id_estado',
+		array(
+   'name'=>'id_estado',
+   'value'=>$model->idEstado->descripcion,
+  ),
 		'recomendacion',
 		'cerrada',
 		'detalle_observacion',

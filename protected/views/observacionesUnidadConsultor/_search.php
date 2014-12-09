@@ -7,44 +7,44 @@
 	)); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_observaciones'); ?>
+		<?php echo $form->label($model,'Observaciones'); ?>
 		<?php echo $form->textField($model,'id_observaciones'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_unidad'); ?>
+		<?php echo $form->label($model,'Unidad'); ?>
 		<?php echo $form->textField($model,'id_unidad'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'fecha_observacion'); ?>
+		<?php echo $form->label($model,'Fecha Observacion'); ?>
 		<?php echo $form->textField($model,'fecha_observacion'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_actividad'); ?>
+		<?php echo $form->label($model,'Actividad'); ?>
 		<?php echo $form->textField($model,'id_actividad'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'fecha_seguimiento'); ?>
+		<?php echo $form->label($model,'Fecha Seguimiento'); ?>
 		<?php echo $form->textField($model,'fecha_seguimiento'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'propietario'); ?>
+		<?php echo $form->label($model,'Propietario'); ?>
 		<?php echo $form->textField($model,'propietario'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_empleado'); ?>
+		<?php echo $form->label($model,'Empleado'); ?>
 		<?php echo $form->textField($model,'id_empleado'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_estado'); ?>
+		<?php echo $form->label($model,'Estado'); ?>
 		<?php echo $form->textField($model,'id_estado'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'avance'); ?>
+		<?php echo $form->label($model,'Avance'); ?>
 		<?php echo $form->textField($model,'avance'); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

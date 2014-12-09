@@ -37,18 +37,6 @@
 		<?php echo $form->error($model,'activo'); ?>
 	</div>
 
-	<div class="row">
-		<?php //echo $form->labelEx($model,'fecha_creacion'); ?>
-		<?php //echo $form->textField($model,'fecha_creacion'); ?>
-		<?php //echo $form->error($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php //echo $form->labelEx($model,'fecha_actualizacion'); ?>
-		<?php //echo $form->textField($model,'fecha_actualizacion'); ?>
-		<?php //echo $form->error($model,'fecha_actualizacion'); ?>
-	</div>
-
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

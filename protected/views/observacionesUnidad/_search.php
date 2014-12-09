@@ -7,32 +7,32 @@
 	)); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_observaciones'); ?>
+		<?php echo $form->label($model,'Observaciones'); ?>
 		<?php echo $form->textField($model,'id_observaciones'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_unidades'); ?>
+		<?php echo $form->label($model,'Unidades'); ?>
 		<?php echo $form->textField($model,'id_unidades'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_empleado_consultor'); ?>
+		<?php echo $form->label($model,'Empleado Consultor'); ?>
 		<?php echo $form->textField($model,'id_empleado_consultor'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'plan_general'); ?>
+		<?php echo $form->label($model,'Plan General'); ?>
 		<?php echo $form->textField($model,'plan_general'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_estado'); ?>
+		<?php echo $form->label($model,'Estado'); ?>
 		<?php echo $form->textField($model,'id_estado'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'fecha_asignacion'); ?>
+		<?php echo $form->label($model,'Fecha Asignación'); ?>
 		<?php echo $form->textField($model,'fecha_asignacion'); ?>
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

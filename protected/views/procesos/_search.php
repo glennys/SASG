@@ -12,7 +12,7 @@
 )); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_proceso'); ?>
+		<?php echo $form->label($model,'Proceso'); ?>
 		<?php echo $form->textField($model,'id_proceso'); ?>
 	</div>
 
@@ -22,17 +22,17 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'nombre_proceso'); ?>
+		<?php echo $form->label($model,'Nombre'); ?>
 		<?php echo $form->textField($model,'nombre_proceso',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'descripcion_proceso'); ?>
+		<?php echo $form->label($model,'Descripción'); ?>
 		<?php echo $form->textField($model,'descripcion_proceso',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 		
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

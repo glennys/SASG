@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Operaciones', 'url'=>array('index')),
-	array('label'=>'Create Operaciones', 'url'=>array('create')),
-	array('label'=>'Update Operaciones', 'url'=>array('update', 'id'=>$model->id_operaciones)),
-	array('label'=>'Delete Operaciones', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_operaciones),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Operaciones', 'url'=>array('admin')),
+	array('label'=>'Listar Operaciones', 'url'=>array('index')),
+	array('label'=>'Crear Operaciones', 'url'=>array('create')),
+	array('label'=>'Modificar Operaciones', 'url'=>array('update', 'id'=>$model->id_operaciones)),
+	array('label'=>'Eliminar Operaciones', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_operaciones),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Administrar Operaciones', 'url'=>array('admin')),
 );
 ?>
 
@@ -24,7 +24,6 @@ $this->menu=array(
 		'id_operaciones',
 		'descripcion',
 		'activo',
-		//'fecha_creacion',
-		//'fecha_actualizacion',
+		
 	),
 )); ?>

@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -26,13 +26,13 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'nombre_proceso'); ?>
+		<?php echo $form->labelEx($model,'Nombre'); ?>
 		<?php echo $form->textField($model,'nombre_proceso',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'nombre_proceso'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'descripcion_proceso'); ?>
+		<?php echo $form->labelEx($model,'Descripción'); ?>
 		<?php echo $form->textField($model,'descripcion_proceso',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'descripcion_proceso'); ?>
 	</div>

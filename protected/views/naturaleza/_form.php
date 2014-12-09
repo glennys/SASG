@@ -15,7 +15,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
@@ -41,18 +41,6 @@
 		<?php echo $form->labelEx($model,'tipo'); ?>
 		<?php echo $form->textField($model,'tipo'); ?>
 		<?php echo $form->error($model,'tipo'); ?>
-	</div>
-
-	<div class="row">
-		<?php //echo $form->labelEx($model,'fecha_creacion'); ?>
-		<?php //echo $form->textField($model,'fecha_creacion'); ?>
-		<?php //echo $form->error($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php //echo $form->labelEx($model,'fecha_actualizacion'); ?>
-		<?php //echo $form->textField($model,'fecha_actualizacion'); ?>
-		<?php //echo $form->error($model,'fecha_actualizacion'); ?>
 	</div>
 
 	<div class="row buttons">

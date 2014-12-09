@@ -1,16 +1,16 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'RolModuloss',
+	'Rol Moduloss',
 );
 
 $this->menu=array(
-	array('label'=>'Create RolModulos', 'url'=>array('create')),
-	array('label'=>'Manage RolModulos', 'url'=>array('admin')),
+	array('label'=>'Crear Rol Modulos', 'url'=>array('create')),
+	array('label'=>'Administrar Rol Modulos', 'url'=>array('admin')),
 );
 ?>
 
-<h1>RolModuloss</h1>
+<h1>Rol Moduloss</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

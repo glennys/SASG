@@ -1,16 +1,16 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'ObservacionesUnidadConsultors',
+	'Unidad Consultor',
 );
 
 $this->menu=array(
-	array('label'=>'Create ObservacionesUnidadConsultor', 'url'=>array('create')),
-	array('label'=>'Manage ObservacionesUnidadConsultor', 'url'=>array('admin')),
+	array('label'=>'Crear Unidad Consultor', 'url'=>array('create')),
+	array('label'=>'Administrar Unidad Consultor', 'url'=>array('admin')),
 );
 ?>
 
-<h1>ObservacionesUnidadConsultors</h1>
+<h1>Unidad Consultor</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

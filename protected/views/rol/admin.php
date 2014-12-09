@@ -3,8 +3,8 @@
 /* @var $model Rol */
 
 $this->breadcrumbs=array(
-	'Rols'=>array('index'),
-	'Manage',
+	'Roles'=>array('index'),
+	'Administrar',
 );
 
 $this->menu=array(
@@ -33,7 +33,7 @@ Opcionalmente, puede introducir un operador de comparación(<b>&lt;</b>, <b>&lt;
 or <b>=</b>) al comienzo de cada uno de sus valores de búsqueda para especificar cómo se debe hacer la comparación.
 </p>
 
-<?php echo CHtml::link('Busqueda avansada','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Búsqueda avansada','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
@@ -49,8 +49,6 @@ or <b>=</b>) al comienzo de cada uno de sus valores de búsqueda para especifica
 		'parent_id_rol',
 		'descripcion',
 		'activo',
-		//'fecha_creacion',
-		//'fecha_actualizacion',
 		array(
 			'class'=>'CButtonColumn',
 		),

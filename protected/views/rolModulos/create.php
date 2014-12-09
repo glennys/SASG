@@ -1,15 +1,15 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'RolModuloss'=>array('index'),
-	'Create',
+	'Rol Moduloss'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List RolModuloss', 'url'=>array('index')),
-    array('label'=>'Manage RolModulos', 'url'=>array('admin')),
+	array('label'=>'Listar Rol Moduloss', 'url'=>array('index')),
+    array('label'=>'Administrar Rol Modulos', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create RolModulos</h1>
+<h1>Crear Rol Modulos</h1>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

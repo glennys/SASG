@@ -7,19 +7,19 @@
 	)); ?>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_observaciones'); ?>
+		<?php echo $form->label($model,'Observaciones'); ?>
 		<?php echo $form->textField($model,'id_observaciones'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'id_consultor'); ?>
+		<?php echo $form->label($model,'Consultor'); ?>
 		<?php echo $form->textField($model,'id_consultor'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'fecha_asignacion'); ?>
+		<?php echo $form->label($model,'Fecha Asignación'); ?>
 		<?php echo $form->textField($model,'fecha_asignacion'); ?>
 	</div>
 	<div class="row">
-		<?php echo $form->label($model,'otro'); ?>
+		<?php echo $form->label($model,'Otro'); ?>
 		<?php echo $form->textField($model,'otro'); ?>
 	</div>
 

@@ -12,34 +12,60 @@
     <?php echo $form->errorSummary($model); ?>
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'id_observaciones'); ?>
+        <?php echo $form->labelEx($model,'Observaciones'); ?>
         <?php echo $form->textField($model,'id_observaciones'); ?>
         <?php echo $form->error($model,'id_observaciones'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'id_consultor'); ?>
+        <?php echo $form->labelEx($model,'Consultor'); ?>
         <?php echo $form->textField($model,'id_consultor'); ?>
         <?php echo $form->error($model,'id_consultor'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'fecha_asignacion'); ?>
-        <?php echo $form->textField($model,'fecha_asignacion'); ?>
+        <?php echo $form->labelEx($model,'Fecha Asignación'); ?>
+        <?php
+            
+           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model'=>$model,
+                'attribute'=>'fecha_asignacion',
+                'value'=>$model->fecha_asignacion,
+            'language' => 'es',
+           'htmlOptions' => array('readonly'=>"readonly"),
+                'options'=>array(
+                    'autoSize'=>true,
+                    'defaultDate'=>$model->fecha_asignacion,
+                     'dateFormat'=>'yy-mm-dd',
+                    //'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
+            'buttonImageOnly'=>true,
+            'buttonText'=> '',
+            'selectOtherMonths'=>true,
+            'showAnim'=>'slide',
+            'showButtonPanel'=>true,
+            'showOn'=>'focus', // se puede colocar focus  o button
+            'showOtherMonths'=>true, 
+            'changeMonth' => 'true', 
+            'changeYear' => 'true', 
+            'minDate'=>'date("Y-m-d")', 
+            'maxDate'=> "+20Y",
+            ),
+          )); 
+         ?>
         <?php echo $form->error($model,'fecha_asignacion'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'otro'); ?>
+        <?php echo $form->labelEx($model,'Otro'); ?>
         <?php echo $form->textField($model,'otro'); ?>
         <?php echo $form->error($model,'otro'); ?>
     </div>
 	
     <div class="row buttons">
-        <?php echo CHtml::submitButton('Submit'); ?>
+        <?php echo CHtml::submitButton('Guardar'); ?>
     </div>
 
 <?php $this->endWidget(); ?>

@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Naturaleza', 'url'=>array('create')),
-	array('label'=>'Manage Naturaleza', 'url'=>array('admin')),
+	array('label'=>'Crear Naturaleza', 'url'=>array('create')),
+	array('label'=>'Administrar Naturaleza', 'url'=>array('admin')),
 );
 ?>
 

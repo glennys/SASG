@@ -36,18 +36,9 @@
 		<?php echo $form->textField($model,'tipo'); ?>
 	</div>
 
-	<div class="row">
-		<?php //echo $form->label($model,'fecha_creacion'); ?>
-		<?php //echo $form->textField($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php //echo $form->label($model,'fecha_actualizacion'); ?>
-		<?php //echo $form->textField($model,'fecha_actualizacion'); ?>
-	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

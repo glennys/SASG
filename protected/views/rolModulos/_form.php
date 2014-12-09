@@ -12,20 +12,20 @@
     <?php echo $form->errorSummary($model); ?>
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'id_rol'); ?>
+        <?php echo $form->labelEx($model,'Rol'); ?>
         <?php echo $form->textField($model,'id_rol'); ?>
         <?php echo $form->error($model,'id_rol'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'id_permisos'); ?>
+        <?php echo $form->labelEx($model,'Permisos'); ?>
         <?php echo $form->textField($model,'id_permisos'); ?>
         <?php echo $form->error($model,'id_permisos'); ?>
     </div>
 	
     <div class="row buttons">
-        <?php echo CHtml::submitButton('Submit'); ?>
+        <?php echo CHtml::submitButton('Guardar'); ?>
     </div>
 
 <?php $this->endWidget(); ?>

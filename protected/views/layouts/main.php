@@ -53,7 +53,16 @@
                                 'items'=>array(
                                     array('label'=>'Usuarios', 'url'=>Yii::app()->user->ui->userManagementAdminUrl,'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Empleados', 'url'=>array('/Empleado/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                    array('label'=>'Modulos', 'url'=>array('/Modulo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                   // array('label'=>'Modulos', 'url'=>array('/Modulo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                     array('label'=>'Módulos', 
+                                        'items'=>array(
+                                            array ('label'=>'Módulo','url'=>array('/Modulo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                            array ('label'=>'Operaciones','url'=>array('/ModuloOperaciones/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                            array ('label'=>'Rol','url'=>array('/RolModulos/admin'), 'visible'=>!Yii::app()->user->isGuest),
+
+                                        ),
+                                    ),
+
                                 ),
                             ),
                             array('label'=>'Configuracion',
@@ -66,7 +75,7 @@
                                 ),
                                     array('label'=>'Unidad', 'url'=>array('/Unidad/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Actividad', 'url'=>array('/Actividad/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                    array('label'=>'Modulo', 'url'=>array('/Modulo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    //array('label'=>'Modulo', 'url'=>array('/Modulo/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Empleado', 'url'=>array('/Empleado/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Estado', 'url'=>array('/Estado/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Clasificación', 'url'=>array('/Clasificacion/admin'), 'visible'=>!Yii::app()->user->isGuest),
@@ -90,7 +99,7 @@
                                     array('label'=>'Estado', 'url'=>array('/EstadoObservaciones/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Tipo', 'url'=>array('/TipoObservacion/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Consultor', 'url'=>array('/ObservacionesConsultor/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                    array('label'=>'Unidad', 'url'=>array('/ObservacionesUnidadclass/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Unidad', 'url'=>array('/ObservacionesUnidad/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Unidad Consultor', 'url'=>array('/ObservacionesUnidadConsultor/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Historial lider', 'url'=>array('/LiderObservacionHistorial/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Lider observacion', 'url'=>array('/LideresObservacion/admin'), 'visible'=>!Yii::app()->user->isGuest),                                    
