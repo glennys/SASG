@@ -15,40 +15,28 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'descripcion'); ?>
+		<?php echo $form->labelEx($model,'Descripción'); ?>
 		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'activo'); ?>
+		<?php echo $form->labelEx($model,'Activo'); ?>
 		<?php echo $form->checkBox($model,'activo'); ?>
 		<?php echo $form->error($model,'activo'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'abreviatura_tipo_auditoria'); ?>
+		<?php echo $form->labelEx($model,'Abreviatura Tipo Auditoria'); ?>
 		<?php echo $form->textField($model,'abreviatura_tipo_auditoria',array('size'=>10,'maxlength'=>10)); ?>
 		<?php echo $form->error($model,'abreviatura_tipo_auditoria'); ?>
 	</div>
-			<?php/*
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_creacion'); ?>
-		<?php echo $form->textField($model,'fecha_creacion'); ?>
-		<?php echo $form->error($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_actualizacion'); ?>
-		<?php echo $form->textField($model,'fecha_actualizacion'); ?>
-		<?php echo $form->error($model,'fecha_actualizacion'); ?>
-	</div>
-			*/?>
+			
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

@@ -27,7 +27,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'adjunto'); ?>
+		<?php echo $form->label($model,'Adjunto'); ?>
 		<?php echo $form->textField($model,'adjunto'); ?>
 	</div>
 
@@ -42,7 +42,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

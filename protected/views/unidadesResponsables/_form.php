@@ -7,7 +7,7 @@
     'enableAjaxValidation'=>false,
 )); ?>
 
-    <p class="note">Fields with <span class="required">*</span> are required.</p>
+    <p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
     <?php echo $form->errorSummary($model); ?>
 	
@@ -27,69 +27,147 @@
 	
     <div class="row">
         <?php echo $form->labelEx($model,'fecha_creacion'); ?>
-        <?php echo $form->textField($model,'fecha_creacion'); ?>
+        <?php
+            
+           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model'=>$model,
+                'attribute'=>'fecha_creacion',
+                'value'=>$model->fecha_creacion,
+            'language' => 'es',
+           'htmlOptions' => array('readonly'=>"readonly"),
+                'options'=>array(
+                    'autoSize'=>true,
+                    'defaultDate'=>$model->fecha_creacion,
+                     'dateFormat'=>'yy-mm-dd',
+                    //'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
+            'buttonImageOnly'=>true,
+            'buttonText'=> '',
+            'selectOtherMonths'=>true,
+            'showAnim'=>'slide',
+            'showButtonPanel'=>true,
+            'showOn'=>'focus', // se puede colocar focus  o button
+            'showOtherMonths'=>true, 
+            'changeMonth' => 'true', 
+            'changeYear' => 'true', 
+            'minDate'=>'date("Y-m-d")', 
+            'maxDate'=> "+20Y",
+            ),
+          )); 
+         ?>
         <?php echo $form->error($model,'fecha_creacion'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'nombre_responsable'); ?>
+        <?php echo $form->labelEx($model,'Nombre Responsable'); ?>
         <?php echo $form->textField($model,'nombre_responsable'); ?>
         <?php echo $form->error($model,'nombre_responsable'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'telefono'); ?>
+        <?php echo $form->labelEx($model,'Teléfono'); ?>
         <?php echo $form->textField($model,'telefono'); ?>
         <?php echo $form->error($model,'telefono'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'unidades_involucradas'); ?>
+        <?php echo $form->labelEx($model,'Unidades Involucradas'); ?>
         <?php echo $form->textField($model,'unidades_involucradas'); ?>
         <?php echo $form->error($model,'unidades_involucradas'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'fecha_inicio_estimada'); ?>
-        <?php echo $form->textField($model,'fecha_inicio_estimada'); ?>
+        <?php echo $form->labelEx($model,'Fecha Inicio Estimada'); ?>
+        <?php
+            
+           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model'=>$model,
+                'attribute'=>'fecha_inicio_estimada',
+                'value'=>$model->fecha_inicio_estimada,
+            'language' => 'es',
+           'htmlOptions' => array('readonly'=>"readonly"),
+                'options'=>array(
+                    'autoSize'=>true,
+                    'defaultDate'=>$model->fecha_inicio_estimada,
+                     'dateFormat'=>'yy-mm-dd',
+                    //'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
+            'buttonImageOnly'=>true,
+            'buttonText'=> '',
+            'selectOtherMonths'=>true,
+            'showAnim'=>'slide',
+            'showButtonPanel'=>true,
+            'showOn'=>'focus', // se puede colocar focus  o button
+            'showOtherMonths'=>true, 
+            'changeMonth' => 'true', 
+            'changeYear' => 'true', 
+            'minDate'=>'date("Y-m-d")', 
+            'maxDate'=> "+20Y",
+            ),
+          )); 
+         ?>
         <?php echo $form->error($model,'fecha_inicio_estimada'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'fecha_fin_estimada'); ?>
-        <?php echo $form->textField($model,'fecha_fin_estimada'); ?>
+        <?php echo $form->labelEx($model,'Fecha Fin Estimada'); ?>
+       <?php
+            
+           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
+                'model'=>$model,
+                'attribute'=>'fecha_fin_estimada',
+                'value'=>$model->fecha_fin_estimada,
+            'language' => 'es',
+           'htmlOptions' => array('readonly'=>"readonly"),
+                'options'=>array(
+                    'autoSize'=>true,
+                    'defaultDate'=>$model->fecha_fin_estimada,
+                     'dateFormat'=>'yy-mm-dd',
+                    //'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
+            'buttonImageOnly'=>true,
+            'buttonText'=> '',
+            'selectOtherMonths'=>true,
+            'showAnim'=>'slide',
+            'showButtonPanel'=>true,
+            'showOn'=>'focus', // se puede colocar focus  o button
+            'showOtherMonths'=>true, 
+            'changeMonth' => 'true', 
+            'changeYear' => 'true', 
+            'minDate'=>'date("Y-m-d")', 
+            'maxDate'=> "+20Y",
+            ),
+          )); 
+         ?>
         <?php echo $form->error($model,'fecha_fin_estimada'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'indicador_logro'); ?>
+        <?php echo $form->labelEx($model,'Indicador Logro'); ?>
         <?php echo $form->textField($model,'indicador_logro'); ?>
         <?php echo $form->error($model,'indicador_logro'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'evento'); ?>
+        <?php echo $form->labelEx($model,'Evento'); ?>
         <?php echo $form->textField($model,'evento'); ?>
         <?php echo $form->error($model,'evento'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'correo'); ?>
+        <?php echo $form->labelEx($model,'Correo'); ?>
         <?php echo $form->textField($model,'correo'); ?>
         <?php echo $form->error($model,'correo'); ?>
     </div>
 	
 	
     <div class="row">
-        <?php echo $form->labelEx($model,'unidades_apoyo'); ?>
+        <?php echo $form->labelEx($model,'Unidades Apoyo'); ?>
         <?php echo $form->textField($model,'unidades_apoyo'); ?>
         <?php echo $form->error($model,'unidades_apoyo'); ?>
     </div>

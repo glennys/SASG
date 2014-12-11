@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Tipo Criticidads'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List TipoCriticidad', 'url'=>array('index')),
-	array('label'=>'Manage TipoCriticidad', 'url'=>array('admin')),
+	array('label'=>'Listar Tipo Criticidad', 'url'=>array('index')),
+	array('label'=>'Administrar Tipo Criticidad', 'url'=>array('admin')),
 );
 ?>
 

@@ -3,12 +3,12 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Tipo Observacions',
+	'Tipo Observaciones',
 );
 
 $this->menu=array(
-	array('label'=>'Create TipoObservacion', 'url'=>array('create')),
-	array('label'=>'Manage TipoObservacion', 'url'=>array('admin')),
+	array('label'=>'Crear Tipo Observación', 'url'=>array('create')),
+	array('label'=>'Aministrar Tipo Observación', 'url'=>array('admin')),
 );
 ?>
 

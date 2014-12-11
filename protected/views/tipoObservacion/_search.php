@@ -17,23 +17,13 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'descripcion'); ?>
+		<?php echo $form->label($model,'Descripción'); ?>
 		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'activo'); ?>
+		<?php echo $form->label($model,'Activo'); ?>
 		<?php echo $form->checkBox($model,'activo'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'fecha_creacion'); ?>
-		<?php echo $form->textField($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'fecha_actualizacion'); ?>
-		<?php echo $form->textField($model,'fecha_actualizacion'); ?>
 	</div>
 
 	<div class="row buttons">

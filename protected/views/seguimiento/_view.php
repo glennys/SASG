@@ -25,7 +25,7 @@
 	<?php echo CHtml::encode($data->fecha_modificacion); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('tipo')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Tipo')); ?>:</b>
 	<?php echo CHtml::encode($data->tipo); ?>
 	<br />
 

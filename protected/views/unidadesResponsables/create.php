@@ -1,15 +1,15 @@
 <!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
 $this->breadcrumbs=array(
-	'UnidadesResponsabless'=>array('index'),
-	'Create',
+	'UnidadesResponsables'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List UnidadesResponsabless', 'url'=>array('index')),
-    array('label'=>'Manage UnidadesResponsables', 'url'=>array('admin')),
+	array('label'=>'Listar Unidades Responsables', 'url'=>array('index')),
+    array('label'=>'Administrar Unidades Responsables', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create UnidadesResponsables</h1>
+<h1>Crear Unidades Responsables</h1>
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>

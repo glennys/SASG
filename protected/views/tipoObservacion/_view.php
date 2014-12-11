@@ -9,21 +9,12 @@
 	<?php echo CHtml::link(CHtml::encode($data->id_tipo), array('view', 'id'=>$data->id_tipo)); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Descripción')); ?>:</b>
 	<?php echo CHtml::encode($data->descripcion); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('activo')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('Activo')); ?>:</b>
 	<?php echo CHtml::encode($data->activo); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha_creacion')); ?>:</b>
-	<?php echo CHtml::encode($data->fecha_creacion); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fecha_actualizacion')); ?>:</b>
-	<?php echo CHtml::encode($data->fecha_actualizacion); ?>
-	<br />
-
+	
 
 </div>

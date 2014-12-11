@@ -30,17 +30,7 @@
 		<?php echo $form->label($model,'abreviatura_tipo_auditoria'); ?>
 		<?php echo $form->textField($model,'abreviatura_tipo_auditoria',array('size'=>10,'maxlength'=>10)); ?>
 	</div>
-			<?php/*
-	<div class="row">
-		<?php echo $form->label($model,'fecha_creacion'); ?>
-		<?php echo $form->textField($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'fecha_actualizacion'); ?>
-		<?php echo $form->textField($model,'fecha_actualizacion'); ?>
-	</div>
-			*/?>
+			
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create TipoCriticidad', 'url'=>array('create')),
-	array('label'=>'Manage TipoCriticidad', 'url'=>array('admin')),
+	array('label'=>'Crear Tipo Criticidad', 'url'=>array('create')),
+	array('label'=>'Administrar Tipo Criticidad', 'url'=>array('admin')),
 );
 ?>
 

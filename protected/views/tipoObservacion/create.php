@@ -3,13 +3,13 @@
 /* @var $model TipoObservacion */
 
 $this->breadcrumbs=array(
-	'Tipo Observacions'=>array('index'),
-	'Create',
+	'Tipo Observaciones'=>array('index'),
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List TipoObservacion', 'url'=>array('index')),
-	array('label'=>'Manage TipoObservacion', 'url'=>array('admin')),
+	array('label'=>'Listar Tipo Observación', 'url'=>array('index')),
+	array('label'=>'Administrar Tipo Observación', 'url'=>array('admin')),
 );
 ?>
 

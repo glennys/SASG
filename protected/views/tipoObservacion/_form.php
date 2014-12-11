@@ -15,88 +15,20 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+	<p class="note">Los campos con <span class="required">*</span> son requeridos.</p>
 
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'descripcion'); ?>
+		<?php echo $form->labelEx($model,'Descripción'); ?>
 		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'activo'); ?>
+		<?php echo $form->labelEx($model,'Activo'); ?>
 		<?php echo $form->checkBox($model,'activo'); ?>
 		<?php echo $form->error($model,'activo'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_creacion'); ?>
-		
-
-		<?php
- 			
-           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-		   		'model'=>$model,
-		   		'attribute'=>'fecha_creacion',
-		   		'value'=>$model->fecha_creacion,
-		   	'language' => 'es',
-		   'htmlOptions' => array('readonly'=>"readonly"),
-		   		'options'=>array(
-		    		'autoSize'=>true,
-		    		'defaultDate'=>$model->fecha_creacion,
-		   			 'dateFormat'=>'yy-mm-dd',
-		    		//'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
-		    'buttonImageOnly'=>true,
-		    'buttonText'=> '',
-		    'selectOtherMonths'=>true,
-		    'showAnim'=>'slide',
-		    'showButtonPanel'=>true,
-		    'showOn'=>'focus', // se puede colocar focus  o button
-		    'showOtherMonths'=>true, 
-		    'changeMonth' => 'true', 
-		    'changeYear' => 'true', 
-		    'minDate'=>'date("Y-m-d")', 
-		    'maxDate'=> "+20Y",
-		    ),
-		  )); 
-		 ?>
-		<?php echo $form->error($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_actualizacion'); ?>
-		
-<?php
- 			
-           $this->widget('zii.widgets.jui.CJuiDatePicker', array(
-		   		'model'=>$model,
-		   		'attribute'=>'fecha_actualizacion',
-		   		'value'=>$model->fecha_actualizacion,
-		   	'language' => 'es',
-		   'htmlOptions' => array('readonly'=>"readonly"),
-		   		'options'=>array(
-		    		'autoSize'=>true,
-		    		'defaultDate'=>$model->fecha_actualizacion,
-		   			 'dateFormat'=>'yy-mm-dd',
-		    		//'buttonImage'=>Yii::app()->baseUrl.'/images/calendario.jpg',
-		    'buttonImageOnly'=>true,
-		    'buttonText'=> '',
-		    'selectOtherMonths'=>true,
-		    'showAnim'=>'slide',
-		    'showButtonPanel'=>true,
-		    'showOn'=>'focus', // se puede colocar focus  o button
-		    'showOtherMonths'=>true, 
-		    'changeMonth' => 'true', 
-		    'changeYear' => 'true', 
-		    'minDate'=>'date("Y-m-d")', 
-		    'maxDate'=> "+20Y",
-		    ),
-		  )); 
-		 ?>
-
-		<?php echo $form->error($model,'fecha_actualizacion'); ?>
 	</div>
 
 	<div class="row buttons">

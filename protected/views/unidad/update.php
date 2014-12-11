@@ -5,17 +5,17 @@
 $this->breadcrumbs=array(
 	'Unidads'=>array('index'),
 	$model->id_unidad=>array('view','id'=>$model->id_unidad),
-	'Update',
+	'Modificar',
 );
 
 $this->menu=array(
-	array('label'=>'List Unidad', 'url'=>array('index')),
-	array('label'=>'Create Unidad', 'url'=>array('create')),
-	array('label'=>'View Unidad', 'url'=>array('view', 'id'=>$model->id_unidad)),
-	array('label'=>'Manage Unidad', 'url'=>array('admin')),
+	array('label'=>'Listar Unidad', 'url'=>array('index')),
+	array('label'=>'Crear Unidad', 'url'=>array('create')),
+	array('label'=>'Vista Unidad', 'url'=>array('view', 'id'=>$model->id_unidad)),
+	array('label'=>'Administar Unidad', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Update Unidad <?php echo $model->id_unidad; ?></h1>
+<h1>Modificar Unidad <?php echo $model->id_unidad; ?></h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

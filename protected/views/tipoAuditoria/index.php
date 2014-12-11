@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create TipoAuditoria', 'url'=>array('create')),
-	array('label'=>'Manage TipoAuditoria', 'url'=>array('admin')),
+	array('label'=>'Crear Tipo Auditoria', 'url'=>array('create')),
+	array('label'=>'Administrar Tipo Auditoria', 'url'=>array('admin')),
 );
 ?>
 

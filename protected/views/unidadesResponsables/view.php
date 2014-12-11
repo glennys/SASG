@@ -2,14 +2,14 @@
 <?php
 $this->breadcrumbs=array(
 	'UnidadesResponsabless'=>array('index'),
-	'View',
+	'Vista',
 );
 
 $this->menu=array(
-	array('label'=>'List UnidadesResponsables', 'url'=>array('index')),
-	array('label'=>'Create UnidadesResponsables', 'url'=>array('create')),
-	array('label'=>'Update UnidadesResponsables', 'url'=>array('update', 'id_unidad'=>$model->id_unidad, 'id_observaciones'=>$model->id_observaciones)),
-	array('label'=>'Delete UnidadesResponsables', 'url'=>'delete', 
+	array('label'=>'Listar Unidades Responsables', 'url'=>array('index')),
+	array('label'=>'Crear Unidades Responsables', 'url'=>array('create')),
+	array('label'=>'Modificar Unidades Responsables', 'url'=>array('update', 'id_unidad'=>$model->id_unidad, 'id_observaciones'=>$model->id_observaciones)),
+	array('label'=>'Eliminar Unidades Responsables', 'url'=>'delete', 
 	      'linkOptions'=>array('submit'=>array('delete',
 	                                           'id_unidad'=>$model->id_unidad, 'id_observaciones'=>$model->id_observaciones),
 									'confirm'=>'Are you sure you want to delete this item?')),
@@ -17,7 +17,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>View UnidadesResponsables</h1>
+<h1>Vista  Unidades Responsables</h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,

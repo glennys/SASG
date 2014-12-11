@@ -3,7 +3,7 @@
 /* @var $dataProvider CActiveDataProvider */
 
 $this->breadcrumbs=array(
-	'Unidads',
+	'Unidades',
 );
 
 $this->menu=array(

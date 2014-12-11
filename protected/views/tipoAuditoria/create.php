@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Tipo Auditorias'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List TipoAuditoria', 'url'=>array('index')),
-	array('label'=>'Manage TipoAuditoria', 'url'=>array('admin')),
+	array('label'=>'Listar TipoAuditoria', 'url'=>array('index')),
+	array('label'=>'Administrar TipoAuditoria', 'url'=>array('admin')),
 );
 ?>
 

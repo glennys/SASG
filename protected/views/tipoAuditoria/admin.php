@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Tipo Auditorias'=>array('index'),
-	'Manage',
+	'Administrar',
 );
 
 $this->menu=array(
-	array('label'=>'List TipoAuditoria', 'url'=>array('index')),
-	array('label'=>'Create TipoAuditoria', 'url'=>array('create')),
+	array('label'=>'Listar TipoAuditoria', 'url'=>array('index')),
+	array('label'=>'Crear TipoAuditoria', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,11 +26,11 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Tipo Auditorias</h1>
+<h1>Administrar Tipo Auditorias</h1>
 
 <p>
-You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+También puede escribir un operador de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) al principio de cada uno de los valores de búsqueda para especificar cómo se debe hacer la comparación.
 </p>
 
 <?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
@@ -49,8 +49,6 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'descripcion',
 		'activo',
 		'abreviatura_tipo_auditoria',
-		//'fecha_creacion',
-		//'fecha_actualizacion',
 		array(
 			'class'=>'CButtonColumn',
 		),

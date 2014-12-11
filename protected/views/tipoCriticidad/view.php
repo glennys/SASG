@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List TipoCriticidad', 'url'=>array('index')),
-	array('label'=>'Create TipoCriticidad', 'url'=>array('create')),
-	array('label'=>'Update TipoCriticidad', 'url'=>array('update', 'id'=>$model->id_tipo_criticidad)),
-	array('label'=>'Delete TipoCriticidad', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_tipo_criticidad),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage TipoCriticidad', 'url'=>array('admin')),
+	array('label'=>'Listar TipoCriticidad', 'url'=>array('index')),
+	array('label'=>'Crear TipoCriticidad', 'url'=>array('create')),
+	array('label'=>'Modificar TipoCriticidad', 'url'=>array('update', 'id'=>$model->id_tipo_criticidad)),
+	array('label'=>'Eliminar TipoCriticidad', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_tipo_criticidad),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Administrar TipoCriticidad', 'url'=>array('admin')),
 );
 ?>
 
@@ -24,7 +24,5 @@ $this->menu=array(
 		'id_tipo_criticidad',
 		'descripcion',
 		'activo',
-		//'fecha_creacion',
-		//'fecha_actualizacion',
 	),
 )); ?>

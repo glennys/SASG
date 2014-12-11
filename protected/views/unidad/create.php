@@ -4,15 +4,15 @@
 
 $this->breadcrumbs=array(
 	'Unidads'=>array('index'),
-	'Create',
+	'Crear',
 );
 
 $this->menu=array(
-	array('label'=>'List Unidad', 'url'=>array('index')),
-	array('label'=>'Manage Unidad', 'url'=>array('admin')),
+	array('label'=>'Listar Unidad', 'url'=>array('index')),
+	array('label'=>'Administrar Unidad', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Unidad</h1>
+<h1>Crear Unidad</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>

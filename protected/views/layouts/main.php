@@ -73,7 +73,13 @@
                                             array('label'=>'Rol del Empleado', 'url'=>array('/EmpleadoRol/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     ),
                                 ),
-                                    array('label'=>'Unidad', 'url'=>array('/Unidad/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                   // array('label'=>'Unidad', 'url'=>array('/Unidad/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Unidad',
+                                        'items'=>array(
+                                            array('label'=>'Unidad', 'url'=>array('/Unidad/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                            array('label'=>'Responsable', 'url'=>array('/UnidadesResponsables/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    ),
+                                ),
                                     array('label'=>'Actividad', 'url'=>array('/Actividad/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     //array('label'=>'Modulo', 'url'=>array('/Modulo/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Empleado', 'url'=>array('/Empleado/admin'), 'visible'=>!Yii::app()->user->isGuest),
@@ -89,6 +95,9 @@
                                     array('label'=>'Impacto', 'url'=>array('/Impacto/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Procesos', 'url'=>array('/Procesos/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Operaciones', 'url'=>array('/Operaciones/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Seguimiento', 'url'=>array('/Seguimiento/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Criticidad', 'url'=>array('/TipoCriticidad/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                          
                                     
                                     
                                 ),

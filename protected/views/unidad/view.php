@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Unidad', 'url'=>array('index')),
-	array('label'=>'Create Unidad', 'url'=>array('create')),
-	array('label'=>'Update Unidad', 'url'=>array('update', 'id'=>$model->id_unidad)),
-	array('label'=>'Delete Unidad', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_unidad),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Unidad', 'url'=>array('admin')),
+	array('label'=>'Listar Unidad', 'url'=>array('index')),
+	array('label'=>'Crear Unidad', 'url'=>array('create')),
+	array('label'=>'Modificar Unidad', 'url'=>array('update', 'id'=>$model->id_unidad)),
+	array('label'=>'Eliminar Unidad', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_unidad),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Administrar Unidad', 'url'=>array('admin')),
 );
 ?>
 
@@ -29,7 +29,5 @@ $this->menu=array(
 		'extension_supervisor_unidad',
 		'celular_supervisor_ldap',
 		'descripcion_unidad_ldap',
-		//'fecha_creacion',
-		//'fecha_actualizacion',
 	),
 )); ?>
