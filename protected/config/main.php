@@ -15,7 +15,8 @@ function My_OB($str, $flags)
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Gestion de Presupuestos - GGTO',
+	'name'=>'Sistema Automatizado de Seguimiento a la Gestión
+ SASG',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -120,16 +121,18 @@ return array(
 		//),
 
 		// uncomment the following to enable URLs in path-format
-		/*
+		/*descomentado para tener url  limpias 08/01/2015   */
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+           // 'showScriptName' => false, //no hace falta esta linea
+            'urlSuffix'=>'.html',  //funciona para colocarle cualquier terminacion a la pag
 			'rules'=>array(
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		*/
+		
 
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',

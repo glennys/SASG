@@ -54,9 +54,9 @@ class Actividad extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idObservaciones' => array(self::BELONGS_TO, 'Observaciones', 'id_observaciones'),
+			'idObservaciones' => array(self::BELONGS_TO, 'Observaciones', 'id_observaciones'),  //muchos a uno
 			'idUnidad' => array(self::BELONGS_TO, 'Unidad', 'id_unidad'),
-			'observacionesUnidadConsultors' => array(self::HAS_MANY, 'ObservacionesUnidadConsultor', 'id_actividad'),
+			'observacionesUnidadConsultors' => array(self::HAS_MANY, 'ObservacionesUnidadConsultor', 'id_actividad'),   //uno a muchos
 			'adjuntoSeguimientos' => array(self::HAS_MANY, 'AdjuntoSeguimiento', 'id_actividad'),
 		);
 	}
