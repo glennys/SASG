@@ -42,6 +42,8 @@ return array(
             'password'=>'cantv00',
             // If removed, Gii defaults to localhost only. Edit carefully to taste.
             'ipFilters'=>array('161.196.26.166','127.0.0.1','::1'),
+            /*cuando no se pueda acceder al generador crud en lugar de localhost colocamos 
+            la ip local 127.0.0.1 al igual q con otro servidor colocamos su ip y se puede acceder*/
             //'generatorPaths' => array(
             //'ext.giix-core', // giix generators.
             //'bootstrap.gii', // bootstrap generators.

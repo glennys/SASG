@@ -194,8 +194,36 @@
 		<?php echo $form->textField($model,'codigo_observacion',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'codigo_observacion'); ?>
 	</div>
-			
 
+	<div class="row">
+		<?php echo $form->labelEx($model,'Descripción'); ?>
+		<?php echo $form->textArea($model,'descripcion',array('size'=>100,'maxlength'=>550)); ?>
+		<?php echo $form->error($model,'descripcion'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'Riesgo'); ?>
+		<?php echo $form->textArea($model,'riesgo',array('size'=>100,'maxlength'=>550)); ?>
+		<?php echo $form->error($model,'riesgo'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'Criterio'); ?>
+		<?php echo $form->textField($model,'criterio',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'criterio'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'Causa'); ?>
+		<?php echo $form->textField($model,'causa',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'causa'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'Efecto'); ?>
+		<?php echo $form->textField($model,'efecto',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'efecto'); ?>
+	</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>

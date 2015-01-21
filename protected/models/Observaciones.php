@@ -66,15 +66,25 @@ class Observaciones extends CActiveRecord
 		return array(
 			array('fecha_inicio_accion_correctiva', 'required'),
 			array('id_informe, id_unidad, id_naturaleza, id_tipo_criticidad, id_tipo_observacion, id_impacto, id_clasificacion, id_estado', 'numerical', 'integerOnly'=>true),
-			array('recomendacion, detalle_observacion, accion_correctiva, plan_accion_general, codigo, codigo_observacion', 'length', 'max'=>255),
+			array('recomendacion, detalle_observacion, accion_correctiva, plan_accion_general, codigo, codigo_observacion, riesgo, criterio, causa, efecto', 'length', 'max'=>255),
 			//array('in_stat', 'length', 'max'=>1),
 			//array('usr_crea, usr_modf', 'length', 'max'=>10),
-			array('cerrada, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva', 'safe'),
+			array('cerrada, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva, criterio, causa, efecto', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_observaciones, id_informe, id_unidad, id_naturaleza, id_tipo_criticidad, id_tipo_observacion, id_impacto, id_clasificacion, id_estado, recomendacion, cerrada, detalle_observacion, accion_correctiva, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva, plan_accion_general, codigo, codigo_observacion', 'safe', 'on'=>'search'),
+			array('id_observaciones, id_informe, id_unidad, id_naturaleza, id_tipo_criticidad, id_tipo_observacion, id_impacto, id_clasificacion, id_estado, recomendacion, cerrada, detalle_observacion, accion_correctiva, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva, plan_accion_general, codigo, codigo_observacion, criterio, causa, efecto', 'safe', 'on'=>'search'),
 		);
-	}
+	}    
+	/*
+	riesgo character varying(255),
+  criterio character varying(255),
+  causa character varying(255),
+  efecto
+
+
+	*/
+
+
 
 	/**
 	 * @return array relational rules.
@@ -118,7 +128,7 @@ class Observaciones extends CActiveRecord
 			'id_impacto' => 'Id Impacto',
 			'id_clasificacion' => 'Id Clasificacion',
 			'id_estado' => 'Id Estado',
-			'recomendacion' => 'Recomendacion',
+			'recomendacion' => 'Recomendación',
 			'cerrada' => 'Cerrada',
 			'detalle_observacion' => 'Detalle Observacion',
 			'accion_correctiva' => 'esta es la narrativa del plan de accion general',
@@ -127,6 +137,12 @@ class Observaciones extends CActiveRecord
 			'plan_accion_general' => 'Plan Accion General',
 			'codigo' => 'Codigo',
 			'codigo_observacion' => 'Codigo Observacion',
+			'riesgo' => 'Riesgo',
+  			'criterio' =>  'Criterio',
+  			'causa' => 'Causa',
+  			'efecto' =>  'Efecto',
+  			'descripcion' => 'Descripción'
+
 			/*'in_stat' => 'In Stat',
 			'usr_crea' => 'Usr Crea',
 			'fe_crea' => 'Fe Crea',
@@ -171,6 +187,12 @@ class Observaciones extends CActiveRecord
 		$criteria->compare('plan_accion_general',$this->plan_accion_general,true);
 		$criteria->compare('codigo',$this->codigo,true);
 		$criteria->compare('codigo_observacion',$this->codigo_observacion,true);
+		$criteria->compare('riesgo',$this->riesgo,true);
+  		$criteria->compare('criterio',$this->criterio,true);
+  		$criteria->compare('causa',$this->causa,true); 
+  		$criteria->compare('efecto',$this->efecto,true);  
+
+
 		/*$criteria->compare('in_stat',$this->in_stat,true);
 		$criteria->compare('usr_crea',$this->usr_crea,true);
 		$criteria->compare('fe_crea',$this->fe_crea,true);

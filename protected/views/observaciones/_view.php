@@ -77,7 +77,30 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('codigo_observacion')); ?>:</b>
 	<?php echo CHtml::encode($data->codigo_observacion); ?>
 	<br />
-	*/ ?>
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
+	<?php echo CHtml::encode($data->descripcio); ?>
+	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('riesgo')); ?>:</b>
+	<?php echo CHtml::encode($data->riesgo); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('criterio')); ?>:</b>
+	<?php echo CHtml::encode($data->criterio); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('causa')); ?>:</b>
+	<?php echo CHtml::encode($data->causa); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('efecto')); ?>:</b>
+	<?php echo CHtml::encode($data->efecto); ?>
+	<br />
+
+	*/
+
+	?>
 
 	
 	

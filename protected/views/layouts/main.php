@@ -81,7 +81,7 @@
                                     ),
                                 ),
                                     array('label'=>'Actividad', 'url'=>array('/Actividad/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                    //array('label'=>'Modulo', 'url'=>array('/Modulo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Tema de Interes', 'url'=>array('/TemaInteres/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Empleado', 'url'=>array('/Empleado/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Estado', 'url'=>array('/Estado/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Clasificación', 'url'=>array('/Clasificacion/admin'), 'visible'=>!Yii::app()->user->isGuest),

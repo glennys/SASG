@@ -67,6 +67,11 @@ $this->menu=array(
 		'plan_accion_general',
 		'codigo',
 		'codigo_observacion',
+		'descripcion',
+		'riesgo',
+		'criterio',
+		'causa',
+		'efecto',
 		
 	),
 )); ?>

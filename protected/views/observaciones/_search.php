@@ -101,6 +101,31 @@
 		<?php echo $form->textField($model,'codigo_observacion',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
+	<div class="row">
+		<?php echo $form->label($model,'Descripción'); ?>
+		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'riesgo'); ?>
+		<?php echo $form->textField($model,'riesgo',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'criterio'); ?>
+		<?php echo $form->textField($model,'criterio',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'causa'); ?>
+		<?php echo $form->textField($model,'causa',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->label($model,'efecto'); ?>
+		<?php echo $form->textField($model,'efecto',array('size'=>60,'maxlength'=>255)); ?>
+	</div>
+
 		<div class="row buttons">
 		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
