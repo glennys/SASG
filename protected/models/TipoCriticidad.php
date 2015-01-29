@@ -31,12 +31,12 @@ class TipoCriticidad extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('descripcion, activo', 'required'),
+			array('descripcion', 'required'),
 			array('descripcion', 'length', 'max'=>255),
 			array('fecha_creacion, fecha_actualizacion', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_tipo_criticidad, descripcion, activo, fecha_creacion, fecha_actualizacion', 'safe', 'on'=>'search'),
+			array('id_tipo_criticidad, descripcion, fecha_creacion, fecha_actualizacion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -60,7 +60,7 @@ class TipoCriticidad extends CActiveRecord
 		return array(
 			'id_tipo_criticidad' => 'Id Tipo Criticidad',
 			'descripcion' => 'Descripcion',
-			'activo' => 'Activo',
+			
 			'fecha_creacion' => 'Fecha Creacion',
 			'fecha_actualizacion' => 'Fecha Actualizacion',
 		);
@@ -86,7 +86,7 @@ class TipoCriticidad extends CActiveRecord
 
 		$criteria->compare('id_tipo_criticidad',$this->id_tipo_criticidad);
 		$criteria->compare('descripcion',$this->descripcion,true);
-		$criteria->compare('activo',$this->activo);
+		
 		$criteria->compare('fecha_creacion',$this->fecha_creacion,true);
 		$criteria->compare('fecha_actualizacion',$this->fecha_actualizacion,true);
 

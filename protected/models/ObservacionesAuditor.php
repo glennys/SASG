@@ -1,17 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "auditoria.observaciones_consultor".
+ * This is the model class for table "auditoria.observaciones_auditor".
  *
- * The followings are the available columns in table 'auditoria.observaciones_consultor':
- * @property integer $id_observaciones
- * @property integer $id_consultor
+ * The followings are the available columns in table 'auditoria.observaciones_auditor':
+ * @property integer $id_auditor
  * @property string $fecha_asignacion
  * @property integer $otro
+ * @property string $in_stat
+ * @property string $usr_crea
+ * @property string $fe_crea
+ * @property string $usr_modf
+ * @property string $fe_modf
+ * @property string $observaciones
  *
  * The followings are the available model relations:
- * @property Empleado $idConsultor
- * @property Observaciones $idObservaciones
+ * @property Observaciones[] $observaciones0
  */
 class ObservacionesAuditor extends CActiveRecord
 {
@@ -31,11 +35,14 @@ class ObservacionesAuditor extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_observaciones, id_auditor, fecha_asignacion', 'required'),
-			array('id_observaciones, id_auditor, otro', 'numerical', 'integerOnly'=>true),
+			array('otro', 'numerical', 'integerOnly'=>true),
+			//array('in_stat', 'length', 'max'=>1),
+			//array('usr_crea, usr_modf', 'length', 'max'=>10),
+			array('observaciones', 'length', 'max'=>255),
+			array('fecha_asignacion', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_observaciones, id_auditor, fecha_asignacion, otro', 'safe', 'on'=>'search'),
+			array('id_auditor, fecha_asignacion, otro, observaciones', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -47,8 +54,7 @@ class ObservacionesAuditor extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idAuditor' => array(self::BELONGS_TO, 'Empleado', 'id_auditor'),
-			'idObservaciones' => array(self::BELONGS_TO, 'Observaciones', 'id_observaciones'),
+			'observaciones0' => array(self::HAS_MANY, 'Observaciones', 'id_auditor'),
 		);
 	}
 
@@ -58,10 +64,15 @@ class ObservacionesAuditor extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_observaciones' => 'Id Observaciones',
-			'id_auditor' => 'Id Auditor',
+			//'id_auditor' => 'Id Auditor',
 			'fecha_asignacion' => 'Fecha Asignacion',
+			'observaciones' => 'Observaciones',
 			'otro' => 'Otro',
+			/*'in_stat' => 'In Stat',
+			'usr_crea' => 'Usr Crea',
+			'fe_crea' => 'Fe Crea',
+			'usr_modf' => 'Usr Modf',
+			'fe_modf' => 'Fe Modf',*/
 		);
 	}
 
@@ -83,10 +94,15 @@ class ObservacionesAuditor extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('id_observaciones',$this->id_observaciones);
 		$criteria->compare('id_auditor',$this->id_auditor);
 		$criteria->compare('fecha_asignacion',$this->fecha_asignacion,true);
 		$criteria->compare('otro',$this->otro);
+		/*$criteria->compare('in_stat',$this->in_stat,true);
+		$criteria->compare('usr_crea',$this->usr_crea,true);
+		$criteria->compare('fe_crea',$this->fe_crea,true);
+		$criteria->compare('usr_modf',$this->usr_modf,true);
+		$criteria->compare('fe_modf',$this->fe_modf,true);*/
+		$criteria->compare('observaciones',$this->observaciones,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -97,28 +113,10 @@ class ObservacionesAuditor extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return ObservacionesConsultor the static model class
+	 * @return ObservacionesAuditor the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
 		return parent::model($className);
 	}
-
-	public function behaviors()
-    {
-        return array(
-                'CTimestampBehavior' => array(
-                    'class' => 'zii.behaviors.CTimestampBehavior',
-                    'createAttribute' => 'fe_crea',
-                    'updateAttribute' => 'fe_modf',
-                    'setUpdateOnCreate' => true,
-                ),
-
-                'BlameableBehavior' => array(
-                    'class' => 'application.components.BlameableBehavior',
-                    'createdByColumn' => 'usr_crea',
-                    'updatedByColumn' => 'usr_modf',
-                ),
-        );
-    }
 }

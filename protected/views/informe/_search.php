@@ -22,8 +22,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_estado'); ?>
-		<?php echo $form->textField($model,'id_estado'); ?>
+		<?php // echo $form->label($model,'id_estado'); ?>
+		<?php // echo $form->textField($model,'id_estado'); ?>
 	</div>
 
 	<div class="row">

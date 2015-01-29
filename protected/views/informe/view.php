@@ -27,11 +27,12 @@ $this->menu=array(
    'name'=>'id_tipo_auditoria',
    'value'=>$model->idTipoAuditoria->descripcion,
         ),
+		/*
 		//'id_estado',
 		array(
    'name'=>'id_estado',
    'value'=>$model->idEstado->descripcion,
-        ),
+        ),*/
 		'fecha_creacion',
 		'fecha_periodo_auditoria',
 		'cerrada',

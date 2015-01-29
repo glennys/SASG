@@ -51,11 +51,13 @@ or <b>=</b>) al principio de cada uno de los valores de búsqueda para especific
    'name'=>'id_tipo_auditoria',
    'value'=>'$data->idTipoAuditoria->descripcion',
         ), 
-		//'id_estado',
+		/*
+		'id_estado',
 			array(
    'name'=>'id_estado',
    'value'=>'$data->idEstado->descripcion',
-        ),
+        ),*/
+	
 		// 'fecha_creacion',
 		'fecha_periodo_auditoria',
 		'cerrada',

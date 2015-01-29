@@ -66,7 +66,7 @@ class Observaciones extends CActiveRecord
 		return array(
 			array('fecha_inicio_accion_correctiva', 'required'),
 			array('id_informe, id_unidad, id_naturaleza, id_tipo_criticidad, id_tipo_observacion, id_impacto, id_clasificacion, id_estado', 'numerical', 'integerOnly'=>true),
-			array('recomendacion, detalle_observacion, accion_correctiva, plan_accion_general, codigo, codigo_observacion, riesgo, criterio, causa, efecto', 'length', 'max'=>255),
+			array('recomendacion, detalle_observacion, accion_correctiva, plan_accion_general, codigo, codigo_observacion, criterio, causa, efecto', 'length', 'max'=>255),
 			//array('in_stat', 'length', 'max'=>1),
 			//array('usr_crea, usr_modf', 'length', 'max'=>10),
 			array('cerrada, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva, criterio, causa, efecto', 'safe'),
@@ -137,7 +137,7 @@ class Observaciones extends CActiveRecord
 			'plan_accion_general' => 'Plan Accion General',
 			'codigo' => 'Codigo',
 			'codigo_observacion' => 'Codigo Observacion',
-			'riesgo' => 'Riesgo',
+			
   			'criterio' =>  'Criterio',
   			'causa' => 'Causa',
   			'efecto' =>  'Efecto',
@@ -187,7 +187,7 @@ class Observaciones extends CActiveRecord
 		$criteria->compare('plan_accion_general',$this->plan_accion_general,true);
 		$criteria->compare('codigo',$this->codigo,true);
 		$criteria->compare('codigo_observacion',$this->codigo_observacion,true);
-		$criteria->compare('riesgo',$this->riesgo,true);
+		
   		$criteria->compare('criterio',$this->criterio,true);
   		$criteria->compare('causa',$this->causa,true); 
   		$criteria->compare('efecto',$this->efecto,true);  

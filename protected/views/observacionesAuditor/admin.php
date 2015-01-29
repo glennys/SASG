@@ -1,13 +1,15 @@
-<!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
+/* @var $this ObservacionesAuditorController */
+/* @var $model ObservacionesAuditor */
+
 $this->breadcrumbs=array(
-	'Auditor'=>array('index'),
-	'Administrar',
+	'Observaciones Auditors'=>array('index'),
+	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'Listar Auditor', 'url'=>array('index')),
-	array('label'=>'Crear Auditor', 'url'=>array('create')),
+	array('label'=>'List ObservacionesAuditor', 'url'=>array('index')),
+	array('label'=>'Create ObservacionesAuditor', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -16,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$.fn.yiiGridView.update('observacionesAuditorgrid', {
+	$('#observaciones-auditor-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -24,57 +26,38 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Administrar Auditor</h1>
+<h1>Manage Observaciones Auditors</h1>
 
 <p>
-También puede escribir un operador de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) al principio de cada uno de los valores de búsqueda para especificar cómo se debe hacer la comparación.
+You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
 </p>
 
-<?php echo CHtml::link('Búsqueda Avanzada','#',array('class'=>'search-button')); ?>
+<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
 <div class="search-form" style="display:none">
 <?php $this->renderPartial('_search',array(
 	'model'=>$model,
 )); ?>
 </div><!-- search-form -->
 
-<?php 
-$this->widget('zii.widgets.grid.CGridView', array(
-    'id'=>'observacionesAuditorgrid',
-    'dataProvider'=>$model->search(),
-    'filter'=>$model,
-    'columns'=>array(
-        'id_observaciones',
-        'id_auditor',
-        'fecha_asignacion',
-        'otro',
-        array(
-            'class'=>'CButtonColumn',
-            'template'=>'{view}{update}{delete}',
-            'buttons'=>array
-            (
-                'view' => array
-                (
-                    'url'=>
-                    'Yii::app()->createUrl("observacionesAuditor/view/", 
-                                            array("id_observaciones"=>$data->id_observaciones, "id_auditor"=>$data->id_auditor, "fecha_asignacion"=>$data->fecha_asignacion
-											))',
-                ),
-                'update' => array
-                (
-                    'url'=>
-                    'Yii::app()->createUrl("observacionesAuditor/update/", 
-                                            array("id_observaciones"=>$data->id_observaciones, "id_auditor"=>$data->id_auditor, "fecha_asignacion"=>$data->fecha_asignacion
-											))',
-                ),
-                'delete'=> array
-                (
-                    'url'=>
-                    'Yii::app()->createUrl("observacionesAuditor/delete/", 
-                                            array("id_observaciones"=>$data->id_observaciones, "id_auditor"=>$data->id_auditor, "fecha_asignacion"=>$data->fecha_asignacion
-											))',
-                ),
-            ),
-        ),
-    ),
+<?php $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'observaciones-auditor-grid',
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
+	'columns'=>array(
+		//'id_auditor',
+		'fecha_asignacion',
+		'observaciones',
+		'otro',
+		/*
+		'in_stat',
+		'usr_crea',
+		'fe_crea',
+		'usr_modf',
+		'fe_modf',
+		*/
+		array(
+			'class'=>'CButtonColumn',
+		),
+	),
 )); ?>

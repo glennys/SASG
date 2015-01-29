@@ -1,15 +1,18 @@
-<!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
+/* @var $this ObservacionesAuditorController */
+/* @var $model ObservacionesAuditor */
+
 $this->breadcrumbs=array(
-	'Auditor'=>array('index'),
-	'Crear',
+	'Observaciones Auditors'=>array('index'),
+	'Create',
 );
 
 $this->menu=array(
-	array('label'=>'Listar  Auditor', 'url'=>array('index')),
-    array('label'=>'Administrar Auditor', 'url'=>array('admin')),
+	array('label'=>'List ObservacionesAuditor', 'url'=>array('index')),
+	array('label'=>'Manage ObservacionesAuditor', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Crear Auditor</h1>
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<h1>Create ObservacionesAuditor</h1>
+
+<?php $this->renderPartial('_form', array('model'=>$model)); ?>

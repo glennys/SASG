@@ -13,8 +13,8 @@
 	<?php echo CHtml::encode($data->idTipoAuditoria->descripcion); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_estado')); ?>:</b>
-	<?php echo CHtml::encode($data->idEstado->descripcion); ?>
+	<b><?php // echo CHtml::encode($data->getAttributeLabel('id_estado')); ?></b>
+	<?php // echo CHtml::encode($data->idEstado->descripcion); ?>
 	<br />
 
 	<b><?php // echo CHtml::encode($data->getAttributeLabel('fecha_creacion')); ?></b>

@@ -1,16 +1,18 @@
-<!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
+/* @var $this ObservacionesAuditorController */
+/* @var $dataProvider CActiveDataProvider */
+
 $this->breadcrumbs=array(
-	'Observaciones Auditor',
+	'Observaciones Auditors',
 );
 
 $this->menu=array(
-	array('label'=>'Crear Observaciones Auditor', 'url'=>array('create')),
-	array('label'=>'Administrar Observaciones Auditor', 'url'=>array('admin')),
+	array('label'=>'Create ObservacionesAuditor', 'url'=>array('create')),
+	array('label'=>'Manage ObservacionesAuditor', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Observaciones Auditor</h1>
+<h1>Observaciones Auditors</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

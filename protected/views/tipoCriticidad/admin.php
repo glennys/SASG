@@ -3,13 +3,13 @@
 /* @var $model TipoCriticidad */
 
 $this->breadcrumbs=array(
-	'Tipo Criticidads'=>array('index'),
+	'Criticidad'=>array('index'),
 	'Administrar',
 );
 
 $this->menu=array(
-	array('label'=>'Listar Tipo Criticidad', 'url'=>array('index')),
-	array('label'=>'Crear Tipo Criticidad', 'url'=>array('create')),
+	array('label'=>'Listar Criticidad', 'url'=>array('index')),
+	array('label'=>'Crear Criticidad', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Administrar Tipo Criticidads</h1>
+<h1>Administrar Criticidad</h1>
 
 <p>
 También puede escribir un operador de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
@@ -48,7 +48,7 @@ or <b>=</b>) al principio de cada uno de los valores de búsqueda para especific
 	'columns'=>array(
 		'id_tipo_criticidad',
 		'descripcion',
-		'activo',
+		
 		array(
 			'class'=>'CButtonColumn',
 		),

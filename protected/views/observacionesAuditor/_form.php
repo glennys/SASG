@@ -1,33 +1,27 @@
-<!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
+<?php
+/* @var $this ObservacionesAuditorController */
+/* @var $model ObservacionesAuditor */
+/* @var $form CActiveForm */
+?>
 
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
-    'id'=>'client-account-create-form',
-    'enableAjaxValidation'=>false,
+	'id'=>'observaciones-auditor-form',
+	// Please note: When you enable ajax validation, make sure the corresponding
+	// controller action is handling ajax validation correctly.
+	// There is a call to performAjaxValidation() commented in generated controller code.
+	// See class documentation of CActiveForm for details on this.
+	'enableAjaxValidation'=>false,
 )); ?>
 
-    <p class="note">Los campos con<span class="required">*</span> son requeridos.</p>
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
-    <?php echo $form->errorSummary($model); ?>
-	
-    <div class="row">
-        <?php echo $form->labelEx($model,'Observaciones'); ?>
-        <?php echo $form->textField($model,'id_observaciones'); ?>
-        <?php echo $form->error($model,'id_observaciones'); ?>
-    </div>
-	
-	
-    <div class="row">
-        <?php echo $form->labelEx($model,'Auditor'); ?>
-        <?php echo $form->textField($model,'id_auditor'); ?>
-        <?php echo $form->error($model,'id_auditor'); ?>
-    </div>
-	
-	
-    <div class="row">
-        <?php echo $form->labelEx($model,'Fecha Asignación'); ?>
-        <?php
+	<?php echo $form->errorSummary($model); ?>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'fecha_asignacion'); ?>
+		<?php
             
            $this->widget('zii.widgets.jui.CJuiDatePicker', array(
                 'model'=>$model,
@@ -54,20 +48,26 @@
             ),
           )); 
          ?>
-        <?php echo $form->error($model,'fecha_asignacion'); ?>
-    </div>
+		<?php echo $form->error($model,'fecha_asignacion'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'observaciones'); ?>
+		<?php echo $form->textField($model,'observaciones',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->error($model,'observaciones'); ?>
+	</div>
 	
-	
-    <div class="row">
-        <?php echo $form->labelEx($model,'Otro'); ?>
-        <?php echo $form->textField($model,'otro'); ?>
-        <?php echo $form->error($model,'otro'); ?>
-    </div>
-	
-    <div class="row buttons">
-        <?php echo CHtml::submitButton('Guardar'); ?>
-    </div>
+	<div class="row">
+		<?php echo $form->labelEx($model,'otro'); ?>
+		<?php echo $form->textField($model,'otro'); ?>
+		<?php echo $form->error($model,'otro'); ?>
+	</div>
+
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	</div>
 
 <?php $this->endWidget(); ?>
 
-</div><!-- form --> 
+</div><!-- form -->

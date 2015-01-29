@@ -1,30 +1,36 @@
-<!--Generated using Gimme CRUD freeware from www.HandsOnCoding.net -->
 <?php
+/* @var $this ObservacionesAuditorController */
+/* @var $model ObservacionesAuditor */
+
 $this->breadcrumbs=array(
-	'Observaciones Auditor'=>array('index'),
-	'Vista',
+	'Observaciones Auditors'=>array('index'),
+	$model->id_auditor,
 );
 
 $this->menu=array(
-	array('label'=>'Listar Observaciones Auditor', 'url'=>array('index')),
-	array('label'=>'Crear Observaciones Auditor', 'url'=>array('create')),
-	array('label'=>'Modificar Observaciones Auditor', 'url'=>array('update', 'id_observaciones'=>$model->id_observaciones, 'id_auditor'=>$model->id_auditor, 'fecha_asignacion'=>$model->fecha_asignacion)),
-	array('label'=>'Eliminar Observaciones Auditor', 'url'=>'delete', 
-	      'linkOptions'=>array('submit'=>array('delete',
-	                                           'id_observaciones'=>$model->id_observaciones, 'id_auditor'=>$model->id_auditor, 'fecha_asignacion'=>$model->fecha_asignacion),
-									'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'List ObservacionesAuditor', 'url'=>array('index')),
+	array('label'=>'Create ObservacionesAuditor', 'url'=>array('create')),
+	array('label'=>'Update ObservacionesAuditor', 'url'=>array('update', 'id'=>$model->id_auditor)),
+	array('label'=>'Delete ObservacionesAuditor', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_auditor),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Manage ObservacionesAuditor', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Vista Observaciones Consultor</h1>
+<h1>View ObservacionesAuditor #<?php echo $model->id_auditor; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		'id_observaciones',
-		'id_auditor',
+		//'id_auditor',
 		'fecha_asignacion',
+		'observaciones',
 		'otro',
+		/*
+		'in_stat',
+		'usr_crea',
+		'fe_crea',
+		'usr_modf',
+		'fe_modf',
+		*/
 	),
 )); ?>

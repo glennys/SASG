@@ -27,7 +27,7 @@
 		<?php echo $form->error($model,'id_tipo_auditoria'); ?>
 	</div>
 
-
+	<?php /*
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_estado'); ?>
 		<?php echo $form->dropDownList($model,'id_estado', 
@@ -35,6 +35,7 @@
 		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_estado'); ?>
 	</div>
+	*/ ?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'fecha_periodo_auditoria'); ?>

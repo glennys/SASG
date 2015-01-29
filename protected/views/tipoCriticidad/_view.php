@@ -13,9 +13,6 @@
 	<?php echo CHtml::encode($data->descripcion); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Activo')); ?>:</b>
-	<?php echo CHtml::encode($data->activo); ?>
-	<br />
 		
 
 

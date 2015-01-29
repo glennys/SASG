@@ -21,11 +21,7 @@
 		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->label($model,'Activo'); ?>
-		<?php echo $form->checkBox($model,'activo'); ?>
-	</div>
-			
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton('Search'); ?>
 	</div>

@@ -22,11 +22,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'activo'); ?>
-		<?php echo $form->checkBox($model,'activo'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'abreviatura_tipo_auditoria'); ?>
 		<?php echo $form->textField($model,'abreviatura_tipo_auditoria',array('size'=>10,'maxlength'=>10)); ?>
 	</div>
