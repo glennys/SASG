@@ -47,7 +47,6 @@ or <b>=</b>) al principio de cada uno de los valores de búsqueda para especific
 	'columns'=>array(
 		'id_tipo_auditoria',
 		'descripcion',
-		'activo',
 		'abreviatura_tipo_auditoria',
 		array(
 			'class'=>'CButtonColumn',

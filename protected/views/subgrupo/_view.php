@@ -13,7 +13,7 @@
 	<?php echo CHtml::encode($data->tipo_subgrupo); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_grupo')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('grupo')); ?>:</b>
 	<?php echo CHtml::encode($data->id_grupo); ?>
 	<br />
 

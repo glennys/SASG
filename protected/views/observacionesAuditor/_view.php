@@ -23,29 +23,4 @@
 	<?php echo CHtml::encode($data->otro); ?>
 	<br />
 
-
-	<?php /*
-	<b><?php echo CHtml::encode($data->getAttributeLabel('in_stat')); ?>:</b>
-	<?php echo CHtml::encode($data->in_stat); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('usr_crea')); ?>:</b>
-	<?php echo CHtml::encode($data->usr_crea); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fe_crea')); ?>:</b>
-	<?php echo CHtml::encode($data->fe_crea); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('usr_modf')); ?>:</b>
-	<?php echo CHtml::encode($data->usr_modf); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('fe_modf')); ?>:</b>
-	<?php echo CHtml::encode($data->fe_modf); ?>
-	<br />
-
-
-	*/ ?>
-
 </div>

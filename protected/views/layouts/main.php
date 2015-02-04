@@ -92,9 +92,9 @@
                                         ),
                                     ),
 
-                                    array('label'=>'Riesgo', 'url'=>array('/Riesgo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Riesgo O/H', 'url'=>array('/Riesgo/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Procesos', 'url'=>array('/Procesos/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                    array('label'=>'Seguimiento', 'url'=>array('/Seguimiento/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    //array('label'=>'Seguimiento', 'url'=>array('/Seguimiento/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     array('label'=>'Criticidad', 'url'=>array('/TipoCriticidad/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     //array('label'=>'Operaciones', 'url'=>array('/Operaciones/admin'), 'visible'=>!Yii::app()->user->isGuest),
                           
@@ -115,10 +115,10 @@
                                     //array('label'=>'Historial lider', 'url'=>array('/LiderObservacionHistorial/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                 ),
                             ),
-                             array('label'=>'Grupo',
+                             array('label'=>'Grupo O/H',
                                 'items'=>array(
-                                    array('label'=>'Grupo', 'url'=>array('/Grupo/admin'), 'visible'=>!Yii::app()->user->isGuest),
-                                    array('label'=>'Subgrupo', 'url'=>array('/Subgrupo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Grupo O/H', 'url'=>array('/Grupo/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Subgrupo O/H', 'url'=>array('/Subgrupo/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     //array('label'=>'Observaciones', 'url'=>array('/NaturalezaObservacion/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                    // array('label'=>'Consultor', 'url'=>array('/ObservacionesConsultor/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     //array('label'=>'Unidad', 'url'=>array('/ObservacionesUnidadclass/admin'), 'visible'=>!Yii::app()->user->isGuest),

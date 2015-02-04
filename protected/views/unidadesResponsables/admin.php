@@ -38,6 +38,8 @@ or <b>=</b>) al principio de cada uno de los valores de búsqueda para especific
 )); ?>
 </div><!-- search-form -->
 
+
+<div class="CGridViewContainer">
 <?php 
 $this->widget('zii.widgets.grid.CGridView', array(
     'id'=>'unidadesResponsablesgrid',
@@ -86,4 +88,6 @@ $this->widget('zii.widgets.grid.CGridView', array(
             ),
         ),
     ),
-)); ?>
+)); 
+?>
+</div>

@@ -26,7 +26,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_grupo'); ?>
+		<?php echo $form->labelEx($model,'grupo'); ?>
 		<?php echo $form->textField($model,'id_grupo'); ?>
 		<?php echo $form->error($model,'id_grupo'); ?>
 	</div>

@@ -32,13 +32,13 @@ class TipoAuditoria extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('descripcion, activo', 'required'),
+			array('descripcion', 'required'),
 			array('descripcion', 'length', 'max'=>255),
 			array('abreviatura_tipo_auditoria', 'length', 'max'=>10),
 			array('fecha_creacion, fecha_actualizacion', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_tipo_auditoria, descripcion, activo, abreviatura_tipo_auditoria, fecha_creacion, fecha_actualizacion', 'safe', 'on'=>'search'),
+			array('id_tipo_auditoria, descripcion, abreviatura_tipo_auditoria, fecha_creacion, fecha_actualizacion', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,7 +62,6 @@ class TipoAuditoria extends CActiveRecord
 		return array(
 			'id_tipo_auditoria' => 'Id Tipo Auditoria',
 			'descripcion' => 'Descripcion',
-			'activo' => 'Activo',
 			'abreviatura_tipo_auditoria' => 'Abreviatura Tipo Auditoria',
 			'fecha_creacion' => 'Fecha Creacion',
 			'fecha_actualizacion' => 'Fecha Actualizacion',
@@ -89,7 +88,6 @@ class TipoAuditoria extends CActiveRecord
 
 		$criteria->compare('id_tipo_auditoria',$this->id_tipo_auditoria);
 		$criteria->compare('descripcion',$this->descripcion,true);
-		$criteria->compare('activo',$this->activo);
 		$criteria->compare('abreviatura_tipo_auditoria',$this->abreviatura_tipo_auditoria,true);
 		$criteria->compare('fecha_creacion',$this->fecha_creacion,true);
 		$criteria->compare('fecha_actualizacion',$this->fecha_actualizacion,true);

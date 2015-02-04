@@ -23,7 +23,6 @@ $this->menu=array(
 	'attributes'=>array(
 		'id_tipo_auditoria',
 		'descripcion',
-		'activo',
 		'abreviatura_tipo_auditoria',
 		),
 )); ?>

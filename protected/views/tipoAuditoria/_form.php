@@ -26,12 +26,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'Activo'); ?>
-		<?php echo $form->checkBox($model,'activo'); ?>
-		<?php echo $form->error($model,'activo'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'Abreviatura Tipo Auditoria'); ?>
 		<?php echo $form->textField($model,'abreviatura_tipo_auditoria',array('size'=>10,'maxlength'=>10)); ?>
 		<?php echo $form->error($model,'abreviatura_tipo_auditoria'); ?>

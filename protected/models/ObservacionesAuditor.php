@@ -68,11 +68,7 @@ class ObservacionesAuditor extends CActiveRecord
 			'fecha_asignacion' => 'Fecha Asignacion',
 			'observaciones' => 'Observaciones',
 			'otro' => 'Otro',
-			/*'in_stat' => 'In Stat',
-			'usr_crea' => 'Usr Crea',
-			'fe_crea' => 'Fe Crea',
-			'usr_modf' => 'Usr Modf',
-			'fe_modf' => 'Fe Modf',*/
+			
 		);
 	}
 
@@ -97,11 +93,6 @@ class ObservacionesAuditor extends CActiveRecord
 		$criteria->compare('id_auditor',$this->id_auditor);
 		$criteria->compare('fecha_asignacion',$this->fecha_asignacion,true);
 		$criteria->compare('otro',$this->otro);
-		/*$criteria->compare('in_stat',$this->in_stat,true);
-		$criteria->compare('usr_crea',$this->usr_crea,true);
-		$criteria->compare('fe_crea',$this->fe_crea,true);
-		$criteria->compare('usr_modf',$this->usr_modf,true);
-		$criteria->compare('fe_modf',$this->fe_modf,true);*/
 		$criteria->compare('observaciones',$this->observaciones,true);
 
 		return new CActiveDataProvider($this, array(

@@ -32,6 +32,11 @@
 	</div>
 
 	<div class="row">
+		<?php echo $form->label($model,'id_tipo_observacion'); ?>
+		<?php echo $form->textField($model,'id_tipo_observacion'); ?>
+	</div>
+	
+	<div class="row">
 		<?php echo $form->label($model,'id_clasificacion'); ?>
 		<?php echo $form->textField($model,'id_clasificacion'); ?>
 	</div>
@@ -40,7 +45,7 @@
 		<?php echo $form->label($model,'id_estado'); ?>
 		<?php echo $form->textField($model,'id_estado'); ?>
 	</div>
-
+	
 	<div class="row">
 		<?php echo $form->label($model,'recomendacion'); ?>
 		<?php echo $form->textField($model,'recomendacion',array('size'=>60,'maxlength'=>255)); ?>
@@ -92,7 +97,7 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'descripcion'); ?>
+		<?php echo $form->label($model,'Descripción'); ?>
 		<?php echo $form->textField($model,'descripcion',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
@@ -105,14 +110,9 @@
 		<?php echo $form->label($model,'id_grupo'); ?>
 		<?php echo $form->textField($model,'id_grupo'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'avance_pac'); ?>
-		<?php echo $form->textField($model,'avance_pac'); ?>
-	</div>
-
+	
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Search'); ?>
+		<?php echo CHtml::submitButton('Buscar'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

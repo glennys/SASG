@@ -57,7 +57,7 @@ class Subgrupo extends CActiveRecord
 		return array(
 			'id_subgrupo' => 'Id Subgrupo',
 			'tipo_subgrupo' => 'Tipo Subgrupo',
-			'id_grupo' => 'Id Grupo',
+			'id_grupo' => 'Grupo',
 		);
 	}
 

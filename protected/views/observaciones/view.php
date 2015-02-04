@@ -8,11 +8,11 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Lista de Observaciones', 'url'=>array('index')),
-	array('label'=>'Crear Observaciones', 'url'=>array('create')),
-	array('label'=>'Modifcar Observaciones', 'url'=>array('update', 'id'=>$model->id_observaciones)),
-	array('label'=>'Eliminar Observaciones', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_observaciones),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Administrar Observaciones', 'url'=>array('admin')),
+	array('label'=>'List Observaciones', 'url'=>array('index')),
+	array('label'=>'Create Observaciones', 'url'=>array('create')),
+	array('label'=>'Update Observaciones', 'url'=>array('update', 'id'=>$model->id_observaciones)),
+	array('label'=>'Delete Observaciones', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id_observaciones),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Manage Observaciones', 'url'=>array('admin')),
 );
 ?>
 
@@ -21,57 +21,74 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		//'id_observaciones',
-		'id_informe',
+		'id_observaciones',
+		//'id_informe',
+		array(
+   'name'=>'Informe',
+   'value'=>$model->idInforme->nombre,
+        ),
+
 		//'id_unidad',
 		array(
-   'name'=>'id_unidad',
+   'name'=>'Unidad',
    'value'=>$model->idUnidad->descripcion,
-        ), 
-		//'id_naturaleza',
-		  array(
-   'name'=>'id_naturaleza',
-   'value'=>$model->idNaturaleza->descripcion,
-  ),
+        ),
+		
 		//'id_tipo_criticidad',
 		array(
-   'name'=>'id_tipo_criticidad',
+   'name'=>'Criticidad',
    'value'=>$model->idTipoCriticidad->descripcion,
-  ),
-		//'id_tipo_observacion',
-		array(
-   'name'=>'id_tipo_observacion',
-   'value'=>$model->idTipoObservacion->descripcion,
-  ),
-		//'id_impacto',
-		array(
-   'name'=>'id_impacto',
-   'value'=>$model->idImpacto->descripcion,
-  ),
+        ),
+
 		//'id_clasificacion',
 		array(
-   'name'=>'id_clasificacion',
+   'name'=>'Clasificacion',
    'value'=>$model->idClasificacion->descripcion,
-  ),
+        ),
+
 		//'id_estado',
-		array(
-   'name'=>'id_estado',
+			array(
+   'name'=>'Estado',
    'value'=>$model->idEstado->descripcion,
-  ),
+        ),
+
 		'recomendacion',
 		'cerrada',
 		'detalle_observacion',
 		'accion_correctiva',
 		'fecha_inicio_accion_correctiva',
 		'fecha_fin_accion_correctiva',
-		'plan_accion_general',
 		'codigo',
 		'codigo_observacion',
-		'descripcion',
-		'riesgo',
-		'criterio',
-		'causa',
-		'efecto',
+
+		//'id_auditor',
+		//'idAuditor.observaciones',
 		
+		array(
+   'name'=>'Auditor',
+   'value'=>$model->idAuditor->observaciones,
+        ),
+
+		//'id_tema',
+array(
+   'name'=>'Tema Interés',
+   'value'=>$model->idTema->descripcion,
+        ),
+
+		'descripcion',
+		
+		//'id_riesgo',
+		array(
+   'name'=>'Riesgo',
+   'value'=>$model->idRiesgo->descripcion,
+        ),
+		
+		//'id_grupo',
+		array(
+   'name'=>'Grupo',
+   'value'=>$model->idGrupo->descripcion,
+        ),
+		
+		'avance_pac',
 	),
 )); ?>

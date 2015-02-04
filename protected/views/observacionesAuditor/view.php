@@ -21,16 +21,9 @@ $this->menu=array(
 <?php $this->widget('zii.widgets.CDetailView', array(
 	'data'=>$model,
 	'attributes'=>array(
-		//'id_auditor',
+		'id_auditor',
 		'fecha_asignacion',
 		'observaciones',
 		'otro',
-		/*
-		'in_stat',
-		'usr_crea',
-		'fe_crea',
-		'usr_modf',
-		'fe_modf',
-		*/
-	),
+		),
 )); ?>

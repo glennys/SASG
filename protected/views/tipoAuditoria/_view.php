@@ -13,10 +13,6 @@
 	<?php echo CHtml::encode($data->descripcion); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('activo')); ?>:</b>
-	<?php echo CHtml::encode($data->activo); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('abreviatura_tipo_auditoria')); ?>:</b>
 	<?php echo CHtml::encode($data->abreviatura_tipo_auditoria); ?>
 	<br />

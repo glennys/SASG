@@ -26,11 +26,11 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Administrar Observaciones</h1>
+<h1>Manage Observaciones</h1>
 
 <p>
-También puede escribir un operador de comparación (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
-or <b>=</b>) al principio de cada uno de los valores de búsqueda para especificar cómo se debe hacer la comparación.
+You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
+or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
 </p>
 
 <?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button')); ?>
@@ -40,76 +40,129 @@ or <b>=</b>) al principio de cada uno de los valores de búsqueda para especific
 )); ?>
 </div><!-- search-form -->
 
+<div class="CGridViewContainer">
+
 <?php $this->widget('zii.widgets.grid.CGridView', array(
 	'id'=>'observaciones-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		//'id_observaciones',
+		'id_observaciones',
 		//'id_informe',
-		 array(
-   'name'=>'id_informe',
-   'value'=>'$data->idInforme->nombre',
-  ),
-		//'id_unidad',
-		 array(
-   'name'=>'id_unidad',
-   'value'=>'$data->idUnidad->descripcion',
-        ), 
-		//'id_naturaleza',
-		  array(
-   'name'=>'id_naturaleza',
-   'value'=>'$data->idNaturaleza->descripcion',
-  ), 
-		//'id_tipo_criticidad',
-		array(
-   'name'=>'id_tipo_criticidad',
-   'value'=>'$data->idTipoCriticidad->descripcion',
-  ),
-		//'id_tipo_observacion',
-		 array(
-   'name'=>'id_tipo_observacion',
-   'value'=>'$data->idTipoObservacion->descripcion',
-  ),
+		
 
-		//'id_impacto',
+		//'id_informe',
 		array(
-   'name'=>'id_impacto',
-   'value'=>'$data->idImpacto->descripcion',
-  ),
+            'header'=>'Informe',
+            'name'=>'id_informe',
+            'value' => '$data->idInforme->nombre',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Informe::model()->findAll(), 'id_informe', 'nombre')
+        ),		
+
+		//'id_unidad',
+			array(
+            'header'=>'Unidad',
+            'name'=>'id_unidad',
+            'value' => '$data->idUnidad->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Unidad::model()->findAll(), 'id_unidad', 'descripcion')
+        ),
+
+		//'id_tipo_criticidad',
+			array(
+            'header'=>'Criticidad',
+            'name'=>'id_tipo_criticidad',
+            'value' => '$data->idTipoCriticidad->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(TipoCriticidad::model()->findAll(), 'id_tipo_criticidad', 'descripcion')
+        ),
+
 		//'id_clasificacion',
-		array(
-   'name'=>'id_clasificacion',
-   'value'=>'$data->idClasificacion->descripcion',
-  ),
+			array(
+            'header'=>'Clasificacion',
+            'name'=>'id_clasificacion',
+            'value' => '$data->idClasificacion->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Clasificacion::model()->findAll(), 'id_clasificacion', 'descripcion')
+        ),
+
 		//'id_estado',
-		array(
-   'name'=>'id_estado',
-   'value'=>'$data->idEstado->descripcion',
-  ),
+			array(
+            'header'=>'Estado',
+            'name'=>'id_estado',
+            'value' => '$data->idEstado->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Estado::model()->findAll(), 'id_estado', 'descripcion')
+        ),
+
 		'recomendacion',
+		array(
+            'header'=>'Recomendacion',
+            'name'=>'recomendacion',
+            //'value' => '$data->idEstado->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Observaciones::model()->findAll(), 'id_observaciones', 'Recomendacion')
+        ),
+
+
+
+
 		'cerrada',
-		/*
 		'detalle_observacion',
 		'accion_correctiva',
 		'fecha_inicio_accion_correctiva',
 		'fecha_fin_accion_correctiva',
-		'plan_accion_general',
 		'codigo',
-		'codigo_observacion',*/
+		'codigo_observacion',
+
+
+		//'id_auditor',
+				array(
+            'header'=>'Auditor',
+            'name'=>'id_auditor',
+            'value' => '$data->idAuditor->observaciones',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(ObservacionesAuditor::model()->findAll(), 'id_auditor', 'observaciones')
+        ),
+
+		//'id_tema',
+				array(
+            'header'=>'Tema',
+            'name'=>'id_tema',
+            'value' => '$data->idTema->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(TemaInteres::model()->findAll(), 'id_tema', 'descripcion')
+        ),
+
+
 		'descripcion',
-		'riesgo',
-		'criterio',
-		'causa',
-		'efecto',
-		/*'in_stat',
-		'usr_crea',
-		'fe_crea',
-		'usr_modf',
-		'fe_modf',
-		*/
+
+		//'id_riesgo',
+				array(
+            'header'=>'Riesgo',
+            'name'=>'id_riesgo',
+            'value' => '$data->idRiesgo->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Riesgo::model()->findAll(), 'id_riesgo', 'descripcion')
+        ),
+
+		//'id_grupo',
+				array(
+            'header'=>'Grupo',
+            'name'=>'id_grupo',
+            'value' => '$data->idGrupo->descripcion',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Grupo::model()->findAll(), 'id_grupo', 'descripcion')
+        ),
+
+		'avance_pac',
+	
 		array(
 			'class'=>'CButtonColumn',
 		),
 	),
 )); ?>
+</div>
+
+

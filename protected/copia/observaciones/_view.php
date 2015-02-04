@@ -8,8 +8,8 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_observaciones')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->id_observaciones), array('view', 'id'=>$data->id_observaciones)); ?>
 	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_informe')); ?>:</b>
+		
+	<b><?php echo CHtml::encode($data->getAttributeLabel('nombre')); ?>:</b>
 	<?php echo CHtml::encode($data->idInforme->nombre); ?>
 	<br />
 
@@ -17,8 +17,20 @@
 	<?php echo CHtml::encode($data->idUnidad->descripcion); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_naturaleza')); ?>:</b>
+	<?php echo CHtml::encode($data->idNaturaleza->descripcion); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tipo_criticidad')); ?>:</b>
 	<?php echo CHtml::encode($data->idTipoCriticidad->descripcion); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tipo_observacion')); ?>:</b>
+	<?php echo CHtml::encode($data->idTipoObservacion->descripcion); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_impacto')); ?>:</b>
+	<?php echo CHtml::encode($data->idImpacto->descripcion); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_clasificacion')); ?>:</b>
@@ -28,7 +40,7 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_estado')); ?>:</b>
 	<?php echo CHtml::encode($data->idEstado->descripcion); ?>
 	<br />
-	
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('recomendacion')); ?>:</b>
 	<?php echo CHtml::encode($data->recomendacion); ?>
 	<br />
@@ -37,6 +49,7 @@
 	<?php echo CHtml::encode($data->cerrada); ?>
 	<br />
 
+         <?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('detalle_observacion')); ?>:</b>
 	<?php echo CHtml::encode($data->detalle_observacion); ?>
 	<br />
@@ -53,6 +66,10 @@
 	<?php echo CHtml::encode($data->fecha_fin_accion_correctiva); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('plan_accion_general')); ?>:</b>
+	<?php echo CHtml::encode($data->plan_accion_general); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('codigo')); ?>:</b>
 	<?php echo CHtml::encode($data->codigo); ?>
 	<br />
@@ -60,31 +77,31 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('codigo_observacion')); ?>:</b>
 	<?php echo CHtml::encode($data->codigo_observacion); ?>
 	<br />
-
-	<b><?php // echo CHtml::encode($data->getAttributeLabel('Observaciones Auditor')); ?>:</b>
-	<?php // echo CHtml::encode($data->idAuditor->observaciones); ?>
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('descripcion')); ?>:</b>
+	<?php echo CHtml::encode($data->descripcio); ?>
+	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('riesgo')); ?>:</b>
+	<?php echo CHtml::encode($data->riesgo); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tema')); ?>:</b>
-	<?php echo CHtml::encode($data->idTema->descripcion); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('criterio')); ?>:</b>
+	<?php echo CHtml::encode($data->criterio); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('Descripción')); ?>:</b>
-	<?php echo CHtml::encode($data->descripcion); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('causa')); ?>:</b>
+	<?php echo CHtml::encode($data->causa); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_riesgo')); ?>:</b>
-	<?php echo CHtml::encode($data->idRiesgo->descripcion); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('efecto')); ?>:</b>
+	<?php echo CHtml::encode($data->efecto); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_grupo')); ?>:</b>
-	<?php echo CHtml::encode($data->idGrupo->descripcion); ?>
-	<br />
+	*/
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('avance_pac')); ?>:</b>
-	<?php echo CHtml::encode($data->avance_pac); ?>%
-	<br />
+	?>
 
 	
-
+	
 </div>

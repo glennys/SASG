@@ -4,12 +4,12 @@
 
 $this->breadcrumbs=array(
 	'Subgrupos'=>array('index'),
-	'Manage',
+	'Administrar',
 );
 
 $this->menu=array(
-	array('label'=>'List Subgrupo', 'url'=>array('index')),
-	array('label'=>'Create Subgrupo', 'url'=>array('create')),
+	array('label'=>'Listar Subgrupos', 'url'=>array('index')),
+	array('label'=>'Crear Subgrupos', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Subgrupos</h1>
+<h1>Administrar Subgrupos</h1>
 
 <p>
 You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
@@ -45,9 +45,15 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
-		'id_subgrupo',
+		//'id_subgrupo',
+
 		'tipo_subgrupo',
-		'id_grupo',
+		//'id_grupo',
+		array(
+   'name'=>'id_grupo',
+   'value'=>'$data->idGrupo->descripcion',
+        ), 
+
 		array(
 			'class'=>'CButtonColumn',
 		),
