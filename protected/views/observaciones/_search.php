@@ -105,7 +105,12 @@
 		<?php echo $form->label($model,'id_grupo'); ?>
 		<?php echo $form->textField($model,'id_grupo'); ?>
 	</div>
-
+	
+	<div class="row">
+		<?php echo $form->label($model,'id_subgrupo'); ?>
+		<?php echo $form->textField($model,'id_subgrupo'); ?>
+	</div>
+	
 	<div class="row">
 		<?php echo $form->label($model,'avance_pac'); ?>
 		<?php echo $form->textField($model,'avance_pac'); ?>

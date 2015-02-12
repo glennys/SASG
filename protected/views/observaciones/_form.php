@@ -19,35 +19,47 @@
 
 	<?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
+	
+	  <div class="row">
 		<?php echo $form->labelEx($model,'id_informe'); ?>
-		<?php echo $form->textField($model,'id_informe'); ?>
+		<?php echo $form->dropDownList($model,'id_informe', 
+		CHtml::listData(Informe::model()->findAll(), 'id_informe', 'nombre'),
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_informe'); ?>
 	</div>
 
-	<div class="row">
+  <div class="row">
 		<?php echo $form->labelEx($model,'id_unidad'); ?>
-		<?php echo $form->textField($model,'id_unidad'); ?>
+		<?php echo $form->dropDownList($model,'id_unidad', 
+		CHtml::listData(Unidad::model()->findAll(), 'id_unidad', 'descripcion'),
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_unidad'); ?>
 	</div>
 
-	<div class="row">
+	 <div class="row">
 		<?php echo $form->labelEx($model,'id_tipo_criticidad'); ?>
-		<?php echo $form->textField($model,'id_tipo_criticidad'); ?>
+		<?php echo $form->dropDownList($model,'id_tipo_criticidad', 
+		CHtml::listData(TipoCriticidad::model()->findAll(), 'id_tipo_criticidad', 'descripcion'),
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_tipo_criticidad'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_clasificacion'); ?>
-		<?php echo $form->textField($model,'id_clasificacion'); ?>
+		<?php echo $form->dropDownList($model,'id_clasificacion', 
+		CHtml::listData(Clasificacion::model()->findAll(), 'id_clasificacion', 'descripcion'),
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_clasificacion'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_estado'); ?>
-		<?php echo $form->textField($model,'id_estado'); ?>
+		<?php echo $form->dropDownList($model,'id_estado', 
+		CHtml::listData(Estado::model()->findAll(), 'id_estado', 'descripcion'),
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_estado'); ?>
 	</div>
+
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'recomendacion'); ?>
@@ -148,19 +160,31 @@
 		<?php echo $form->textField($model,'codigo_observacion',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'codigo_observacion'); ?>
 	</div>
-	
+
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_auditor'); ?>
-		<?php echo $form->textField($model,'id_auditor'); ?>
+		<?php echo $form->dropDownList($model,'id_auditor', 
+		CHtml::listData(ObservacionesAuditor::model()->findAll(), 'id_auditor', 'observaciones'),
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_auditor'); ?>
 	</div>
 
+	<div class="row">
+		<?php // echo $form->labelEx($model,'id_tema'); ?>
+		<?php // echo $form->textField($model,'id_tema'); ?>
+		<?php // echo $form->error($model,'id_tema'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_tema'); ?>
-		<?php echo $form->textField($model,'id_tema'); ?>
+		<?php echo $form->dropDownList($model,'id_tema',
+		CHtml::listData(TemaInteres::model()->findAll(), 'id_tema', 'descripcion'),
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_tema'); ?>
 	</div>
+
+
+
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'descripcion'); ?>
@@ -170,15 +194,42 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'id_riesgo'); ?>
-		<?php echo $form->textField($model,'id_riesgo'); ?>
+		<?php echo $form->dropDownList($model,'id_riesgo', 
+		CHtml::listData(Riesgo::model()->findAll(), 'id_riesgo', 'descripcion'), //findall es para listar todos los registros de esa tabla
+		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_riesgo'); ?>
 	</div>
 
+
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_grupo'); ?>
-		<?php echo $form->textField($model,'id_grupo'); ?>
+		<?php echo $form->labelEx($model,'id_grupo'); ?>	
+		<?php echo $form->dropDownList($model,'id_grupo', 
+				CHtml::listData(Grupo::model()->findAll(), 'id_grupo', 'descripcion'),
+				array (
+					'ajax'=>array(
+						'type'=>'POST',
+						'url'=>CController::createUrl('Observaciones/Lista'),
+						'update'=>'#'.CHtml::activeId($model,'id_subgrupo'),					
+					),'prompt'=>'Seleccione Grupo','style'=>'width:240px;font-style: italic;font-size:10px;'
+				)
+				
+		); ?>
 		<?php echo $form->error($model,'id_grupo'); ?>
 	</div>
+
+
+		<div class="row">
+
+		<?php echo $form->labelEx($model,'Subgrupo'); ?>
+		<?php echo $form->dropDownList($model,'id_subgrupo',
+		 CHtml::listData(Subgrupo::model()->findAll(), 'id_subgrupo', 'tipo_subgrupo'),
+			array('empty'=>'Seleccione Subgrupo','style'=>'width:240px;font-style: italic;font-size:10px;')
+			
+		); ?>		
+		<?php echo $form->error($model,'id_subgrupo'); ?>
+	</div>
+
+
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'avance_pac'); ?>

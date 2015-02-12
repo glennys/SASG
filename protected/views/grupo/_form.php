@@ -31,48 +31,7 @@
 		<?php echo $form->error($model,'descripcion'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_creacion'); ?>
-		<?php echo $form->textField($model,'fecha_creacion'); ?>
-		<?php echo $form->error($model,'fecha_creacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fecha_actualizacion'); ?>
-		<?php echo $form->textField($model,'fecha_actualizacion'); ?>
-		<?php echo $form->error($model,'fecha_actualizacion'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'in_stat'); ?>
-		<?php echo $form->textField($model,'in_stat',array('size'=>1,'maxlength'=>1)); ?>
-		<?php echo $form->error($model,'in_stat'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'usr_crea'); ?>
-		<?php echo $form->textField($model,'usr_crea',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'usr_crea'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fe_crea'); ?>
-		<?php echo $form->textField($model,'fe_crea'); ?>
-		<?php echo $form->error($model,'fe_crea'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'usr_modf'); ?>
-		<?php echo $form->textField($model,'usr_modf',array('size'=>10,'maxlength'=>10)); ?>
-		<?php echo $form->error($model,'usr_modf'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'fe_modf'); ?>
-		<?php echo $form->textField($model,'fe_modf'); ?>
-		<?php echo $form->error($model,'fe_modf'); ?>
-	</div>
-
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>

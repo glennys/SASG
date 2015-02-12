@@ -80,6 +80,10 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id_grupo')); ?>:</b>
 	<?php echo CHtml::encode($data->idGrupo->descripcion); ?>
 	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_subgrupo')); ?>:</b>
+	<?php echo CHtml::encode($data->id_subgrupo); ?>
+	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('avance_pac')); ?>:</b>
 	<?php echo CHtml::encode($data->avance_pac); ?>%

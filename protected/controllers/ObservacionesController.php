@@ -28,7 +28,7 @@ class ObservacionesController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','Lista'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -170,4 +170,44 @@ class ObservacionesController extends Controller
 			Yii::app()->end();
 		}
 	}
+
+
+	/*public function actionPrueba1222()
+	{
+		$id_group= $_POST['Observaciones']['id_grupo'];
+		$lista = Subgrupo::model()->findall('id_grupo = :id_group',array(':id_group'=>$id_group));
+		$lista = CHtml::listData($lista,'id_subgrupo','tipo_subgrupo');
+
+		 echo CHtml::tag('option',array('value' => ''),'Seleccione un Subgrupo...',true);
+
+		foreach ($lista as $valor => $tipo_subgrupo) 
+		{
+			echo CHtml::tag('option',array('value'=>$valor),CHtml::encode($tipo_subgrupo), true );
+		}
+	}*/
+
+	public function actionLista()
+	{
+		$id_grupo = $_POST['Observaciones']['id_grupo'];
+		
+		$lista = Subgrupo::model()->findAll('id_grupo = :id_grupo', array(':id_grupo'=>$id_grupo));
+		$lista = CHtml::listData($lista,'id_subgrupo','tipo_subgrupo');
+
+		echo CHtml::tag('option',array('value' => ''),'Seleccione un Subgrupo...',true);
+
+		foreach ($lista as $valor => $descripcion){
+			echo CHtml::tag('option',array('value'=>$valor),CHtml::encode($descripcion),true);
+		}	
+	}
+
+
+
+
+
+
+
+
+
+
+
 }

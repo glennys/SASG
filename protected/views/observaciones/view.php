@@ -88,6 +88,12 @@ array(
    'name'=>'Grupo',
    'value'=>$model->idGrupo->descripcion,
         ),
+
+        //'id_subgrupo',
+        array(
+   'name'=>'Subgrupo',
+   'value'=>$model->idSubgrupo->tipo_subgrupo,
+        ),
 		
 		'avance_pac',
 	),

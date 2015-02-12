@@ -4,7 +4,7 @@
 
 $this->breadcrumbs=array(
 	'Observaciones'=>array('index'),
-	'Manage',
+	'Administrar',
 );
 
 $this->menu=array(
@@ -48,8 +48,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		'id_observaciones',
-		//'id_informe',
-		
+
 
 		//'id_informe',
 		array(
@@ -100,7 +99,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		array(
             'header'=>'Recomendacion',
             'name'=>'recomendacion',
-            //'value' => '$data->idEstado->descripcion',
+            //'value' => '$data->id_observaciones->recomendacion',
             'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
             'filter' => CHtml::listData(Observaciones::model()->findAll(), 'id_observaciones', 'Recomendacion')
         ),
@@ -155,6 +154,16 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
             'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
             'filter' => CHtml::listData(Grupo::model()->findAll(), 'id_grupo', 'descripcion')
         ),
+
+        'id_subgrupo',
+           /* array(
+            'header'=>'Subgrupo',
+            'name'=>'id_subgrupo',
+            'value' => '$data->idSubgrupo->tipo_subgrupo',
+            'htmlOptions'=>array('style'=>'text-align: center','width'=>'80px'),
+            'filter' => CHtml::listData(Subgrupo::model()->findAll(), 'id_subgrupo', 'tipo_subgrupo')
+            ),*/
+  
 
 		'avance_pac',
 	

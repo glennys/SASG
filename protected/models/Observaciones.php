@@ -68,14 +68,14 @@ class Observaciones extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('fe_crea', 'required'),
-			array('id_informe, id_unidad, id_tipo_criticidad, id_clasificacion, id_estado, id_auditor, id_tema, id_riesgo, id_grupo, avance_pac', 'numerical', 'integerOnly'=>true),
+			array('id_informe, id_unidad, id_tipo_criticidad, id_clasificacion, id_estado, id_auditor, id_tema, id_riesgo, id_grupo, avance_pac, id_subgrupo', 'numerical', 'integerOnly'=>true),
 			array('recomendacion, detalle_observacion, accion_correctiva, codigo, codigo_observacion, descripcion', 'length', 'max'=>255),
 			array('in_stat', 'length', 'max'=>1),
 			array('usr_crea, usr_modf', 'length', 'max'=>10),
 			array('cerrada, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva, fe_modf', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_observaciones, id_informe, id_unidad, id_tipo_criticidad, id_clasificacion, id_estado, recomendacion, cerrada, detalle_observacion, accion_correctiva, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva, codigo, codigo_observacion, in_stat, usr_crea, fe_crea, usr_modf, fe_modf, id_auditor, id_tema, descripcion, id_riesgo, id_grupo, avance_pac', 'safe', 'on'=>'search'),
+			array('id_observaciones, id_informe, id_unidad, id_tipo_criticidad, id_clasificacion, id_estado, recomendacion, cerrada, detalle_observacion, accion_correctiva, fecha_inicio_accion_correctiva, fecha_fin_accion_correctiva, codigo, codigo_observacion, in_stat, usr_crea, fe_crea, usr_modf, fe_modf, id_auditor, id_tema, descripcion, id_riesgo, id_grupo, avance_pac, id_subgrupo', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -87,6 +87,7 @@ class Observaciones extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'idSubgrupo' => array(self::BELONGS_TO, 'Subgrupo', 'id_subgrupo'),
 			'idInforme' => array(self::BELONGS_TO, 'Informe', 'id_informe'),
 			'idUnidad' => array(self::BELONGS_TO, 'Unidad', 'id_unidad'),
 			'idAuditor' => array(self::BELONGS_TO, 'ObservacionesAuditor', 'id_auditor'),
@@ -104,6 +105,7 @@ class Observaciones extends CActiveRecord
 			'adjuntoSeguimientoObservacions' => array(self::HAS_MANY, 'AdjuntoSeguimientoObservacion', 'id_observacion'),
 			'adjuntoDescripcionObservacions' => array(self::HAS_MANY, 'AdjuntoDescripcionObservacion', 'id_observacion'),
 			'adjuntoCriterios' => array(self::HAS_MANY, 'AdjuntoCriterio', 'id_observacion'),
+			
 		);
 	}
 
@@ -113,26 +115,27 @@ class Observaciones extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id_observaciones' => 'Id Observaciones',
-			'id_informe' => 'Id Informe',
-			'id_unidad' => 'Id Unidad',
-			'id_tipo_criticidad' => 'Id Tipo Criticidad',
-			'id_clasificacion' => 'Id Clasificacion',
-			'id_estado' => 'Id Estado',
+			'id_observaciones' => 'Observaciones',
+			'id_informe' => 'Informe',
+			'id_unidad' => 'Unidad',
+			'id_tipo_criticidad' => 'Tipo Criticidad',
+			'id_clasificacion' => 'Clasificacion',
+			'id_estado' => 'Estado',
 			'recomendacion' => 'Recomendacion',
 			'cerrada' => 'Cerrada',
 			'detalle_observacion' => 'Detalle Observacion',
-			'accion_correctiva' => 'esta es la narrativa del plan de accion general',
-			'fecha_inicio_accion_correctiva' => 'Fecha Inicio Accion Correctiva',
-			'fecha_fin_accion_correctiva' => 'Fecha Fin Accion Correctiva',
+			'accion_correctiva' => 'plan de accion',
+			'fecha_inicio_accion_correctiva' => 'Inicio Accion Correctiva',
+			'fecha_fin_accion_correctiva' => 'Fin Accion Correctiva',
 			'codigo' => 'Codigo',
 			'codigo_observacion' => 'Codigo Observacion',
-			'id_auditor' => 'Id Auditor',
-			'id_tema' => 'Id Tema',
+			'id_auditor' => 'Auditor',
+			'id_tema' => 'Tema',
 			'descripcion' => 'Descripcion',
-			'id_riesgo' => 'Id Riesgo',
-			'id_grupo' => 'Id Grupo',
-			'avance_pac' => 'Avance Pac',
+			'id_riesgo' => 'Riesgo',
+			'id_grupo' => 'Grupo',
+			'avance_pac' => 'Avance Pac %',
+			'id_subgrupo' => 'Id Subgrupo',
 		);
 	}
 
@@ -155,6 +158,8 @@ class Observaciones extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_observaciones',$this->id_observaciones);
+		//$criteria->with=array('informe');
+		//$criteria->addSearchCondition('informe.nombre',$this->id_informe);
 		$criteria->compare('id_informe',$this->id_informe);
 		$criteria->compare('id_unidad',$this->id_unidad);
 		$criteria->compare('id_tipo_criticidad',$this->id_tipo_criticidad);
@@ -174,6 +179,7 @@ class Observaciones extends CActiveRecord
 		$criteria->compare('id_riesgo',$this->id_riesgo);
 		$criteria->compare('id_grupo',$this->id_grupo);
 		$criteria->compare('avance_pac',$this->avance_pac);
+		$criteria->compare('id_subgrupo',$this->id_subgrupo);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
