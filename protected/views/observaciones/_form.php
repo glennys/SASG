@@ -170,21 +170,13 @@
 	</div>
 
 	<div class="row">
-		<?php // echo $form->labelEx($model,'id_tema'); ?>
-		<?php // echo $form->textField($model,'id_tema'); ?>
-		<?php // echo $form->error($model,'id_tema'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'id_tema'); ?>
 		<?php echo $form->dropDownList($model,'id_tema',
 		CHtml::listData(TemaInteres::model()->findAll(), 'id_tema', 'descripcion'),
 		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
 		<?php echo $form->error($model,'id_tema'); ?>
 	</div>
-
-
-
+	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'descripcion'); ?>

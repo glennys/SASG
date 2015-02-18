@@ -5,7 +5,7 @@
  *
  * The followings are the available columns in table 'auditoria.informe':
  * @property integer $id_informe
- * @property integer $id_tipo_auditoria
+ * @property integer $id_clase_auditoria 
  * @property integer $id_estado
  * @property string $fecha_creacion
  * @property string $fecha_periodo_auditoria
@@ -14,7 +14,7 @@
  * @property string $nombre
  * @property string $propietario
  * @property string $fecha_emision
- * @property integer $ano
+ * @property integer $ano_fiscal
  *
  * The followings are the available model relations:
  * @property TipoAuditoria $idTipoAuditoria
@@ -41,12 +41,12 @@ class Informe extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id_tipo_auditoria, id_estado, fecha_creacion, fecha_periodo_auditoria, cerrada, codigo, nombre, propietario, fecha_emision, ano', 'required'),
-			array('id_tipo_auditoria, id_estado, ano', 'numerical', 'integerOnly'=>true),
+			array('id_clase_auditoria , id_estado, fecha_creacion, fecha_periodo_auditoria, cerrada, codigo, nombre, propietario, fecha_emision, ano_fiscal', 'required'),
+			array('id_clase_auditoria , id_estado, ano_fiscal', 'numerical', 'integerOnly'=>true),
 			array('codigo, nombre, propietario', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id_informe, id_tipo_auditoria, id_estado, fecha_creacion, fecha_periodo_auditoria, cerrada, codigo, nombre, propietario, fecha_emision, ano', 'safe', 'on'=>'search'),
+			array('id_informe, id_clase_auditoria , id_estado, fecha_creacion, fecha_periodo_auditoria, cerrada, codigo, nombre, propietario, fecha_emision, ano_fiscal', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -58,7 +58,7 @@ class Informe extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'idTipoAuditoria' => array(self::BELONGS_TO, 'TipoAuditoria', 'id_tipo_auditoria'),
+			'idClaseAuditoria' => array(self::BELONGS_TO, 'ClaseAuditoria', 'id_clase_auditoria '),
 			'idEstado' => array(self::BELONGS_TO, 'Estado', 'id_estado'),
 			'observaciones' => array(self::HAS_MANY, 'Observaciones', 'id_informe'),
 			'auditoria.estados' => array(self::MANY_MANY, 'Estado', 'estado_informe(id_informe, id_estado)'),
@@ -73,7 +73,7 @@ class Informe extends CActiveRecord
 	{
 		return array(
 			'id_informe' => 'Informe',
-			'id_tipo_auditoria' => 'Tipo Auditoria',
+			'id_clase_auditoria ' => 'Clase Auditoria',
 			'id_estado' => 'Estado',
 			'fecha_creacion' => 'Fecha Creacion',
 			'fecha_periodo_auditoria' => 'Fecha Periodo Auditoria',
@@ -82,7 +82,7 @@ class Informe extends CActiveRecord
 			'nombre' => 'Nombre',
 			'propietario' => 'Propietario',
 			'fecha_emision' => 'Fecha Emision',
-			'ano' => 'Ano',
+			'ano_fiscal' => 'ano_fiscal',
 		);
 	}
 
@@ -105,7 +105,7 @@ class Informe extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id_informe',$this->id_informe);
-		$criteria->compare('id_tipo_auditoria',$this->id_tipo_auditoria);
+		$criteria->compare('id_clase_auditoria ',$this->id_clase_auditoria );
 		$criteria->compare('id_estado',$this->id_estado);
 		$criteria->compare('fecha_creacion',$this->fecha_creacion,true);
 		$criteria->compare('fecha_periodo_auditoria',$this->fecha_periodo_auditoria,true);
@@ -114,7 +114,8 @@ class Informe extends CActiveRecord
 		$criteria->compare('nombre',$this->nombre,true);
 		$criteria->compare('propietario',$this->propietario,true);
 		$criteria->compare('fecha_emision',$this->fecha_emision,true);
-		$criteria->compare('ano',$this->ano);
+		$criteria->compare('ano_fiscal',$this->ano_fiscal);
+		
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

@@ -20,11 +20,11 @@
 	<?php echo $form->errorSummary($model); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'id_tipo_auditoria'); ?>
-		<?php echo $form->dropDownList($model,'id_tipo_auditoria', 
-		CHtml::listData(TipoAuditoria::model()->findAll(), 'id_tipo_auditoria', 'descripcion'),
+		<?php echo $form->labelEx($model,'id_clase_auditoria'); ?>
+		<?php echo $form->dropDownList($model,'id_clase_auditoria', 
+		CHtml::listData(ClaseAuditoria::model()->findAll(), 'id_clase_auditoria', 'descripcion'),
 		array('empty'=>'Seleccione','style'=>'width:240px;font-style: italic;font-size:10px;')); ?>
-		<?php echo $form->error($model,'id_tipo_auditoria'); ?>
+		<?php echo $form->error($model,'id_clase_auditoria'); ?>
 	</div>
 
 	<?php /*
@@ -126,9 +126,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'ano'); ?>
-		<?php echo $form->textField($model,'ano'); ?>
-		<?php echo $form->error($model,'ano'); ?>
+		<?php echo $form->labelEx($model,'ano_fiscal'); ?>
+		<?php echo $form->textField($model,'ano_fiscal'); ?>
+		<?php echo $form->error($model,'ano_fiscal'); ?>
 	</div>
 
 	<div class="row buttons">

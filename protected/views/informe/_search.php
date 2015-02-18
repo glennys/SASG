@@ -17,8 +17,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'id_tipo_auditoria'); ?>
-		<?php echo $form->textField($model,'id_tipo_auditoria'); ?>
+		<?php echo $form->label($model,'id_clase_auditoria'); ?>
+		<?php echo $form->textField($model,'id_clase_auditoria'); ?>
 	</div>
 
 	<div class="row">
@@ -62,8 +62,8 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'ano'); ?>
-		<?php echo $form->textField($model,'ano'); ?>
+		<?php echo $form->label($model,'ano_fiscal'); ?>
+		<?php echo $form->textField($model,'ano_fiscal'); ?>
 	</div>
 
 	<div class="row buttons">

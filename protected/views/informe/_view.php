@@ -9,8 +9,8 @@
 	<?php echo CHtml::link(CHtml::encode($data->id_informe), array('view', 'id'=>$data->id_informe)); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('id_tipo_auditoria')); ?>:</b>
-	<?php echo CHtml::encode($data->idTipoAuditoria->descripcion); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('id_clase_auditoria')); ?>:</b>
+	<?php echo CHtml::encode($data->idClaseAuditoria->descripcion); ?>
 	<br />
 
 	<b><?php // echo CHtml::encode($data->getAttributeLabel('id_estado')); ?></b>
@@ -45,8 +45,8 @@
 	<?php echo CHtml::encode($data->fecha_emision); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('ano')); ?>:</b>
-	<?php echo CHtml::encode($data->ano); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('ano_fiscal')); ?>:</b>
+	<?php echo CHtml::encode($data->ano_fiscal); ?>
 	<br />
 
 	

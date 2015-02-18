@@ -127,7 +127,7 @@
                             ),
                             array('label'=>'Auditoria',
                                 'items'=>array(
-                                    array('label'=>'Auditoria', 'url'=>array('/TipoAuditoria/admin'), 'visible'=>!Yii::app()->user->isGuest),
+                                    array('label'=>'Clase Auditoria', 'url'=>array('/TipoAuditoria/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                     //array('label'=>'Tipo', 'url'=>array('/AuditoriaControl/admin'), 'visible'=>!Yii::app()->user->isGuest),
                                 ),
                             ),

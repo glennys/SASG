@@ -22,10 +22,10 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id_informe',
-		//'id_tipo_auditoria',
+		//'id_clase_auditoria',
 		array(
-   'name'=>'id_tipo_auditoria',
-   'value'=>$model->idTipoAuditoria->descripcion,
+   'name'=>'id_clase_auditoria',
+   'value'=>$model->idClaseAuditoria->descripcion,
         ),
 		/*
 		//'id_estado',
@@ -40,6 +40,6 @@ $this->menu=array(
 		'nombre',
 		'propietario',
 		'fecha_emision',
-		'ano',
+		'ano_fiscal',
 	),
 )); ?>

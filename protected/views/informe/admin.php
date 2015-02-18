@@ -46,10 +46,10 @@ or <b>=</b>) al principio de cada uno de los valores de búsqueda para especific
 	'filter'=>$model,
 	'columns'=>array(
 		'id_informe',
-		//'id_tipo_auditoria',
+		//'id_clase_auditoria',
 		array(
-   'name'=>'id_tipo_auditoria',
-   'value'=>'$data->idTipoAuditoria->descripcion',
+   'name'=>'id_clase_auditoria',
+   'value'=>'$data->idClaseAuditoria->descripcion',
         ), 
 		/*
 		'id_estado',
@@ -65,7 +65,7 @@ or <b>=</b>) al principio de cada uno de los valores de búsqueda para especific
 		'nombre',
 		'propietario',
 		'fecha_emision',
-		'ano',
+		'ano_fiscal',
 		
 		array(
 			'class'=>'CButtonColumn',
